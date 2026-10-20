@@ -1,0 +1,17 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {regress,regressionDemo,oscillator,projectile,parsePairs,generateSvg,finiteRange,stats} from '../legacy/assets/js/science.js';
+const near=(a,b,tol=1e-9)=>assert.ok(Math.abs(a-b)<tol,`${a} vs ${b}`);
+test('linear regression returns exact slope, intercept and R2 on exact line',()=>{const r=regress([[1,3],[2,5],[3,7],[4,9]]);near(r.slope,2);near(r.intercept,1);near(r.r2,1);near(r.rmse,0);});
+test('regression rejects constant predictors and too few points',()=>{assert.throws(()=>regress([[1,2],[1,3],[1,4]]),/vary/);assert.throws(()=>regress([[1,2],[2,3]]),/three/);});
+test('regression rejects malformed observations',()=>assert.throws(()=>regress([[1,2],[2,NaN],[3,5]]),/finite/));
+test('CSV parsing supports headers and rows',()=>assert.deepEqual(parsePairs('x,y\n1,2\n3,4\n5,6'),[[1,2],[3,4],[5,6]]));
+test('CSV parsing rejects missing values',()=>assert.throws(()=>parsePairs('1,2\n2,\n3,6'),/nonnumeric/));
+test('regression benchmark returns finite values',()=>{const r=regressionDemo();assert.ok(r.summary['R²']>.98);assert.equal(r.rows.length,7);});
+test('oscillator RK4 matches known analytical solution at default settings',()=>{const r=oscillator();assert.ok(r.summary['Max |error|']<.001);assert.ok(r.summary.RMSE<.001);assert.ok(r.rows.length>20);});
+test('oscillator parameter changes output',()=>{const a=oscillator({damping:.1}),b=oscillator({damping:.9});assert.notEqual(a.rows[40].value,b.rows[40].value);});
+test('oscillator handles damping boundary',()=>{for(const v of [0,1.5])assert.ok(oscillator({damping:v}).rows.every(x=>Number.isFinite(x.value)));});
+test('projectile RK4 follows ideal analytical trajectory and exact range',()=>{const r=projectile({speed:20,angle:45,gravity:10,timestep:.1});near(r.summary['Range (m)'],40,1e-7);assert.ok(r.summary['Max |error| (m)']<1e-8);near(r.rows.at(-1).value,0,1e-8);});
+test('model rejects parameter ranges',()=>assert.throws(()=>oscillator({amplitude:100}),/0.1 to 5/));
+test('stats mean and sample deviation are correct',()=>{const s=stats([1,2,3,4,5]);near(s.mean,3);near(s.stdev,Math.sqrt(2.5));});
+test('SVG exports complete, labeled scientific vector graphics',()=>{const svg=generateSvg(projectile());assert.match(svg,/xmlns="http:\/\/www.w3.org\/2000\/svg"/);assert.match(svg,/Computed \/ observed/);assert.match(svg,/Reference \/ fitted/);assert.match(svg,/Horizontal distance/);});

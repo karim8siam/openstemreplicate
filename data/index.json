@@ -1,0 +1,191 @@
+{
+  "months": [
+    {
+      "month": "2026-09",
+      "count": 20
+    }
+  ],
+  "count": 20,
+  "papers": [
+    {
+      "slug": "paper2agent",
+      "month": "2026-09",
+      "title": "Reimagining research papers as interactive and reliable AI agents",
+      "authors": "Jiacheng Miao, Joe R. Davis, Yaohui Zhang et al.",
+      "doi": "10.1038/s41586-026-11044-y",
+      "category": "Technology",
+      "journal": "Nature"
+    },
+    {
+      "slug": "llm-confidence",
+      "month": "2026-09",
+      "title": "Causal evidence that language models use confidence to drive behaviour",
+      "authors": "Dharshan Kumaran, Nathaniel Daw, Simon Osindero et al.",
+      "doi": "10.1038/s42256-026-01293-x",
+      "category": "Technology",
+      "journal": "Nature Machine Intelligence"
+    },
+    {
+      "slug": "crystal-agents",
+      "month": "2026-09",
+      "title": "A collaborative agent with two lightweight synergistic models for autonomous crystal materials research",
+      "authors": "Tongyu Shi, Yutang Li, Xue-Feng Yu et al.",
+      "doi": "10.1038/s42256-026-01298-6",
+      "category": "Technology",
+      "journal": "Nature Machine Intelligence"
+    },
+    {
+      "slug": "wave-robotics",
+      "month": "2026-09",
+      "title": "Autonomous robotic operation controlled by wave-based neuromorphic hardware",
+      "authors": "Jacob Zohar, Daniele Pinna, Gerrit van der Laan et al.",
+      "doi": "10.1038/s41467-026-77661-3",
+      "category": "Engineering",
+      "journal": "Nature Communications"
+    },
+    {
+      "slug": "qft-spin-phonon",
+      "month": "2026-09",
+      "title": "Quantum field theory dynamics on a spin–phonon quantum computer",
+      "authors": "Anton T. Than, Saurabh V. Kadam, Vinay Vikramaditya et al.",
+      "doi": "10.1038/s41567-026-03402-4",
+      "category": "Science",
+      "journal": "Nature Physics"
+    },
+    {
+      "slug": "quantum-string-breaking",
+      "month": "2026-09",
+      "title": "String-breaking dynamics in a quantum simulator",
+      "authors": "Arinjoy De, Alessio Lerose, De Luo et al.",
+      "doi": "10.1038/s41567-026-03422-0",
+      "category": "Science",
+      "journal": "Nature Physics"
+    },
+    {
+      "slug": "quantum-ram",
+      "month": "2026-09",
+      "title": "A cascaded random access quantum memory",
+      "authors": "Ziqian Li, Eesh Gupta, Fang Zhao et al.",
+      "doi": "10.1038/s41567-026-03418-w",
+      "category": "Technology",
+      "journal": "Nature Physics"
+    },
+    {
+      "slug": "quantum-ab",
+      "month": "2026-09",
+      "title": "Aharonov–Bohm interference in a Z₂ lattice gauge theory on a hybrid qubit–oscillator quantum computer",
+      "authors": "S. Saner, O. Băzăvan, D. J. Webb et al.",
+      "doi": "10.1038/s41567-026-03400-6",
+      "category": "Science",
+      "journal": "Nature Physics"
+    },
+    {
+      "slug": "perovskite-solar",
+      "month": "2026-09",
+      "title": "Sterically gated Lewis acid and base pairs enable orthogonal defect passivation in perovskite solar cells",
+      "authors": "Donghoon Shin, Shuta Kitade, Linrui Duan et al.",
+      "doi": "10.1038/s41557-026-02261-z",
+      "category": "Engineering",
+      "journal": "Nature Chemistry"
+    },
+    {
+      "slug": "conjugated-mof",
+      "month": "2026-09",
+      "title": "Programming semiconducting two-dimensional conjugated metal–organic frameworks via anisotropic reticular chemistry",
+      "authors": "Jianjun Zhang, Guojun Zhou, Hio-Ieng Un et al.",
+      "doi": "10.1038/s41557-026-02251-1",
+      "category": "Engineering",
+      "journal": "Nature Chemistry"
+    },
+    {
+      "slug": "early-galaxies",
+      "month": "2026-09",
+      "title": "First-star imprints in a metal-poor galaxy overdensity near the end of reionization",
+      "authors": "Zihao Li, Koki Kakiichi, Lise Christensen et al.",
+      "doi": "10.1038/s41550-026-02993-5",
+      "category": "Science",
+      "journal": "Nature Astronomy"
+    },
+    {
+      "slug": "fast-radio-bursts",
+      "month": "2026-09",
+      "title": "Signatures of suppressed matter clustering revealed by fast radio bursts",
+      "authors": "Kritti Sharma, Elisabeth Krause, Vikram Ravi et al.",
+      "doi": "10.1038/s41550-026-02957-9",
+      "category": "Science",
+      "journal": "Nature Astronomy"
+    },
+    {
+      "slug": "brca1-domain",
+      "month": "2026-09",
+      "title": "Patient-derived separation-of-function mutations reveal specific role for BRCA1 coiled coil domain in genome stability",
+      "authors": "Bernadett Szikriszt, Eszter Németh, Bayejid Hosen et al.",
+      "doi": "10.1038/s41467-026-77330-5",
+      "category": "Science",
+      "journal": "Nature Communications"
+    },
+    {
+      "slug": "nanots",
+      "month": "2026-09",
+      "title": "NanoTS: a deep learning tool for accurate SNP calling in nanopore long-read transcriptome data",
+      "authors": "Zelin Liu, Feng Wang, Robert Wang et al.",
+      "doi": "10.1038/s41592-026-03225-4",
+      "category": "Technology",
+      "journal": "Nature Methods"
+    },
+    {
+      "slug": "bioimage-segmentation",
+      "month": "2026-09",
+      "title": "ReScale4DL: balancing pixel and contextual information for enhanced bioimage segmentation",
+      "authors": "Mariana G. Ferreira, Bruno M. Saraiva, António D. Brito et al.",
+      "doi": "10.1038/s41467-026-77930-1",
+      "category": "Technology",
+      "journal": "Nature Communications"
+    },
+    {
+      "slug": "sheep-climate",
+      "month": "2026-09",
+      "title": "Deciphering the genomic signatures of climate vulnerability across 77 sheep breeds",
+      "authors": "Authors listed in the original publication",
+      "doi": "10.1038/s42003-026-10917-2",
+      "category": "Science",
+      "journal": "Communications Biology"
+    },
+    {
+      "slug": "reforestation",
+      "month": "2026-09",
+      "title": "Afforestation and reforestation support coupled gains in soil life and carbon storage worldwide",
+      "authors": "Zexin Meng, Yiping Wu, Nico Eisenhauer et al.",
+      "doi": "10.1038/s41559-026-03183-2",
+      "category": "Science",
+      "journal": "Nature Ecology & Evolution"
+    },
+    {
+      "slug": "ai-peptide",
+      "month": "2026-09",
+      "title": "Generative AI designs functional thiolation domains for reprogramming non-ribosomal peptide synthetases",
+      "authors": "Emre F. Bülbül, Seounggun Bang, Kevin George et al.",
+      "doi": "10.1038/s41467-026-77963-6",
+      "category": "Technology",
+      "journal": "Nature Communications"
+    },
+    {
+      "slug": "drone-sonar",
+      "month": "2026-09",
+      "title": "A thermophone-based FM sonar for airborne ultrasonic sensing under drone flight noise",
+      "authors": "Yasufumi Yamada, Kanta Hasegawa, Yuma Watabe et al.",
+      "doi": "10.1038/s41598-026-65909-3",
+      "category": "Engineering",
+      "journal": "Scientific Reports"
+    },
+    {
+      "slug": "uncertainty-theory",
+      "month": "2026-09",
+      "title": "Beyond Robertson–Schrödinger: a general uncertainty relation unveiling hidden noncommutative trade-offs",
+      "authors": "Gen Kimura, Aina Mayumi, Hiromichi Ohno et al.",
+      "doi": "10.1038/s41534-026-01374-0",
+      "category": "Mathematics",
+      "journal": "npj Quantum Information"
+    }
+  ]
+}
