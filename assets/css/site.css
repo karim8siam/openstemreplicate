@@ -3,3 +3,8 @@
 [hidden]{display:none!important}.article-overline{grid-column:1 / -1;margin-bottom:0}.paper-detail>.article{grid-column:1;grid-row:2}.paper-detail>.detail-aside{grid-column:2;grid-row:2}@media(max-width:930px){.paper-detail>.article{grid-column:1;grid-row:auto}.paper-detail>.detail-aside{grid-column:1;grid-row:auto}.article-overline{grid-column:1}}
 
 .study-questions{padding-left:23px;color:#516e77;line-height:1.85;font-size:14px}.study-questions li{margin-bottom:11px}
+
+.top-discord{display:inline-flex;align-items:center;border:1px solid #5865F2;background:rgba(88,101,242,.08);color:#5865F2;padding:10px 14px;border-radius:10px;font-weight:700;font-size:12px;white-space:nowrap;text-decoration:none;transition:all .15s ease}
+.top-discord:hover{background:#5865F2;color:#fff}
+.top-discord svg{vertical-align:middle}
+@media(max-width:650px){.top-discord{padding:8px 10px;font-size:11px}}
