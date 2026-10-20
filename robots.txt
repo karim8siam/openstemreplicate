@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-# /projects/ is noindex via HTML metadata; allow crawling so noindex can be observed.
 # Set SITE_URL to your actual HTTPS domain and run npm run build to generate sitemap.xml.

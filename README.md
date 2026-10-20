@@ -1,6 +1,6 @@
 # OpenSTEM Replicate — Editorial Research Network v2
 
-**Production-oriented, static HTML / CSS / vanilla JavaScript redesign.** A verified September 2026 inaugural research selection, curated paper articles, community, research submission, practical idea guide and three preserved scientific demos.
+**Production-oriented, static HTML / CSS / vanilla JavaScript redesign.** A verified September 2026 inaugural research selection, curated paper articles, community, research submission, and practical idea guide.
 
 ## Contents
 
@@ -12,7 +12,6 @@
 - `/ideas/` — honest 'coming soon' page with actionable scientific research ideation guide and copyable prompt
 - `/mates/` — Discord https://discord.com/invite/tBBKtvFJzW and direct email
 - `/about/`, `/privacy/`, `/terms/` — selection policy, sources, contact, disclosures and legal boundaries
-- `/studio/`, `/methodcheck/`, `/projects/` — preserved scientific computations/checklist/browser-local run workspaces from v1, with original JS and CSS isolated in `legacy/assets/`
 - `scripts/build.mjs` — static page generator, site-wide metadata/canonicals/sitemap when production domain supplied
 - `scripts/new-month.mjs` — draft archive creator that does not fabricate papers
 - `tests/` — static QA, content validation, submission and SEO checks
@@ -25,7 +24,7 @@ Requires Python 3 for the simplest server:
 python3 -m http.server 8080
 ```
 
-Open http://localhost:8080/ and use the navigation. The main site and mathematical demos are static. The submission form requires internet access and initial FormSubmit activation after publication.
+Open http://localhost:8080/ and use the navigation. The site is static. The submission form requires internet access and initial FormSubmit activation after publication.
 
 ## Build and test
 
