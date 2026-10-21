@@ -28,21 +28,36 @@ Open http://localhost:8080/ and use the navigation. The site is static. The subm
 
 ## Build and test
 
-Requires Node.js 20+; no `npm install` needed:
+Requires Node.js 20+; no third-party npm dependencies required:
 
 ```bash
 npm run build
 npm test
 ```
 
-For Google Search Console, use the **actual HTTPS domain**:
+### Production SEO & Google Search Console Verification
 
-```bash
-SITE_URL=https://your-actual-domain.com npm run build
-npm test
-```
+The site automatically builds with full SEO metadata, Canonical links, Open Graph cards, Twitter cards, Schema.org JSON-LD structured data, `robots.txt`, and a valid `sitemap.xml`.
 
-`SITE_URL` is intentionally unset in this ZIP: there is no confirmed domain, so fake URLs are not included in `sitemap.xml`. Consult `docs/DEPLOYMENT_SEO.md`.
+- **Default Live URL**: `https://karim8siam.github.io/openstemreplicate/`
+- **Custom Domain (optional)**:
+  ```bash
+  SITE_URL=https://your-custom-domain.com npm run build
+  ```
+  Or add a `CNAME` file containing your custom domain (e.g. `openstem.org`).
+
+- **Google Search Console Verification Tag**:
+  When you register in Google Search Console:
+  1. Choose **URL prefix** (e.g., `https://karim8siam.github.io/openstemreplicate/` or your custom domain).
+  2. Select **HTML tag** verification method. Copy the verification token (e.g. `google-site-verification=XYZ123...`).
+  3. Set it during build:
+     ```bash
+     GOOGLE_SITE_VERIFICATION="your-token-here" npm run build
+     ```
+     Or add `GOOGLE_SITE_VERIFICATION` as a repository secret in GitHub Settings > Secrets and variables > Actions.
+  4. Submit your sitemap at: `https://karim8siam.github.io/openstemreplicate/sitemap.xml` (or `https://your-domain/sitemap.xml`).
+
+Consult [docs/DEPLOYMENT_SEO.md](docs/DEPLOYMENT_SEO.md) for full step-by-step guidance.
 
 ## Next month
 

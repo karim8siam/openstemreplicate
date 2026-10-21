@@ -1,0 +1,35 @@
+name: SEO and Quality Assurance CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Run Quality and SEO Test Suite
+        run: npm test
+
+      - name: Verify Static Build Output
+        run: |
+          npm run build
+          test -f sitemap.xml || (echo "Missing sitemap.xml" && exit 1)
+          test -f robots.txt || (echo "Missing robots.txt" && exit 1)
+          grep -q "<urlset" sitemap.xml || (echo "Invalid sitemap.xml" && exit 1)
+          grep -q "Sitemap:" robots.txt || (echo "robots.txt missing Sitemap directive" && exit 1)
+          grep -q 'rel="canonical"' index.html || (echo "Missing canonical tag" && exit 1)
+          grep -q 'application/ld+json' index.html || (echo "Missing Schema JSON-LD" && exit 1)
+          echo "All SEO, sitemap, canonical and structured data checks passed!"
