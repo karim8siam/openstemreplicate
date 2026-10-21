@@ -5,4 +5,4 @@ Disallow: /404.html
 Disallow: /discover/
 Disallow: /observatory/
 
-Sitemap: https://karim8siam.github.io/openstemreplicate/sitemap.xml
+Sitemap: https://openstemreplicate.org/sitemap.xml
