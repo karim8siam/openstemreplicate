@@ -1,7 +1,8 @@
 import {readFile, writeFile, mkdir, readdir, rm} from 'node:fs/promises';
 import path from 'node:path';
+import {fileURLToPath} from 'node:url';
 
-const ROOT = path.resolve(import.meta.dirname, '..');
+const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 
 // 1. Resolve domain: SITE_URL > CNAME file > CF_PAGES_URL > GitHub Pages default
 let resolvedDomain = '';
