@@ -123,3 +123,36 @@ html,body{overflow-x:hidden;max-width:100vw;width:100%}
   .facts>div{border-bottom:1px solid var(--line);padding:8px 0}
   .facts>div:last-child{border-bottom:0}
 }
+
+/* Connected OpenSTEM Ecosystem */
+.ecosystem-section{margin:65px 0 35px}
+.ecosystem-header{margin-bottom:28px}
+.ecosystem-header h2{font-size:clamp(26px,3vw,38px);margin:10px 0 12px;letter-spacing:-0.04em}
+.ecosystem-header p{color:var(--muted);font-size:14px;max-width:720px;margin:0;line-height:1.7}
+.ecosystem-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin-bottom:16px}
+.eco-card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;display:flex;flex-direction:column;transition:all .18s ease;text-decoration:none;color:inherit;position:relative}
+.eco-card:hover{transform:translateY(-3px);box-shadow:var(--shadow);border-color:#a5d5cc}
+.eco-card-top{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:16px}
+.eco-icon-wrap{width:42px;height:42px;border-radius:12px;background:#eef6f4;color:var(--deep);display:grid;place-items:center;flex-shrink:0}
+.eco-badge{font-size:10px;font-weight:750;letter-spacing:0.02em;padding:4px 9px;border-radius:100px;background:#e6f3ee;color:#086b6a;white-space:nowrap}
+.eco-card h3{font-size:17px;font-weight:750;letter-spacing:-0.03em;margin:0 0 8px}
+.eco-card p{font-size:12.5px;line-height:1.65;color:var(--muted);margin:0 0 16px;flex:1}
+.eco-link{font-size:11.5px;font-weight:800;color:var(--accent);display:inline-flex;align-items:center;gap:4px;margin-top:auto}
+.eco-community-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.eco-community-card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px 24px;display:flex;align-items:center;gap:18px;text-decoration:none;color:inherit;transition:all .18s ease}
+.eco-community-card:hover{transform:translateY(-2px);box-shadow:var(--shadow);border-color:#a5d5cc}
+.eco-community-icon{width:48px;height:48px;border-radius:14px;display:grid;place-items:center;flex-shrink:0}
+.eco-community-icon.discord-bg{background:rgba(88,101,242,.12);color:#5865F2}
+.eco-community-icon.email-bg{background:rgba(6,127,128,.12);color:var(--accent)}
+.eco-community-card h4{font-size:16px;font-weight:750;margin:0 0 5px;letter-spacing:-0.02em}
+.eco-community-card p{font-size:12px;line-height:1.6;color:var(--muted);margin:0 0 8px}
+.eco-community-card span.action-text{font-size:11.5px;font-weight:800;color:var(--accent)}
+
+@media(max-width:1200px){
+  .ecosystem-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:768px){
+  .ecosystem-grid{grid-template-columns:1fr}
+  .eco-community-grid{grid-template-columns:1fr}
+  .eco-community-card{flex-direction:column;align-items:flex-start;padding:18px}
+}
