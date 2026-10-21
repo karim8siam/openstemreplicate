@@ -31,7 +31,39 @@
 <meta name="theme-color" content="#09383c">
 <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
-<link rel="stylesheet" href="/assets/css/site.css">
+<link rel="stylesheet" href="/assets/css/site.css?v=2.4">
+<style>
+.ecosystem-section{margin:70px 0 40px;background:transparent}
+.ecosystem-header{margin-bottom:28px}
+.ecosystem-header h2{font-size:clamp(26px,3.2vw,40px);margin:10px 0 12px;letter-spacing:-0.04em;color:var(--ink);font-weight:800}
+.ecosystem-header p{color:var(--muted);font-size:14.5px;max-width:760px;margin:0;line-height:1.7}
+.ecosystem-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;margin-bottom:18px}
+.eco-card{background:#ffffff;border:1px solid #dbe8e4;border-radius:18px;padding:26px 22px;display:flex;flex-direction:column;transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease;text-decoration:none;color:var(--ink);position:relative;box-shadow:0 4px 18px rgba(16,48,50,.03)}
+.eco-card:hover{transform:translateY(-4px);box-shadow:0 20px 40px rgba(7,55,59,.1);border-color:#067f80}
+.eco-card-top{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:18px}
+.eco-icon-wrap{width:46px;height:46px;border-radius:14px;background:#eef7f4;color:#07474a;display:grid;place-items:center;flex-shrink:0}
+.eco-card:hover .eco-icon-wrap{background:#07474a;color:#8bf0df}
+.eco-badge{font-size:10.5px;font-weight:750;letter-spacing:0.02em;padding:5px 10px;border-radius:100px;background:#e6f3ee;color:#086b6a;white-space:nowrap}
+.eco-badge-field{background:#dcf3ee;color:#055e5d}
+.eco-card h3{font-size:18px;font-weight:800;letter-spacing:-0.03em;margin:0 0 10px;display:flex;align-items:center;justify-content:space-between;color:var(--ink)}
+.eco-arr{font-size:15px;color:#8ba4a8;transition:transform .2s ease,color .2s ease}
+.eco-card:hover .eco-arr{transform:translate(2px,-2px);color:var(--accent)}
+.eco-card p{font-size:13px;line-height:1.7;color:#556e75;margin:0 0 20px;flex:1}
+.eco-action{font-size:12px;font-weight:800;color:var(--accent);display:inline-flex;align-items:center;gap:5px;margin-top:auto;border-top:1px solid #eef3f1;padding-top:14px}
+.eco-community-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.eco-community-card{background:#ffffff;border:1px solid #dbe8e4;border-radius:18px;padding:26px 28px;display:flex;align-items:center;gap:22px;text-decoration:none;color:var(--ink);transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease;box-shadow:0 4px 18px rgba(16,48,50,.03)}
+.eco-community-card:hover{transform:translateY(-3px);box-shadow:0 20px 40px rgba(7,55,59,.1);border-color:#067f80}
+.eco-community-icon{width:54px;height:54px;border-radius:16px;display:grid;place-items:center;flex-shrink:0}
+.eco-community-icon.discord-bg{background:rgba(88,101,242,.12);color:#5865F2}
+.eco-community-icon.email-bg{background:rgba(6,127,128,.12);color:var(--accent)}
+.eco-community-content{flex:1;min-width:0}
+.eco-community-content h4{font-size:17px;font-weight:800;margin:0 0 6px;letter-spacing:-0.03em;color:var(--ink)}
+.eco-community-content p{font-size:13px;line-height:1.65;color:#556e75;margin:0 0 12px}
+.eco-action-btn{font-size:12px;font-weight:800;color:var(--accent);display:inline-flex;align-items:center;gap:5px}
+.eco-action-btn.email-text{color:#076d6e}
+@media(max-width:1200px){.ecosystem-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:768px){.ecosystem-grid{grid-template-columns:1fr}.eco-community-grid{grid-template-columns:1fr}.eco-community-card{flex-direction:column;align-items:flex-start;padding:22px}}
+</style>
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@context":"https://schema.org","@type":"Article","headline":"Deciphering the genomic signatures of climate vulnerability across 77 sheep breeds","name":"Deciphering the genomic signatures of climate vulnerability across 77 sheep breeds","description":"The researchers analyze genetic variation across sheep breeds distributed in different climates. The work examines genomic patterns relevant to environmental adaptation and vulnerability.","datePublished":"2026-09-18","dateModified":"2026-10-20","author":{"@type":"Organization","name":"OpenSTEM Editorial Review"},"publisher":{"@type":"Organization","name":"OpenSTEM Replicate","url":"https://openstemreplicate.org/","logo":{"@type":"ImageObject","url":"https://openstemreplicate.org/assets/img/favicon.svg"}},"mainEntityOfPage":"https://openstemreplicate.org/research/sheep-climate/","citation":"https://doi.org/10.1038/s42003-026-10917-2","about":"Science","isAccessibleForFree":true,"image":"https://openstemreplicate.org/assets/img/og-preview.png"},{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://openstemreplicate.org/"},{"@type":"ListItem","position":2,"name":"Research Highlights","item":"https://openstemreplicate.org/research/"},{"@type":"ListItem","position":3,"name":"Deciphering the genomic signatures of climate vulnerability across 77 sheep breeds","item":"https://openstemreplicate.org/research/sheep-climate/"}]}]}</script>
 </head>
 <body>
