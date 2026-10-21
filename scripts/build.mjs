@@ -3,13 +3,13 @@ import path from 'node:path';
 
 const ROOT = path.resolve(import.meta.dirname, '..');
 
-// 1. Resolve domain: environment variable > CNAME file > GitHub Pages default
+// 1. Resolve domain: CF_PAGES_URL > SITE_URL > CNAME file > GitHub Pages default
 let defaultDomain = 'https://karim8siam.github.io/openstemreplicate';
 try {
   const cname = (await readFile(path.join(ROOT, 'CNAME'), 'utf8')).trim();
   if (cname) defaultDomain = 'https://' + cname.replace(/^https?:\/\//, '').replace(/\/$/, '');
 } catch {}
-const HTTPS = (process.env.SITE_URL || defaultDomain).trim().replace(/\/$/, '');
+const HTTPS = (process.env.SITE_URL || process.env.CF_PAGES_URL || defaultDomain).trim().replace(/\/$/, '');
 const GSC_TOKEN = (process.env.GOOGLE_SITE_VERIFICATION || 'GSC_VERIFICATION_TOKEN_REPLACE_ME').trim();
 
 const e = (s = '') => String(s)
