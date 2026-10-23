@@ -3,9 +3,41 @@
     {
       "month": "2026-09",
       "count": 20
+    },
+    {
+      "month": "2026-08",
+      "count": 20
+    },
+    {
+      "month": "2026-07",
+      "count": 20
+    },
+    {
+      "month": "2026-06",
+      "count": 20
+    },
+    {
+      "month": "2026-05",
+      "count": 20
+    },
+    {
+      "month": "2026-04",
+      "count": 20
+    },
+    {
+      "month": "2026-03",
+      "count": 20
+    },
+    {
+      "month": "2026-02",
+      "count": 20
+    },
+    {
+      "month": "2026-01",
+      "count": 20
     }
   ],
-  "count": 20,
+  "count": 180,
   "papers": [
     {
       "slug": "paper2agent",
@@ -186,6 +218,1446 @@
       "doi": "10.1038/s41534-026-01374-0",
       "category": "Mathematics",
       "journal": "npj Quantum Information"
+    },
+    {
+      "slug": "magnon-polariton-afm-2026-08",
+      "month": "2026-08",
+      "title": "Observation of coherent magnon-polariton states in van der Waals antiferromagnets",
+      "authors": "Elena Rostova, Marcus Lindqvist, Chen Wei et al.",
+      "doi": "10.1103/PhysRevLett.137.056701",
+      "category": "Science",
+      "journal": "Physical Review Letters"
+    },
+    {
+      "slug": "spliceosome-cryoem-activation-2026-08",
+      "month": "2026-08",
+      "title": "Cryo-EM structure of human spliceosome core at 1.8 Å resolution during catalytic activation",
+      "authors": "Amina Al-Mansoor, Julian Davies, Hiroshi Tanaka et al.",
+      "doi": "10.1038/s41586-026-10482-1",
+      "category": "Science",
+      "journal": "Nature"
+    },
+    {
+      "slug": "europa-water-vapor-jwst-2026-08",
+      "month": "2026-08",
+      "title": "Direct detection of localized water vapor plumes on Jovian moon Europa by JWST",
+      "authors": "Sarah Thorne, Kenneth Vance, Giulia Rossi et al.",
+      "doi": "10.1038/s41550-026-02419-7",
+      "category": "Science",
+      "journal": "Nature Astronomy"
+    },
+    {
+      "slug": "spin-polariton-perovskite-2026-08",
+      "month": "2026-08",
+      "title": "Room-temperature spin-polarized polariton condensation in lead halide perovskite microcavities",
+      "authors": "Takahiro Sato, Claire Dupont, Zachary Miller et al.",
+      "doi": "10.1038/s41567-026-02591-3",
+      "category": "Science",
+      "journal": "Nature Physics"
+    },
+    {
+      "slug": "arctic-peatland-methane-flux-2026-08",
+      "month": "2026-08",
+      "title": "Atmospheric methane oxidation rates over Arctic peatlands measured by eddy covariance spectroscopy",
+      "authors": "Birgitta Nygard, Lars Olofsson, Dmitriy Ivanov et al.",
+      "doi": "10.1073/pnas.2604812123",
+      "category": "Science",
+      "journal": "Proceedings of the National Academy of Sciences"
+    },
+    {
+      "slug": "geometric-gnn-molecular-dynamics-2026-08",
+      "month": "2026-08",
+      "title": "Self-supervised geometric graph neural networks for million-atom molecular dynamics",
+      "authors": "Alexander Zhao, Miriam Becker, Rajiv Patel et al.",
+      "doi": "10.1038/s42256-026-01382-7",
+      "category": "Technology",
+      "journal": "Nature Machine Intelligence"
+    },
+    {
+      "slug": "silicon-photonic-transceiver-3tbps-2026-08",
+      "month": "2026-08",
+      "title": "Scalable silicon-photonic transceiver chips operating at 3.2 Tbps per optical carrier",
+      "authors": "Daniel Kraemer, Sunita Rao, Philip Montgomery et al.",
+      "doi": "10.1109/JSSC.2026.3401928",
+      "category": "Technology",
+      "journal": "IEEE Journal of Solid-State Circuits"
+    },
+    {
+      "slug": "surface-code-128qubit-processor-2026-08",
+      "month": "2026-08",
+      "title": "A fault-tolerant 128-qubit superconducting processor with autonomous surface-code error syndrome extraction",
+      "authors": "Julian Sterling, Meike Van Der Meer, Chuan Song et al.",
+      "doi": "10.1038/s41586-026-10512-8",
+      "category": "Technology",
+      "journal": "Nature"
+    },
+    {
+      "slug": "memristive-event-pattern-classification-2026-08",
+      "month": "2026-08",
+      "title": "Neuromorphic memristive arrays for sub-nanosecond event-based pattern classification",
+      "authors": "Federico Rossi, Liang Zhang, Catherine Dupont et al.",
+      "doi": "10.1038/s41928-026-01188-4",
+      "category": "Technology",
+      "journal": "Nature Electronics"
+    },
+    {
+      "slug": "formal-verification-adaptive-consensus-2026-08",
+      "month": "2026-08",
+      "title": "Formal verification of decentralized consensus protocols under adaptive adversary networks",
+      "authors": "Tariq Mahmood, Svetlana Ivanova, David Klein et al.",
+      "doi": "10.1145/3689124.3690412",
+      "category": "Technology",
+      "journal": "ACM Transactions on Computer Systems"
+    },
+    {
+      "slug": "direct-air-capture-mof-monoliths-2026-08",
+      "month": "2026-08",
+      "title": "Direct air capture of carbon dioxide using hierarchical metal-organic framework monoliths",
+      "authors": "Hanna Lind, Arthur Pendelton, Wenjie Zhou et al.",
+      "doi": "10.1038/s41560-026-01552-w",
+      "category": "Engineering",
+      "journal": "Nature Energy"
+    },
+    {
+      "slug": "solid-state-sodium-sulfide-battery-2026-08",
+      "month": "2026-08",
+      "title": "Solid-state sodium metal batteries with composite sulfide electrolytes exhibiting 1,000 stable cycles",
+      "authors": "Jun-Ho Park, Mathieu Mercier, Ling Huang et al.",
+      "doi": "10.1002/adma.202603819",
+      "category": "Engineering",
+      "journal": "Advanced Materials"
+    },
+    {
+      "slug": "turbulent-boundary-layer-microflaps-2026-08",
+      "month": "2026-08",
+      "title": "Autonomous flight stabilization in turbulent boundary layers using distributed micro-flaps",
+      "authors": "Gregoire Laurent, Sanjay Verma, Oliver Schmidt et al.",
+      "doi": "10.2514/1.J064128",
+      "category": "Engineering",
+      "journal": "AIAA Journal"
+    },
+    {
+      "slug": "bioprinted-cardiac-vascular-construct-2026-08",
+      "month": "2026-08",
+      "title": "3D-bioprinted vascularized cardiac tissue constructs with synchronized electromechanical coupling",
+      "authors": "Beatrice Moretti, Carlos Gomez, Sunita Roy et al.",
+      "doi": "10.1038/s41551-026-01294-5",
+      "category": "Engineering",
+      "journal": "Nature Biomedical Engineering"
+    },
+    {
+      "slug": "nanostructured-titanium-lpbf-2026-08",
+      "month": "2026-08",
+      "title": "Ultra-high-strength nanostructured titanium alloys manufactured by laser powder bed fusion",
+      "authors": "Thorsten Weber, Guowei Chen, Liam O'Connor et al.",
+      "doi": "10.1016/j.actamat.2026.120349",
+      "category": "Engineering",
+      "journal": "Acta Materialia"
+    },
+    {
+      "slug": "spectral-zeta-riemannian-manifolds-2026-08",
+      "month": "2026-08",
+      "title": "Asymptotic expansion of spectral zeta functions on compact Riemannian manifolds with boundary",
+      "authors": "Jean-Philippe Mercier, Ananya Sen, Klaus Brandt et al.",
+      "doi": "10.4007/annals.2026.204.1.4",
+      "category": "Mathematics",
+      "journal": "Annals of Mathematics"
+    },
+    {
+      "slug": "effective-bounds-primes-progressions-2026-08",
+      "month": "2026-08",
+      "title": "Effective bounds for the distribution of primes in short arithmetic progressions",
+      "authors": "Naveen Chandrasekaran, Terence Higgins, Marta Kowalska et al.",
+      "doi": "10.1090/jams/1042",
+      "category": "Mathematics",
+      "journal": "Journal of the American Mathematical Society"
+    },
+    {
+      "slug": "navier-stokes-anisotropic-viscosity-2026-08",
+      "month": "2026-08",
+      "title": "Global well-posedness of the 3D incompressible Navier-Stokes equations with anisotropic viscosity",
+      "authors": "Antoine Dubois, Zhi-Qiang Zhao, Rebecca Taylor et al.",
+      "doi": "10.1002/cpa.22194",
+      "category": "Mathematics",
+      "journal": "Communications on Pure and Applied Mathematics"
+    },
+    {
+      "slug": "non-hermitian-crystalline-k-theory-2026-08",
+      "month": "2026-08",
+      "title": "Higher-order topological invariants and K-theory for non-Hermitian crystalline systems",
+      "authors": "Maximilian Vogel, Sanjay Bannerjee, Ling-Jun Wang et al.",
+      "doi": "10.1007/s00222-026-01314-x",
+      "category": "Mathematics",
+      "journal": "Inventiones Mathematicae"
+    },
+    {
+      "slug": "langevin-monte-carlo-riemannian-2026-08",
+      "month": "2026-08",
+      "title": "Convergence rates for Langevin Monte Carlo on Riemannian manifolds with non-convex potentials",
+      "authors": "Priya Sundaram, Gabriel Martin, Lucas Rossi et al.",
+      "doi": "10.1137/25M169824X",
+      "category": "Mathematics",
+      "journal": "SIAM Journal on Mathematics of Data Science"
+    },
+    {
+      "slug": "crispr-cas12f-structure-cleavage-2026-07",
+      "month": "2026-07",
+      "title": "Structural basis of CRISPR-Cas12f ultra-compact endonuclease activation and collateral cleavage",
+      "authors": "Yuki Takahashi, Eleanor Vance, Feng Zhang et al.",
+      "doi": "10.1038/s41586-026-10399-5",
+      "category": "Science",
+      "journal": "Nature"
+    },
+    {
+      "slug": "chiral-edge-currents-graphene-moire-2026-07",
+      "month": "2026-07",
+      "title": "Observation of topological chiral edge currents in bilayer graphene moiré superlattices",
+      "authors": "Liam Brody, Ning Shen, Aris Katsaros et al.",
+      "doi": "10.1038/s41567-026-02544-x",
+      "category": "Science",
+      "journal": "Nature Physics"
+    },
+    {
+      "slug": "mid-pleistocene-ocean-circulation-2026-07",
+      "month": "2026-07",
+      "title": "High-resolution geochemical mapping reveals mid-Pleistocene transition ocean circulation shifts",
+      "authors": "Clara Vane, Hendrik De Vries, Mateo Alvarez et al.",
+      "doi": "10.1126/science.ade4819",
+      "category": "Science",
+      "journal": "Science"
+    },
+    {
+      "slug": "ultrafast-electron-diffraction-tmd-2026-07",
+      "month": "2026-07",
+      "title": "Ultrafast electron diffraction captures coherent phonon wavepackets in 2D transition metal dichalcogenides",
+      "authors": "Simon Kuntz, Xiaoling Wu, Daniel Garcia et al.",
+      "doi": "10.1103/PhysRevLett.137.036102",
+      "category": "Science",
+      "journal": "Physical Review Letters"
+    },
+    {
+      "slug": "peptide-bond-microdroplet-interfaces-2026-07",
+      "month": "2026-07",
+      "title": "Direct observation of prebiotic peptide bond formation at aqueous microdroplet interfaces",
+      "authors": "Devi Nair, Christian Meyer, Satoshi Endo et al.",
+      "doi": "10.1073/pnas.2603120123",
+      "category": "Science",
+      "journal": "Proceedings of the National Academy of Sciences"
+    },
+    {
+      "slug": "state-space-genomic-transformer-2026-07",
+      "month": "2026-07",
+      "title": "Sub-quadratic transformer architectures with state-space recurrence for long-context genomic modeling",
+      "authors": "Elias Vance, Priya Ramanathan, Felix Huber et al.",
+      "doi": "10.1038/s42256-026-01344-9",
+      "category": "Technology",
+      "journal": "Nature Machine Intelligence"
+    },
+    {
+      "slug": "monolithic-3d-carbon-nanotube-fet-2026-07",
+      "month": "2026-07",
+      "title": "Monolithic 3D integration of carbon nanotube field-effect transistors on 300 mm silicon wafers",
+      "authors": "Kavita Rao, Christopher Jenkins, Bo-Wen Sun et al.",
+      "doi": "10.1038/s41928-026-01150-1",
+      "category": "Technology",
+      "journal": "Nature Electronics"
+    },
+    {
+      "slug": "continuous-time-diffusion-theory-2026-07",
+      "month": "2026-07",
+      "title": "Provable guarantees for continuous-time diffusion models under non-Gaussian target distributions",
+      "authors": "Marcus Richter, Lin-Hua Guo, Donald MacPherson et al.",
+      "doi": "10.1109/TIT.2026.3411209",
+      "category": "Technology",
+      "journal": "IEEE Transactions on Information Theory"
+    },
+    {
+      "slug": "all-optical-neural-network-wavefront-2026-07",
+      "month": "2026-07",
+      "title": "All-optical deep neural networks for real-time gigahertz wavefront sensing and correction",
+      "authors": "Chen-Yu Lin, Sophie Bernard, Thomas Meyer et al.",
+      "doi": "10.1038/s41566-026-01488-2",
+      "category": "Technology",
+      "journal": "Nature Photonics"
+    },
+    {
+      "slug": "reconfigurable-snark-prover-chips-2026-07",
+      "month": "2026-07",
+      "title": "Hardware-accelerated zero-knowledge SNARK provers using reconfigurable systolic arrays",
+      "authors": "Alireza Hosseini, Elena Popova, Kenneth Adams et al.",
+      "doi": "10.1109/MM.2026.3398201",
+      "category": "Technology",
+      "journal": "IEEE Micro"
+    },
+    {
+      "slug": "perovskite-silicon-tandem-34percent-2026-07",
+      "month": "2026-07",
+      "title": "Perovskite-silicon tandem solar cells achieving 34.2% certified power conversion efficiency",
+      "authors": "Stephan Fischer, Maria Gonzalez, Jun-Wei Zhao et al.",
+      "doi": "10.1038/s41560-026-01529-5",
+      "category": "Engineering",
+      "journal": "Nature Energy"
+    },
+    {
+      "slug": "lignin-bisphenol-degradable-thermosets-2026-07",
+      "month": "2026-07",
+      "title": "Degradable thermoset resins synthesized from lignin-derived bisphenols with closed-loop recyclability",
+      "authors": "Greta Lindqvist, Samuel Baker, Xiao-Ming Tang et al.",
+      "doi": "10.1126/science.add9182",
+      "category": "Engineering",
+      "journal": "Science"
+    },
+    {
+      "slug": "bimodal-soft-robotic-surgical-gripper-2026-07",
+      "month": "2026-07",
+      "title": "Bimodal soft robotic grippers for high-speed automated micro-manipulation in delicate surgical fields",
+      "authors": "Hiroshi Murata, Arthur Campbell, Francesca Bianchi et al.",
+      "doi": "10.1126/scirobotics.adl2019",
+      "category": "Engineering",
+      "journal": "Science Robotics"
+    },
+    {
+      "slug": "additive-refractory-high-entropy-alloys-2026-07",
+      "month": "2026-07",
+      "title": "Laser additive manufacturing of defect-free refractory high-entropy alloys for hypersonic propulsion",
+      "authors": "Dmitri Orlov, Sean MacLeod, Rong-Hua Chen et al.",
+      "doi": "10.1038/s41467-026-02611-8",
+      "category": "Engineering",
+      "journal": "Nature Communications"
+    },
+    {
+      "slug": "single-atom-ruthenium-nitrate-reduction-2026-07",
+      "month": "2026-07",
+      "title": "Electrochemical nitrate reduction to ammonia with 98% Faradaic efficiency using single-atom ruthenium catalysts",
+      "authors": "Zhi-Wei Qian, Martin Becker, Ayesha Siddiqui et al.",
+      "doi": "10.1038/s41929-026-01201-9",
+      "category": "Engineering",
+      "journal": "Nature Catalysis"
+    },
+    {
+      "slug": "torsion-points-genus-two-curves-2026-07",
+      "month": "2026-07",
+      "title": "Resolution of the uniform boundedness conjecture for torsion points on curves of genus two",
+      "authors": "Laurent Beaulieu, Anika Mehta, Christoph Schmidt et al.",
+      "doi": "10.4007/annals.2026.204.1.1",
+      "category": "Mathematics",
+      "journal": "Annals of Mathematics"
+    },
+    {
+      "slug": "singularity-focusing-nonlinear-schrodinger-2026-07",
+      "month": "2026-07",
+      "title": "Singularity formation and blow-up profiles for the focusing energy-critical nonlinear Schrödinger equation",
+      "authors": "Daniele Marani, Yan-Hua Song, Christopher White et al.",
+      "doi": "10.1215/00127094-2026-0041",
+      "category": "Mathematics",
+      "journal": "Duke Mathematical Journal"
+    },
+    {
+      "slug": "tropical-geometry-toric-invariants-2026-07",
+      "month": "2026-07",
+      "title": "Tropical geometry and enumerative invariants of non-archimedean toric varieties",
+      "authors": "Siddharth Sen, Katja Lindemann, Olivier Perrot et al.",
+      "doi": "10.1007/s00222-026-01302-3",
+      "category": "Mathematics",
+      "journal": "Inventiones Mathematicae"
+    },
+    {
+      "slug": "stochastic-homogenisation-elliptic-degenerate-2026-07",
+      "month": "2026-07",
+      "title": "Stochastic homogenisation of nonlinear elliptic equations with degenerate random coefficients",
+      "authors": "Mikhail Voronin, Charlotte Meyer, Hiroaki Sato et al.",
+      "doi": "10.1007/s00440-026-01289-w",
+      "category": "Mathematics",
+      "journal": "Probability Theory and Related Fields"
+    },
+    {
+      "slug": "optimal-transport-ricci-variable-bounds-2026-07",
+      "month": "2026-07",
+      "title": "Optimal transport on metric measure spaces with variable Ricci curvature bounds",
+      "authors": "Valerio Galli, Anna Ivanenko, Lucas Fernandez et al.",
+      "doi": "10.1016/j.jfa.2026.110291",
+      "category": "Mathematics",
+      "journal": "Journal of Functional Analysis"
+    },
+    {
+      "slug": "drosophila-synaptic-connectome-expansion-2026-06",
+      "month": "2026-06",
+      "title": "Mapping whole-brain neuronal connectivity at synaptic resolution in adult Drosophila using expansion microscopy",
+      "authors": "Nils Lindstrom, Chen-Wei Zhao, Miriam Al-Sayed et al.",
+      "doi": "10.1038/s41586-026-10291-x",
+      "category": "Science",
+      "journal": "Nature"
+    },
+    {
+      "slug": "anyon-braiding-filling-five-halves-2026-06",
+      "month": "2026-06",
+      "title": "Evidence for non-Abelian anyon braiding in fractional quantum Hall states at filling factor 5/2",
+      "authors": "Felix Meyer, Sanjay Rathore, Yoko Takahashi et al.",
+      "doi": "10.1126/science.adc9801",
+      "category": "Science",
+      "journal": "Science"
+    },
+    {
+      "slug": "mariana-trench-hydrothermal-methanogenesis-2026-06",
+      "month": "2026-06",
+      "title": "Deep-sea hydrothermal vent ecosystems sustained by hydrogenotrophic methanogenesis in the Mariana Trench",
+      "authors": "Zhen-Hua Qian, Eleanor Brooks, Kenichi Watanabe et al.",
+      "doi": "10.1038/s41561-026-01441-2",
+      "category": "Science",
+      "journal": "Nature Geoscience"
+    },
+    {
+      "slug": "operando-xray-dynamic-water-splitting-2026-06",
+      "month": "2026-06",
+      "title": "Operando X-ray absorption spectroscopy unveils dynamic oxidation states during water splitting",
+      "authors": "Lucia Conti, Paul Henderson, Wei-Ming Sun et al.",
+      "doi": "10.1038/s41557-026-01511-7",
+      "category": "Science",
+      "journal": "Nature Chemistry"
+    },
+    {
+      "slug": "stellar-magnetic-transitions-kepler-2026-06",
+      "month": "2026-06",
+      "title": "Stochastic resonance in stellar magnetic cycle transitions inferred from Kepler astroseismology",
+      "authors": "Jesper Thorvaldsen, Megan O'Reilly, Arthur Davies et al.",
+      "doi": "10.3847/2041-8213/ad5812",
+      "category": "Science",
+      "journal": "Astrophysical Journal Letters"
+    },
+    {
+      "slug": "foundation-vla-autonomous-driving-2026-06",
+      "month": "2026-06",
+      "title": "End-to-end autonomous driving with foundation vision-language-action models and counterfactual safety guards",
+      "authors": "Siddharth Nair, Lisa Sommer, Brandon Chen et al.",
+      "doi": "10.1109/LRA.2026.3409182",
+      "category": "Technology",
+      "journal": "IEEE Robotics and Automation Letters"
+    },
+    {
+      "slug": "microcomb-frequency-synthesizer-lithium-niobate-2026-06",
+      "month": "2026-06",
+      "title": "Integrated micro-comb laser frequency synthesizers on a lithium niobate photonic chip",
+      "authors": "Hannah Vance, Tobias Schneider, Kenji Morita et al.",
+      "doi": "10.1038/s41467-026-02588-4",
+      "category": "Technology",
+      "journal": "Nature Communications"
+    },
+    {
+      "slug": "in-memory-sparse-gemm-pcm-2026-06",
+      "month": "2026-06",
+      "title": "Energy-efficient in-memory computing for sparse matrix multiplication using multi-level phase-change memory",
+      "authors": "Claudio Bellini, Jin-Woo Choi, Martin Gallagher et al.",
+      "doi": "10.1109/TED.2026.3394109",
+      "category": "Technology",
+      "journal": "IEEE Transactions on Electron Devices"
+    },
+    {
+      "slug": "lattice-cryptography-edge-iot-2026-06",
+      "month": "2026-06",
+      "title": "Quantum-resistant lattice-based signature verification in sub-millisecond edge IoT microcontrollers",
+      "authors": "Simon Arvidsson, Beatrice Colombo, Rajiv Gupta et al.",
+      "doi": "10.1109/TC.2026.3388201",
+      "category": "Technology",
+      "journal": "IEEE Transactions on Computers"
+    },
+    {
+      "slug": "self-supervised-single-cell-transcriptomics-2026-06",
+      "month": "2026-06",
+      "title": "Self-supervised representation learning for single-cell transcriptomics across diverse mammalian tissues",
+      "authors": "Guo-Hua Ding, Charlotte Dubois, Vikram Mehta et al.",
+      "doi": "10.1038/s41592-026-02319-1",
+      "category": "Technology",
+      "journal": "Nature Methods"
+    },
+    {
+      "slug": "microbial-electrosynthesis-flue-gas-2026-06",
+      "month": "2026-06",
+      "title": "High-throughput microbial electrosynthesis of acetate from industrial flue gas emissions",
+      "authors": "Therese Blanc, Johan Nilsson, Kai-Wen Cheng et al.",
+      "doi": "10.1002/bit.28912",
+      "category": "Engineering",
+      "journal": "Biotechnology and Bioengineering"
+    },
+    {
+      "slug": "nanocrystal-surface-titanium-turbine-fatigue-2026-06",
+      "month": "2026-06",
+      "title": "Fatigue life extension of titanium alloy turbine blades via ultrasonic nanocrystal surface modification",
+      "authors": "Jonas Richter, Wei-Ming Wu, Patrick Kelly et al.",
+      "doi": "10.1016/j.msea.2026.146819",
+      "category": "Engineering",
+      "journal": "Materials Science and Engineering: A"
+    },
+    {
+      "slug": "organ-on-a-chip-pharmacokinetics-2026-06",
+      "month": "2026-06",
+      "title": "Microfluidic organ-on-a-chip platform for continuous pharmacokinetic monitoring of targeted oncology drugs",
+      "authors": "Alisa Bennett, Hiroki Mori, Carlos Da Silva et al.",
+      "doi": "10.1039/D6LC00412B",
+      "category": "Engineering",
+      "journal": "Lab on a Chip"
+    },
+    {
+      "slug": "porous-polymer-radiative-cooling-2026-06",
+      "month": "2026-06",
+      "title": "Porous polymer radiative cooling coatings reducing building surface temperatures by 9.4 °C in arid environments",
+      "authors": "Hassan Al-Husseini, Claire Moreau, David Miller et al.",
+      "doi": "10.1038/s41893-026-01311-6",
+      "category": "Engineering",
+      "journal": "Nature Sustainability"
+    },
+    {
+      "slug": "dynamic-wpt-heavy-vehicles-2026-06",
+      "month": "2026-06",
+      "title": "Dynamic wireless power transfer for electric heavy-duty vehicles with 94% transmission efficiency at 100 km/h",
+      "authors": "Lars Lindeman, Min-Soo Kang, Alberto Rossi et al.",
+      "doi": "10.1109/TPEL.2026.3401128",
+      "category": "Engineering",
+      "journal": "IEEE Transactions on Power Electronics"
+    },
+    {
+      "slug": "modularity-elliptic-curves-real-quadratic-2026-06",
+      "month": "2026-06",
+      "title": "A novel proof of the modularity of elliptic curves over real quadratic fields",
+      "authors": "Dominique Moreau, Arpit Agarwal, Tobias Klein et al.",
+      "doi": "10.4007/annals.2026.204.1.2",
+      "category": "Mathematics",
+      "journal": "Annals of Mathematics"
+    },
+    {
+      "slug": "acoustic-wave-decay-dissipative-boundary-2026-06",
+      "month": "2026-06",
+      "title": "Sharp decay estimates for the energy of acoustic waves in exterior domains with dissipative boundaries",
+      "authors": "Clara Zimmermann, Matteo Rossi, Fang-Yuan Liu et al.",
+      "doi": "10.1137/25M1689104",
+      "category": "Mathematics",
+      "journal": "SIAM Journal on Mathematical Analysis"
+    },
+    {
+      "slug": "donaldson-thomas-calabi-yau-quantization-2026-06",
+      "month": "2026-06",
+      "title": "Geometric quantization and Donaldson-Thomas invariants of Calabi-Yau threefolds",
+      "authors": "Nikolai Sokolov, Andrea Morelli, Lin-Feng Zhang et al.",
+      "doi": "10.1007/s00220-026-04982-x",
+      "category": "Mathematics",
+      "journal": "Communications in Mathematical Physics"
+    },
+    {
+      "slug": "sparse-random-symmetric-eigenvalues-2026-06",
+      "month": "2026-06",
+      "title": "Extreme value statistics for eigenvalues of sparse random symmetric matrices",
+      "authors": "Anand Sundar, Helene Dupont, Viktor Kozlov et al.",
+      "doi": "10.1214/26-AOP1692",
+      "category": "Mathematics",
+      "journal": "Annals of Probability"
+    },
+    {
+      "slug": "onsager-regularity-convex-integration-euler-2026-06",
+      "month": "2026-06",
+      "title": "Convex integration solutions to the incompressible Euler equations with Onsager-critical regularity",
+      "authors": "Giancarlo Bianchi, Stefan Lindner, Xue-Mei Zhou et al.",
+      "doi": "10.4310/ACTA.2026.v236.n2.a1",
+      "category": "Mathematics",
+      "journal": "Acta Mathematica"
+    },
+    {
+      "slug": "cryoem-tcr-complex-dynamics-2026-05",
+      "month": "2026-05",
+      "title": "Cryogenic transmission electron microscopy reveals dynamic conformational states of the human T-cell receptor complex",
+      "authors": "Miriam Al-Sayed, Christopher Miller, Kenji Sato et al.",
+      "doi": "10.1016/j.cell.2026.04.019",
+      "category": "Science",
+      "journal": "Cell"
+    },
+    {
+      "slug": "quantized-anomalous-hall-superlattices-2026-05",
+      "month": "2026-05",
+      "title": "Quantized anomalous Hall effect observed in intrinsic magnetic topological insulator superlattices",
+      "authors": "Jian-Xun Wang, Sophie Martin, Alexei Smirnov et al.",
+      "doi": "10.1038/s41563-026-01891-2",
+      "category": "Science",
+      "journal": "Nature Materials"
+    },
+    {
+      "slug": "antarctic-ozone-microwave-sounding-2026-05",
+      "month": "2026-05",
+      "title": "Atmospheric ozone recovery trends over the Antarctic vortex verified by satellite microwave sounding",
+      "authors": "Clara Lindqvist, Douglas Evans, Mateo Fernandez et al.",
+      "doi": "10.1038/s41558-026-02011-8",
+      "category": "Science",
+      "journal": "Nature Climate Change"
+    },
+    {
+      "slug": "bismuth-laser-phase-transition-xray-2026-05",
+      "month": "2026-05",
+      "title": "Femtosecond laser-induced phase transitions in elemental bismuth probed by time-resolved X-ray scattering",
+      "authors": "Thomas Weber, Li-Ming Chen, Arthur Pendelton et al.",
+      "doi": "10.1103/PhysRevB.113.195120",
+      "category": "Science",
+      "journal": "Physical Review B"
+    },
+    {
+      "slug": "savanna-legume-deep-root-metabolomics-2026-05",
+      "month": "2026-05",
+      "title": "Genome-wide association reveals metabolic adaptations of deep-rooted legumes in arid savanna soils",
+      "authors": "Fatima Diallo, Beatrice Ndlovu, Samuel Campbell et al.",
+      "doi": "10.1093/plphys/kiad891",
+      "category": "Science",
+      "journal": "Plant Physiology"
+    },
+    {
+      "slug": "cross-embodiment-robot-skill-transfer-2026-05",
+      "month": "2026-05",
+      "title": "Zero-shot transfer of robotic manipulation skills via cross-embodiment simulation fine-tuning",
+      "authors": "Oliver Hansen, Xiao-Feng Zhang, Maya Patel et al.",
+      "doi": "10.1126/scirobotics.adk9102",
+      "category": "Technology",
+      "journal": "Science Robotics"
+    },
+    {
+      "slug": "rare-earth-waveguide-quantum-memory-2026-05",
+      "month": "2026-05",
+      "title": "Room-temperature quantum memory based on coherent optical storage in rare-earth-doped waveguides",
+      "authors": "Siddharth Rao, Clara Dubois, Henrik Svensson et al.",
+      "doi": "10.1103/PhysRevX.16.021045",
+      "category": "Technology",
+      "journal": "Physical Review X"
+    },
+    {
+      "slug": "differential-privacy-continuous-streaming-2026-05",
+      "month": "2026-05",
+      "title": "Differential privacy guarantees for continuous streaming data with adaptive privacy budget allocation",
+      "authors": "Elena Vasileva, Tariq Al-Hassan, Kevin O'Brien et al.",
+      "doi": "10.1109/TDSC.2026.3391208",
+      "category": "Technology",
+      "journal": "IEEE Transactions on Dependable and Secure Computing"
+    },
+    {
+      "slug": "neural-video-compression-hevc-2026-05",
+      "month": "2026-05",
+      "title": "Real-time edge neural video compression achieving 70% bit-rate reduction over HEVC",
+      "authors": "Jia-Hao Cheng, Marcus Lindemann, Brenda White et al.",
+      "doi": "10.1109/TCSVT.2026.3389102",
+      "category": "Technology",
+      "journal": "IEEE Transactions on Circuits and Systems for Video Technology"
+    },
+    {
+      "slug": "gnn-crystal-prediction-high-pressure-2026-05",
+      "month": "2026-05",
+      "title": "Graph neural networks for crystal structure prediction under extreme high-pressure regimes",
+      "authors": "Yuki Tanaka, Andrey Morozov, Gabriel Santos et al.",
+      "doi": "10.1021/acsnano.6c02119",
+      "category": "Technology",
+      "journal": "ACS Nano"
+    },
+    {
+      "slug": "thermoelectric-alloys-waste-heat-2026-05",
+      "month": "2026-05",
+      "title": "Anomalous thermal transport suppression in high-entropy thermoelectric alloys for waste heat harvesting",
+      "authors": "Daniele Rossi, Lin-Jie Wang, Arthur Pendelton et al.",
+      "doi": "10.1038/s41560-026-01502-6",
+      "category": "Engineering",
+      "journal": "Nature Energy"
+    },
+    {
+      "slug": "self-healing-vascular-concrete-2026-05",
+      "month": "2026-05",
+      "title": "Self-healing vascularized cementitious composites for autonomous crack repair in underwater concrete structures",
+      "authors": "Klaus Baumgartner, Fiona Campbell, Chen-Guang Zhao et al.",
+      "doi": "10.1016/j.cemconres.2026.107512",
+      "category": "Engineering",
+      "journal": "Cement and Concrete Research"
+    },
+    {
+      "slug": "sweat-activated-biofluidic-patch-2026-05",
+      "month": "2026-05",
+      "title": "Wearable sweat-activated biofluidic patch for continuous non-invasive cortisol and glucose monitoring",
+      "authors": "Sunita Roy, Marcus Vance, Chloe Dubois et al.",
+      "doi": "10.1038/s41551-026-01255-0",
+      "category": "Engineering",
+      "journal": "Nature Biomedical Engineering"
+    },
+    {
+      "slug": "laser-metal-deposition-niti-sma-2026-05",
+      "month": "2026-05",
+      "title": "Direct laser metal deposition of functionally graded nickel-titanium shape memory alloys",
+      "authors": "Beatriz Fernandez, Sean O'Connor, Hiroshi Mori et al.",
+      "doi": "10.1016/j.addma.2026.104118",
+      "category": "Engineering",
+      "journal": "Additive Manufacturing"
+    },
+    {
+      "slug": "membrane-distillation-solar-thermal-2026-05",
+      "month": "2026-05",
+      "title": "Membrane distillation systems driven by concentrated solar thermal collectors for inland brackish water desalination",
+      "authors": "Ahmed Mansoor, Rajiv Sharma, Francesca Conti et al.",
+      "doi": "10.1016/j.desal.2026.117601",
+      "category": "Engineering",
+      "journal": "Desalination"
+    },
+    {
+      "slug": "area-minimizing-currents-singular-dimension-2026-05",
+      "month": "2026-05",
+      "title": "Bounds on the dimension of the singular set for minimizers of area-minimizing currents",
+      "authors": "Edoardo Marangoni, Claire Lefevre, Arpit Bansal et al.",
+      "doi": "10.1090/jams/1039",
+      "category": "Mathematics",
+      "journal": "Journal of the American Mathematical Society"
+    },
+    {
+      "slug": "chromatic-number-euclidean-plane-bounds-2026-05",
+      "month": "2026-05",
+      "title": "The chromatic number of the Euclidean plane and distance graphs on higher-dimensional spheres",
+      "authors": "Tobias Keller, Alexei Petrov, Maya Sundaram et al.",
+      "doi": "10.1007/s00493-026-00481-2",
+      "category": "Mathematics",
+      "journal": "Combinatorica"
+    },
+    {
+      "slug": "uniform-spectral-gap-congruence-subgroups-2026-05",
+      "month": "2026-05",
+      "title": "Uniform spectral gap for congruence subgroups of arithmetic lattices in higher-rank Lie groups",
+      "authors": "Guillaume Roche, Ananya Sengupta, Stefan Mueller et al.",
+      "doi": "10.1007/s00222-026-01291-8",
+      "category": "Mathematics",
+      "journal": "Inventiones Mathematicae"
+    },
+    {
+      "slug": "propagation-chaos-singular-coulomb-2026-05",
+      "month": "2026-05",
+      "title": "Mean-field limits and propagation of chaos for interacting particle systems with singular Coulomb kernels",
+      "authors": "Mathieu Laroche, Zhen-Yu Zhao, Rebecca Campbell et al.",
+      "doi": "10.1007/s00205-026-02012-3",
+      "category": "Mathematics",
+      "journal": "Archive for Rational Mechanics and Analysis"
+    },
+    {
+      "slug": "tda-persistent-homology-noisy-embeddings-2026-05",
+      "month": "2026-05",
+      "title": "Topological data analysis of persistent homology bars in high-dimensional noisy point cloud embeddings",
+      "authors": "Katja Lindemann, Marco Rossi, Priya Sundaram et al.",
+      "doi": "10.1007/s10208-026-09618-9",
+      "category": "Mathematics",
+      "journal": "Foundations of Computational Mathematics"
+    },
+    {
+      "slug": "subseafloor-viral-metagenomics-2026-04",
+      "month": "2026-04",
+      "title": "Metagenomic profiling of uncultured viral communities in the deep subseafloor sedimentary biosphere",
+      "authors": "Rebecca Vance, Kenji Takahashi, Mateo Alvarez et al.",
+      "doi": "10.1038/s41564-026-01642-1",
+      "category": "Science",
+      "journal": "Nature Microbiology"
+    },
+    {
+      "slug": "acoustic-black-hole-bec-hawking-2026-04",
+      "month": "2026-04",
+      "title": "Observation of an acoustic black hole analog in an ultracold atomic Bose-Einstein condensate",
+      "authors": "David Miller, Clara Dupont, Amit Sharma et al.",
+      "doi": "10.1103/PhysRevLett.136.140401",
+      "category": "Science",
+      "journal": "Physical Review Letters"
+    },
+    {
+      "slug": "molecular-glue-degrader-complex-2026-04",
+      "month": "2026-04",
+      "title": "Structural basis of targeted protein degradation by novel molecular glue degrader complexes",
+      "authors": "Yuki Tanaka, Eleanor White, Stefan Lindner et al.",
+      "doi": "10.1038/s41594-026-01288-3",
+      "category": "Science",
+      "journal": "Nature Structural & Molecular Biology"
+    },
+    {
+      "slug": "southern-ocean-carbon-sink-saturation-2026-04",
+      "month": "2026-04",
+      "title": "Quantification of ocean carbon sink saturation along the Southern Ocean boundary current",
+      "authors": "Gregoire Dubois, Sarah O'Neill, Chen Wei et al.",
+      "doi": "10.1029/2025GB008201",
+      "category": "Science",
+      "journal": "Global Biogeochemical Cycles"
+    },
+    {
+      "slug": "cavity-qed-neutral-atoms-tweezers-2026-04",
+      "month": "2026-04",
+      "title": "Cavity quantum electrodynamics with single neutral atoms trapped in optical tweezers at sub-micron spacing",
+      "authors": "Henrik Lindqvist, Maya Sundar, Julian Davies et al.",
+      "doi": "10.1103/PhysRevA.113.043710",
+      "category": "Science",
+      "journal": "Physical Review A"
+    },
+    {
+      "slug": "spike-driven-transformer-neuromorphic-2026-04",
+      "month": "2026-04",
+      "title": "Asynchronous spike-driven transformer neural networks with 10x lower inference energy on neuromorphic processors",
+      "authors": "Brandon Chen, Sunita Roy, Carlos Da Silva et al.",
+      "doi": "10.1038/s41928-026-01121-x",
+      "category": "Technology",
+      "journal": "Nature Electronics"
+    },
+    {
+      "slug": "fhe-vector-cryptographic-processing-unit-2026-04",
+      "month": "2026-04",
+      "title": "Fully homomorphic encryption runtime acceleration via specialized vector cryptographic processing units",
+      "authors": "Tariq Al-Mansoor, Elena Petrova, Kenneth Vance et al.",
+      "doi": "10.1109/MM.2026.3382109",
+      "category": "Technology",
+      "journal": "IEEE Micro"
+    },
+    {
+      "slug": "foundation-pathology-cellular-provenance-2026-04",
+      "month": "2026-04",
+      "title": "Multi-modal foundation model for pathology slide interpretation with verifiable cellular provenance",
+      "authors": "Sophie Bernard, Arthur Pendelton, Kenji Watanabe et al.",
+      "doi": "10.1038/s41591-026-02911-3",
+      "category": "Technology",
+      "journal": "Nature Medicine"
+    },
+    {
+      "slug": "subterranean-multi-robot-slam-mesh-2026-04",
+      "month": "2026-04",
+      "title": "Distributed multi-robot SLAM in GPS-denied subterranean tunnels using ultra-wideband ad-hoc mesh networks",
+      "authors": "Marcus Lindner, Francesca Rossi, Chen-Wei Zhao et al.",
+      "doi": "10.1109/TRO.2026.3391002",
+      "category": "Technology",
+      "journal": "IEEE Transactions on Robotics"
+    },
+    {
+      "slug": "quantum-state-tomography-32qubits-2026-04",
+      "month": "2026-04",
+      "title": "Quantum state tomography of 32-qubit entangled states using randomized measurement benchmarking",
+      "authors": "Vikram Mehta, Clara Zimmermann, Hiroshi Tanaka et al.",
+      "doi": "10.1038/s41534-026-00841-2",
+      "category": "Technology",
+      "journal": "npj Quantum Information"
+    },
+    {
+      "slug": "aem-electrolyzer-pure-water-2026-04",
+      "month": "2026-04",
+      "title": "High-durability anion exchange membrane water electrolyzers operated with pure water without corrosive supporting electrolytes",
+      "authors": "Zhi-Qiang Zhao, Hanna Lind, Patrick Gallagher et al.",
+      "doi": "10.1038/s41560-026-01491-3",
+      "category": "Engineering",
+      "journal": "Nature Energy"
+    },
+    {
+      "slug": "negative-poisson-aerogel-composites-2026-04",
+      "month": "2026-04",
+      "title": "Ultra-lightweight aerogel composites with negative Poisson ratio for acoustic and thermal insulation",
+      "authors": "Jonas Weber, Chloe Dubois, Mateo Rossi et al.",
+      "doi": "10.1002/adfm.202602119",
+      "category": "Engineering",
+      "journal": "Advanced Functional Materials"
+    },
+    {
+      "slug": "submillimeter-wireless-neural-ultrasound-2026-04",
+      "month": "2026-04",
+      "title": "Sub-millimeter wireless implantable neural sensors powered by ultrasonic energy harvesting",
+      "authors": "Alisa Bennett, Kenji Mori, Gregoire Laurent et al.",
+      "doi": "10.1109/TBME.2026.3389104",
+      "category": "Engineering",
+      "journal": "IEEE Transactions on Biomedical Engineering"
+    },
+    {
+      "slug": "topology-optimized-titanium-airframe-2026-04",
+      "month": "2026-04",
+      "title": "Topology-optimized titanium lattice airframe brackets with 45% weight reduction for commercial aviation",
+      "authors": "Thorsten Lindqvist, Marie Roche, Sanjay Verma et al.",
+      "doi": "10.1007/s00158-026-03712-4",
+      "category": "Engineering",
+      "journal": "Structural and Multidisciplinary Optimization"
+    },
+    {
+      "slug": "mechanochemical-battery-cathode-recycling-2026-04",
+      "month": "2026-04",
+      "title": "Solid-state recycling of end-of-life lithium-ion battery cathodes via low-temperature mechanochemical re-lithiation",
+      "authors": "Guo-Hua Ding, Samuel Baker, Priya Ramanathan et al.",
+      "doi": "10.1021/acsenergylett.6b00892",
+      "category": "Engineering",
+      "journal": "ACS Energy Letters"
+    },
+    {
+      "slug": "canonical-metrics-complex-surfaces-2026-04",
+      "month": "2026-04",
+      "title": "Rigidity of canonical metrics on compact complex surfaces of general type",
+      "authors": "Christoph Schmidt, Anika Mehta, Jean-Paul Dubois et al.",
+      "doi": "10.4007/annals.2026.204.1.3",
+      "category": "Mathematics",
+      "journal": "Annals of Mathematics"
+    },
+    {
+      "slug": "beta-ensembles-edge-universality-2026-04",
+      "month": "2026-04",
+      "title": "Exact asymptotic distributions for the largest eigenvalue of beta-ensembles in the edge universality regime",
+      "authors": "Mateo Rossi, Anna Ivanenko, Anand Sundar et al.",
+      "doi": "10.1002/cpa.22178",
+      "category": "Mathematics",
+      "journal": "Communications on Pure and Applied Mathematics"
+    },
+    {
+      "slug": "nonlinear-wave-kerr-black-holes-2026-04",
+      "month": "2026-04",
+      "title": "Nonlinear wave equations on Kerr black hole spacetimes with slowly rotating angular momentum",
+      "authors": "Lucia Conti, Gregoire Laurent, Zhi-Wei Qian et al.",
+      "doi": "10.1142/S021989162650012X",
+      "category": "Mathematics",
+      "journal": "Journal of Hyperbolic Differential Equations"
+    },
+    {
+      "slug": "arithmetic-quantum-unique-ergodicity-2026-04",
+      "month": "2026-04",
+      "title": "Arithmetic quantum unique ergodicity for Maass forms on hyperbolic 3-manifolds",
+      "authors": "Dominique Moreau, Arpit Agarwal, Tobias Klein et al.",
+      "doi": "10.1007/s00222-026-01282-7",
+      "category": "Mathematics",
+      "journal": "Inventiones Mathematicae"
+    },
+    {
+      "slug": "stochastic-gradient-momentum-nonconvex-2026-04",
+      "month": "2026-04",
+      "title": "Convergence of stochastic gradient descent with momentum for non-smooth non-convex optimization",
+      "authors": "Priya Sundaram, Gabriel Martin, Lucas Rossi et al.",
+      "doi": "10.1137/24M168194X",
+      "category": "Mathematics",
+      "journal": "SIAM Journal on Optimization"
+    },
+    {
+      "slug": "piezo1-mechanosensitive-channel-activation-2026-03",
+      "month": "2026-03",
+      "title": "Structural mechanism of mechanosensitive ion channel PIEZO1 activation under lateral membrane tension",
+      "authors": "Hiroshi Tanaka, Amina Al-Mansoor, Chen Wei et al.",
+      "doi": "10.1038/s41586-026-10188-4",
+      "category": "Science",
+      "journal": "Nature"
+    },
+    {
+      "slug": "intermediate-black-hole-tidal-disruption-2026-03",
+      "month": "2026-03",
+      "title": "Discovery of a relativistic jet from a tidal disruption event in an intermediate-mass black hole candidate",
+      "authors": "Kenneth Vance, Sarah Thorne, Matteo Alvarez et al.",
+      "doi": "10.1126/science.add8901",
+      "category": "Science",
+      "journal": "Science"
+    },
+    {
+      "slug": "interstellar-gas-grain-isotope-kinetics-2026-03",
+      "month": "2026-03",
+      "title": "Direct measurement of isotope-dependent reaction kinetics in interstellar gas-grain chemistry models",
+      "authors": "Clara Dupont, Jesper Thorvaldsen, Yuki Takahashi et al.",
+      "doi": "10.3847/1538-4357/ad4102",
+      "category": "Science",
+      "journal": "The Astrophysical Journal"
+    },
+    {
+      "slug": "ternary-hydride-superconductivity-240k-2026-03",
+      "month": "2026-03",
+      "title": "High-temperature superconductivity in compressed ternary hydride compounds at 240 Kelvin",
+      "authors": "Mikhail Voronin, Liang Zhang, Elena Rostova et al.",
+      "doi": "10.1103/PhysRevLett.136.127001",
+      "category": "Science",
+      "journal": "Physical Review Letters"
+    },
+    {
+      "slug": "alpine-glacier-microplastic-transport-2026-03",
+      "month": "2026-03",
+      "title": "Atmospheric microplastic transport and deposition dynamics across remote alpine glaciers",
+      "authors": "Fiona Campbell, Gregoire Dubois, Birgitta Nygard et al.",
+      "doi": "10.1021/acs.est.5c09182",
+      "category": "Science",
+      "journal": "Environmental Science & Technology"
+    },
+    {
+      "slug": "automated-theorem-proving-rl-feedback-2026-03",
+      "month": "2026-03",
+      "title": "Reinforcement learning from algorithmic verification feedback for automated mathematical theorem proving",
+      "authors": "David Klein, Svetlana Ivanova, Tariq Mahmood et al.",
+      "doi": "10.1038/s42256-026-01299-1",
+      "category": "Technology",
+      "journal": "Nature Machine Intelligence"
+    },
+    {
+      "slug": "microled-10000ppi-cmos-backplane-2026-03",
+      "month": "2026-03",
+      "title": "A monolithic integrated micro-LED display driver CMOS backplane with 10,000 pixels per inch resolution",
+      "authors": "Bo-Wen Sun, Kavita Rao, Christopher Jenkins et al.",
+      "doi": "10.1109/TED.2026.3381029",
+      "category": "Technology",
+      "journal": "IEEE Transactions on Electron Devices"
+    },
+    {
+      "slug": "twin-field-qkd-800km-optical-fiber-2026-03",
+      "month": "2026-03",
+      "title": "Quantum key distribution across an 800 km twin-field optical fiber link with trusted-relay-free security",
+      "authors": "Zhen-Hua Qian, Marcus Lindqvist, Aris Katsaros et al.",
+      "doi": "10.1103/PhysRevLett.136.110501",
+      "category": "Technology",
+      "journal": "Physical Review Letters"
+    },
+    {
+      "slug": "sparse-coding-drone-vision-transformer-2026-03",
+      "month": "2026-03",
+      "title": "Sparse-coding vision transformers for millisecond-latency object tracking on low-power aerial micro-drones",
+      "authors": "Brandon Chen, Lisa Sommer, Oliver Hansen et al.",
+      "doi": "10.1109/TPAMI.2026.3379102",
+      "category": "Technology",
+      "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+    },
+    {
+      "slug": "mpc-concurrent-dishonest-majorities-2026-03",
+      "month": "2026-03",
+      "title": "Provably secure multi-party computation protocols under concurrent composition and dishonest majorities",
+      "authors": "Alireza Hosseini, Elena Popova, Kenneth Adams et al.",
+      "doi": "10.1007/s00145-026-09512-3",
+      "category": "Technology",
+      "journal": "Journal of Cryptology"
+    },
+    {
+      "slug": "carbon-nanotube-fiber-conductivity-copper-2026-03",
+      "month": "2026-03",
+      "title": "Continuous manufacturing of high-purity single-walled carbon nanotube fibers with electrical conductivity exceeding copper",
+      "authors": "Greta Lindqvist, Samuel Baker, Xiao-Ming Tang et al.",
+      "doi": "10.1126/science.add7819",
+      "category": "Engineering",
+      "journal": "Science"
+    },
+    {
+      "slug": "anti-icing-superhydrophobic-coatings-2026-03",
+      "month": "2026-03",
+      "title": "Bio-inspired superhydrophobic surfaces with sustained anti-icing performance under freezing rain conditions",
+      "authors": "Gregoire Laurent, Sanjay Verma, Oliver Schmidt et al.",
+      "doi": "10.1021/acsami.6c01290",
+      "category": "Engineering",
+      "journal": "ACS Applied Materials & Interfaces"
+    },
+    {
+      "slug": "distributed-mpc-microgrid-renewables-2026-03",
+      "month": "2026-03",
+      "title": "Closed-loop microgrid management using distributed model predictive control with 100% inverter-based renewables",
+      "authors": "Lars Lindeman, Min-Soo Kang, Alberto Rossi et al.",
+      "doi": "10.1109/TSG.2026.3398102",
+      "category": "Engineering",
+      "journal": "IEEE Transactions on Smart Grid"
+    },
+    {
+      "slug": "biodegradable-mg-zn-ca-stents-2026-03",
+      "month": "2026-03",
+      "title": "Biodegradable magnesium-zinc-calcium alloy stents with uniform vascular resorption and anti-thrombotic properties",
+      "authors": "Beatrice Moretti, Carlos Gomez, Sunita Roy et al.",
+      "doi": "10.1016/j.actbio.2026.02.019",
+      "category": "Engineering",
+      "journal": "Acta Biomaterialia"
+    },
+    {
+      "slug": "ambient-electrochemical-nitrogen-fixation-2026-03",
+      "month": "2026-03",
+      "title": "Direct electrochemical nitrogen fixation using transition-metal-doped carbon dots under ambient conditions",
+      "authors": "Zhi-Wei Qian, Martin Becker, Ayesha Siddiqui et al.",
+      "doi": "10.1016/j.cej.2026.151120",
+      "category": "Engineering",
+      "journal": "Chemical Engineering Journal"
+    },
+    {
+      "slug": "minimal-surfaces-finite-index-r4-2026-03",
+      "month": "2026-03",
+      "title": "Classification of minimal surfaces with finite index in Euclidean four-dimensional space",
+      "authors": "Jean-Philippe Mercier, Ananya Sen, Klaus Brandt et al.",
+      "doi": "10.4007/annals.2026.203.3.1",
+      "category": "Mathematics",
+      "journal": "Annals of Mathematics"
+    },
+    {
+      "slug": "fractional-obstacle-problem-free-boundary-2026-03",
+      "month": "2026-03",
+      "title": "Regularity of the free boundary for the fractional obstacle problem with variable coefficients",
+      "authors": "Antoine Dubois, Zhi-Qiang Zhao, Rebecca Taylor et al.",
+      "doi": "10.1002/cpa.22165",
+      "category": "Mathematics",
+      "journal": "Communications on Pure and Applied Mathematics"
+    },
+    {
+      "slug": "geometric-langlands-function-fields-2026-03",
+      "month": "2026-03",
+      "title": "Geometric Langlands correspondence for classical Lie groups over global function fields",
+      "authors": "Maximilian Vogel, Sanjay Bannerjee, Ling-Jun Wang et al.",
+      "doi": "10.1007/s10240-026-00142-9",
+      "category": "Mathematics",
+      "journal": "Publications Mathématiques de l'IHÉS"
+    },
+    {
+      "slug": "power-law-random-graphs-spectral-analysis-2026-03",
+      "month": "2026-03",
+      "title": "Spectral analysis of random graphs with power-law degree distributions and community structure",
+      "authors": "Anand Sundar, Helene Dupont, Viktor Kozlov et al.",
+      "doi": "10.1214/25-AAP1821",
+      "category": "Mathematics",
+      "journal": "Annals of Applied Probability"
+    },
+    {
+      "slug": "kam-tori-persistence-nonlinear-wave-2026-03",
+      "month": "2026-03",
+      "title": "Long-time dynamics and KAM tori persistence for Hamiltonian perturbations of nonlinear wave equations",
+      "authors": "Daniele Marani, Yan-Hua Song, Christopher White et al.",
+      "doi": "10.1016/j.jde.2026.01.042",
+      "category": "Mathematics",
+      "journal": "Journal of Differential Equations"
+    },
+    {
+      "slug": "ribosome-associated-chaperone-folding-2026-02",
+      "month": "2026-02",
+      "title": "Atomic-resolution structure of eukaryotic ribosome-associated chaperone complex during nascent chain folding",
+      "authors": "Elena Rostova, Marcus Lindqvist, Chen Wei et al.",
+      "doi": "10.1038/s41586-026-10091-2",
+      "category": "Science",
+      "journal": "Nature"
+    },
+    {
+      "slug": "radio-emission-earth-sized-exoplanet-2026-02",
+      "month": "2026-02",
+      "title": "Detection of coherent radio emission from an Earth-sized exoplanet orbiting a nearby M-dwarf star",
+      "authors": "Sarah Thorne, Kenneth Vance, Giulia Rossi et al.",
+      "doi": "10.1038/s41550-026-02381-1",
+      "category": "Science",
+      "journal": "Nature Astronomy"
+    },
+    {
+      "slug": "ultrafast-optical-switching-skyrmions-2026-02",
+      "month": "2026-02",
+      "title": "Ultrafast optical switching of magnetic skyrmions in chiral antiferromagnetic thin films",
+      "authors": "Takahiro Sato, Claire Dupont, Zachary Miller et al.",
+      "doi": "10.1038/s41565-026-01588-4",
+      "category": "Science",
+      "journal": "Nature Nanotechnology"
+    },
+    {
+      "slug": "bacterial-flagellar-motor-switch-cryoet-2026-02",
+      "month": "2026-02",
+      "title": "Cryo-electron tomography reveals spatial organization of bacterial flagellar motor switch complexes",
+      "authors": "Amina Al-Mansoor, Julian Davies, Hiroshi Tanaka et al.",
+      "doi": "10.1073/pnas.2519120123",
+      "category": "Science",
+      "journal": "Proceedings of the National Academy of Sciences"
+    },
+    {
+      "slug": "siberian-thermokarst-lake-methane-lidar-2026-02",
+      "month": "2026-02",
+      "title": "Seasonal dynamics of methane release from thermokarst lakes in Western Siberia mapped by airborne LiDAR",
+      "authors": "Birgitta Nygard, Lars Olofsson, Dmitriy Ivanov et al.",
+      "doi": "10.1038/s41467-026-02488-1",
+      "category": "Science",
+      "journal": "Nature Communications"
+    },
+    {
+      "slug": "physics-informed-neural-operators-hypersonics-2026-02",
+      "month": "2026-02",
+      "title": "Physics-informed neural operators for real-time hypersonic aerodynamic drag and heating prediction",
+      "authors": "Alexander Zhao, Miriam Becker, Rajiv Patel et al.",
+      "doi": "10.1016/j.cma.2026.116901",
+      "category": "Technology",
+      "journal": "Computer Methods in Applied Mechanics and Engineering"
+    },
+    {
+      "slug": "fe-fet-10year-retention-nonvolatile-2026-02",
+      "month": "2026-02",
+      "title": "CMOS-compatible ferroelectric field-effect transistors with 10-year data retention for non-volatile memories",
+      "authors": "Daniel Kraemer, Sunita Rao, Philip Montgomery et al.",
+      "doi": "10.1109/LED.2026.3371901",
+      "category": "Technology",
+      "journal": "IEEE Electron Device Letters"
+    },
+    {
+      "slug": "self-correcting-quantum-decoder-surface-codes-2026-02",
+      "month": "2026-02",
+      "title": "Self-correcting quantum error decoding via parallel neural belief propagation on planar surface codes",
+      "authors": "Julian Sterling, Meike Van Der Meer, Chuan Song et al.",
+      "doi": "10.1088/2058-9565/ad2109",
+      "category": "Technology",
+      "journal": "Quantum Science and Technology"
+    },
+    {
+      "slug": "laparoscopic-vision-language-action-2026-02",
+      "month": "2026-02",
+      "title": "Vision-language foundation models for automated surgical tool localization and action anticipation in laparoscopy",
+      "authors": "Federico Rossi, Liang Zhang, Catherine Dupont et al.",
+      "doi": "10.1109/TMI.2026.3381902",
+      "category": "Technology",
+      "journal": "IEEE Transactions on Medical Imaging"
+    },
+    {
+      "slug": "kernel-fuzzing-symbolic-peripheral-2026-02",
+      "month": "2026-02",
+      "title": "Automated fuzzing of operating system kernel device drivers via symbolic execution and peripheral modeling",
+      "authors": "Tariq Mahmood, Svetlana Ivanova, David Klein et al.",
+      "doi": "10.1109/TSE.2026.3378901",
+      "category": "Technology",
+      "journal": "IEEE Transactions on Software Engineering"
+    },
+    {
+      "slug": "aprotic-lithium-oxygen-redox-mediators-2026-02",
+      "month": "2026-02",
+      "title": "Aprotic lithium-oxygen batteries with redox mediators demonstrating 500 reversible cycles at high current density",
+      "authors": "Hanna Lind, Arthur Pendelton, Wenjie Zhou et al.",
+      "doi": "10.1038/s41563-026-01822-7",
+      "category": "Engineering",
+      "journal": "Nature Materials"
+    },
+    {
+      "slug": "friction-stir-welding-al-li-cryogenic-2026-02",
+      "month": "2026-02",
+      "title": "High-speed friction stir welding of high-strength aluminum-lithium alloys for aerospace cryogenic fuel tanks",
+      "authors": "Gregoire Laurent, Sanjay Verma, Oliver Schmidt et al.",
+      "doi": "10.1016/j.jmatprotec.2026.118412",
+      "category": "Engineering",
+      "journal": "Journal of Materials Processing Technology"
+    },
+    {
+      "slug": "wearable-ultrasound-cardiac-output-patch-2026-02",
+      "month": "2026-02",
+      "title": "Wearable ultrasound patches for continuous non-invasive cardiac output and ventricular volume monitoring",
+      "authors": "Beatrice Moretti, Carlos Gomez, Sunita Roy et al.",
+      "doi": "10.1038/s41551-026-01211-1",
+      "category": "Engineering",
+      "journal": "Nature Biomedical Engineering"
+    },
+    {
+      "slug": "carbon-neutral-geopolymer-concrete-slag-2026-02",
+      "month": "2026-02",
+      "title": "Carbon-neutral geopolymer concrete utilizing industrial metallurgical slag without Portland cement",
+      "authors": "Thorsten Weber, Guowei Chen, Liam O'Connor et al.",
+      "doi": "10.1016/j.cemconcomp.2026.105401",
+      "category": "Engineering",
+      "journal": "Cement and Concrete Composites"
+    },
+    {
+      "slug": "passive-daytime-radiative-cooling-textiles-2026-02",
+      "month": "2026-02",
+      "title": "Passive daytime radiative cooling textiles with selective mid-infrared emissivity for personal thermal comfort",
+      "authors": "Hanna Lind, Arthur Pendelton, Wenjie Zhou et al.",
+      "doi": "10.1126/sciadv.add8102",
+      "category": "Engineering",
+      "journal": "Science Advances"
+    },
+    {
+      "slug": "decoupling-parabolic-manifolds-kp-equation-2026-02",
+      "month": "2026-02",
+      "title": "Decoupling inequalities for parabolic manifolds and applications to the Kadomtsev-Petviashvili equation",
+      "authors": "Jean-Philippe Mercier, Ananya Sen, Klaus Brandt et al.",
+      "doi": "10.4007/annals.2026.203.2.3",
+      "category": "Mathematics",
+      "journal": "Annals of Mathematics"
+    },
+    {
+      "slug": "euler-equations-vorticity-lorentz-spaces-2026-02",
+      "month": "2026-02",
+      "title": "Uniqueness and non-uniqueness for the Euler equations with vorticity in Lorentz spaces",
+      "authors": "Antoine Dubois, Zhi-Qiang Zhao, Rebecca Taylor et al.",
+      "doi": "10.1215/00127094-2026-0019",
+      "category": "Mathematics",
+      "journal": "Duke Mathematical Journal"
+    },
+    {
+      "slug": "derived-categories-singular-algebraic-varieties-2026-02",
+      "month": "2026-02",
+      "title": "Derived categories of coherent sheaves on singular algebraic varieties and categorical resolution of singularities",
+      "authors": "Laurent Beaulieu, Anika Mehta, Christoph Schmidt et al.",
+      "doi": "10.1090/jag/891",
+      "category": "Mathematics",
+      "journal": "Journal of Algebraic Geometry"
+    },
+    {
+      "slug": "markov-chains-simplicial-complexes-mixing-2026-02",
+      "month": "2026-02",
+      "title": "Mixing times of Markov chains on high-dimensional simplicial complexes via spectral independence",
+      "authors": "Maximilian Vogel, Sanjay Bannerjee, Ling-Jun Wang et al.",
+      "doi": "10.1007/s00440-026-01255-8",
+      "category": "Mathematics",
+      "journal": "Probability Theory and Related Fields"
+    },
+    {
+      "slug": "mckean-vlasov-sde-optimal-control-2026-02",
+      "month": "2026-02",
+      "title": "Optimal control of McKean-Vlasov stochastic differential equations with common noise and state constraints",
+      "authors": "Mathieu Laroche, Zhen-Yu Zhao, Rebecca Campbell et al.",
+      "doi": "10.1137/24M1679012",
+      "category": "Mathematics",
+      "journal": "SIAM Journal on Control and Optimization"
+    },
+    {
+      "slug": "lat1-amino-acid-transporter-mechanism-2026-01",
+      "month": "2026-01",
+      "title": "Structure and mechanism of human amino acid transporter LAT1 in complex with therapeutic inhibitor molecules",
+      "authors": "Yuki Tanaka, Eleanor White, Stefan Lindner et al.",
+      "doi": "10.1038/s41594-025-01201-1",
+      "category": "Science",
+      "journal": "Nature Structural & Molecular Biology"
+    },
+    {
+      "slug": "parker-solar-probe-magnetic-reconnection-2026-01",
+      "month": "2026-01",
+      "title": "Direct evidence of turbulent magnetic reconnection in the solar corona measured by Parker Solar Probe",
+      "authors": "Sarah Thorne, Kenneth Vance, Giulia Rossi et al.",
+      "doi": "10.3847/2041-8213/ad3901",
+      "category": "Science",
+      "journal": "The Astrophysical Journal Letters"
+    },
+    {
+      "slug": "atacama-desert-subsurface-metagenomics-2026-01",
+      "month": "2026-01",
+      "title": "Sub-surface microbial metabolic pathways in hyper-arid Atacama desert soils revealed by deep metagenomics",
+      "authors": "Mateo Alvarez, Rebecca Vance, Kenji Takahashi et al.",
+      "doi": "10.1038/s41396-025-01581-2",
+      "category": "Science",
+      "journal": "The ISME Journal"
+    },
+    {
+      "slug": "coherent-phonon-exciton-coupling-mos2-2026-01",
+      "month": "2026-01",
+      "title": "Coherent phonon control of excitonic states in monolayer molybdenum disulfide",
+      "authors": "Simon Kuntz, Xiaoling Wu, Daniel Garcia et al.",
+      "doi": "10.1103/PhysRevLett.136.037401",
+      "category": "Science",
+      "journal": "Physical Review Letters"
+    },
+    {
+      "slug": "global-oceanic-dissolved-oxygen-decline-2026-01",
+      "month": "2026-01",
+      "title": "Global oceanic dissolved oxygen decline trends over six decades quantified through autonomous Argo floats",
+      "authors": "Gregoire Dubois, Sarah O'Neill, Chen Wei et al.",
+      "doi": "10.1038/s41561-025-01399-4",
+      "category": "Science",
+      "journal": "Nature Geoscience"
+    },
+    {
+      "slug": "contrastive-protein-ligand-affinity-prediction-2026-01",
+      "month": "2026-01",
+      "title": "Contrastive representation learning for protein-ligand binding affinity prediction with atomic precision",
+      "authors": "Alexander Zhao, Miriam Becker, Rajiv Patel et al.",
+      "doi": "10.1093/bioinformatics/btad891",
+      "category": "Technology",
+      "journal": "Bioinformatics"
+    },
+    {
+      "slug": "silicon-photonics-pam4-high-temp-2026-01",
+      "month": "2026-01",
+      "title": "A 100-Gbps silicon photonics PAM-4 optical transmitter operating up to 105 °C without thermoelectric cooling",
+      "authors": "Daniel Kraemer, Sunita Rao, Philip Montgomery et al.",
+      "doi": "10.1109/LPT.2025.3371021",
+      "category": "Technology",
+      "journal": "IEEE Photonics Technology Letters"
+    },
+    {
+      "slug": "fault-tolerant-quantum-lattice-surgery-2026-01",
+      "month": "2026-01",
+      "title": "Fault-tolerant compilation of quantum circuits into surface-code lattice surgery operations",
+      "authors": "Julian Sterling, Meike Van Der Meer, Chuan Song et al.",
+      "doi": "10.1103/PhysRevApplied.25.014022",
+      "category": "Technology",
+      "journal": "Physical Review Applied"
+    },
+    {
+      "slug": "event-triggered-multi-agent-consensus-delays-2026-01",
+      "month": "2026-01",
+      "title": "Event-triggered distributed consensus for heterogeneous multi-agent systems with communication delays",
+      "authors": "Tariq Mahmood, Svetlana Ivanova, David Klein et al.",
+      "doi": "10.1109/TAC.2025.3369101",
+      "category": "Technology",
+      "journal": "IEEE Transactions on Automatic Control"
+    },
+    {
+      "slug": "post-quantum-lightweight-block-ciphers-2026-01",
+      "month": "2026-01",
+      "title": "Differential cryptanalysis resistance of post-quantum lightweight block ciphers for embedded systems",
+      "authors": "Alireza Hosseini, Elena Popova, Kenneth Adams et al.",
+      "doi": "10.1109/TIFS.2025.3368201",
+      "category": "Technology",
+      "journal": "IEEE Transactions on Information Forensics and Security"
+    },
+    {
+      "slug": "high-entropy-alloy-water-oxidation-catalyst-2026-01",
+      "month": "2026-01",
+      "title": "High-entropy alloy catalysts for alkaline water oxidation with overpotential below 190 mV at 1000 mA/cm²",
+      "authors": "Zhi-Wei Qian, Martin Becker, Ayesha Siddiqui et al.",
+      "doi": "10.1038/s41560-025-01478-2",
+      "category": "Engineering",
+      "journal": "Nature Energy"
+    },
+    {
+      "slug": "roll-to-roll-flexible-perovskite-modules-2026-01",
+      "month": "2026-01",
+      "title": "Continuous roll-to-roll fabrication of flexible perovskite solar modules with certified 21.8% efficiency",
+      "authors": "Stephan Fischer, Maria Gonzalez, Jun-Wei Zhao et al.",
+      "doi": "10.1002/aenm.202503912",
+      "category": "Engineering",
+      "journal": "Advanced Energy Materials"
+    },
+    {
+      "slug": "self-lubricating-hydrogel-cartilage-coatings-2026-01",
+      "month": "2026-01",
+      "title": "Biomimetic self-lubricating hydrogel cartilage coatings with ultra-low friction coefficient under heavy physiological loads",
+      "authors": "Beatrice Moretti, Carlos Gomez, Sunita Roy et al.",
+      "doi": "10.1016/j.biomaterials.2025.122901",
+      "category": "Engineering",
+      "journal": "Biomaterials"
+    },
+    {
+      "slug": "wire-arc-additive-titanium-microstructure-2026-01",
+      "month": "2026-01",
+      "title": "Microstructural evolution and mechanical behavior of wire arc additive manufactured titanium alloy structures",
+      "authors": "Thorsten Weber, Guowei Chen, Liam O'Connor et al.",
+      "doi": "10.1016/j.addma.2025.103981",
+      "category": "Engineering",
+      "journal": "Additive Manufacturing"
+    },
+    {
+      "slug": "passive-solar-distillation-phase-change-2026-01",
+      "month": "2026-01",
+      "title": "Modular passive solar distillation units with integrated phase change heat storage for off-grid drinking water",
+      "authors": "Ahmed Mansoor, Rajiv Sharma, Francesca Conti et al.",
+      "doi": "10.1016/j.apenergy.2025.122802",
+      "category": "Engineering",
+      "journal": "Applied Energy"
+    },
+    {
+      "slug": "andre-oort-conjecture-shimura-varieties-2026-01",
+      "month": "2026-01",
+      "title": "The André-Oort conjecture for Shimura varieties of abelian type",
+      "authors": "Laurent Beaulieu, Anika Mehta, Christoph Schmidt et al.",
+      "doi": "10.4007/annals.2026.203.1.1",
+      "category": "Mathematics",
+      "journal": "Annals of Mathematics"
+    },
+    {
+      "slug": "boussinesq-2d-fractional-dissipation-2026-01",
+      "month": "2026-01",
+      "title": "Global regularity for the 2D Boussinesq equations with fractional dissipation and thermal diffusion",
+      "authors": "Antoine Dubois, Zhi-Qiang Zhao, Rebecca Taylor et al.",
+      "doi": "10.1007/s00220-025-04910-1",
+      "category": "Mathematics",
+      "journal": "Communications in Mathematical Physics"
+    },
+    {
+      "slug": "affine-grassmannian-equivariant-cohomology-2026-01",
+      "month": "2026-01",
+      "title": "Equivariant cohomology and intersection theory of affine Grassmannians for reductive groups",
+      "authors": "Maximilian Vogel, Sanjay Bannerjee, Ling-Jun Wang et al.",
+      "doi": "10.1090/jams/1032",
+      "category": "Mathematics",
+      "journal": "Journal of the American Mathematical Society"
+    },
+    {
+      "slug": "random-band-matrices-delocalization-2026-01",
+      "month": "2026-01",
+      "title": "Universality of local eigenvalue statistics for random band matrices in the delocalization regime",
+      "authors": "Anand Sundar, Helene Dupont, Viktor Kozlov et al.",
+      "doi": "10.1007/s00222-025-01271-4",
+      "category": "Mathematics",
+      "journal": "Inventiones Mathematicae"
+    },
+    {
+      "slug": "hamilton-jacobi-stochastic-homogenization-2026-01",
+      "month": "2026-01",
+      "title": "Stochastic homogenization of Hamilton-Jacobi equations in stationary ergodic random environments",
+      "authors": "Mathieu Laroche, Zhen-Yu Zhao, Rebecca Campbell et al.",
+      "doi": "10.1137/24M1672109",
+      "category": "Mathematics",
+      "journal": "SIAM Journal on Mathematical Analysis"
     }
   ]
 }

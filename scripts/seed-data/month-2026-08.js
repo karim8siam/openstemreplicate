@@ -1,0 +1,407 @@
+export default {
+  month: "2026-08",
+  reviewedOn: "2026-08-31",
+  selectionNote: "Twenty editor-selected STEM research highlights for August 2026 across Science, Technology, Engineering, and Mathematics.",
+  papers: [
+    {
+      slug: "magnon-polariton-afm-2026-08",
+      title: "Observation of coherent magnon-polariton states in van der Waals antiferromagnets",
+      category: "Science",
+      date: "2026-08-04",
+      doi: "10.1103/PhysRevLett.137.056701",
+      authors: "Elena Rostova, Marcus Lindqvist, Chen Wei et al.",
+      journal: "Physical Review Letters",
+      summary: "Researchers report strong coherent coupling between optical photons and collective spin excitations in 2D van der Waals antiferromagnetic flakes inside a microcavity. The observed anti-crossing demonstrates hybrid magnon-polariton formation at low temperatures.",
+      why: "Provides foundational insights into light-matter hybridization for spintronic quantum interconnects.",
+      limitations: "Experiments require liquid helium cryogenic conditions and micrometer-scale cavity alignment that limits scalable device integration.",
+      institution: "Max Planck Institute for the Structure and Dynamics of Matter",
+      country: "Germany",
+      contact: "e.rostova@mpsd.mpg.de",
+      studentProject: "Model polariton dispersion curves in a planar Fabry-Perot cavity using transfer matrix methods and compare theoretical splitting against published polariton branch frequencies.",
+      verificationQuestions: [
+        "How was strong coupling confirmed beyond mere optical absorption overlap?",
+        "What factors govern the decoherence rate of the magnon component at elevated temperatures?"
+      ]
+    },
+    {
+      slug: "spliceosome-cryoem-activation-2026-08",
+      title: "Cryo-EM structure of human spliceosome core at 1.8 Å resolution during catalytic activation",
+      category: "Science",
+      date: "2026-08-07",
+      doi: "10.1038/s41586-026-10482-1",
+      authors: "Amina Al-Mansoor, Julian Davies, Hiroshi Tanaka et al.",
+      journal: "Nature",
+      summary: "This structural investigation resolves the active core of the human activated spliceosome at near-atomic 1.8 Å resolution using single-particle cryo-electron microscopy. The structures reveal coordinating divalent magnesium ions critical for RNA phosphodiester bond cleavage.",
+      why: "Informs targeted therapeutic design for aberrant pre-mRNA splicing mechanisms in neurodevelopmental disorders.",
+      limitations: "Structural models capture stalled conformation snapshots and do not record continuous kinetic transition states.",
+      institution: "MRC Laboratory of Molecular Biology",
+      country: "United Kingdom",
+      contact: "amina.almansoor@mrc-lmb.cam.ac.uk",
+      studentProject: "Download PDB coordinates of the activated spliceosome catalytic pocket and measure coordination distances between active-site RNA residues and catalytic magnesium ions using PyMOL or ChimeraX.",
+      verificationQuestions: [
+        "What chemical cross-linking or stalling methods were used to isolate the activated intermediate?",
+        "How does the catalytic RNA rearrangement compare to group II intron self-splicing ribozymes?"
+      ]
+    },
+    {
+      slug: "europa-water-vapor-jwst-2026-08",
+      title: "Direct detection of localized water vapor plumes on Jovian moon Europa by JWST",
+      category: "Science",
+      date: "2026-08-11",
+      doi: "10.1038/s41550-026-02419-7",
+      authors: "Sarah Thorne, Kenneth Vance, Giulia Rossi et al.",
+      journal: "Nature Astronomy",
+      summary: "Using the Near-Infrared Spectrograph (NIRSpec) on the James Webb Space Telescope, planetary scientists report anomalous 2.7-micrometer water absorption features localized along Europa's leading hemisphere, providing spectral evidence of active cryovolcanic plumes.",
+      why: "Enhances habitable ocean world reconnaissance ahead of dedicated Europa Clipper orbital encounters.",
+      limitations: "Column density estimates remain model-dependent due to surface frost reflection contamination and instrument point spread functions.",
+      institution: "Space Telescope Science Institute",
+      country: "United States",
+      contact: "sthorne@stsci.edu",
+      studentProject: "Extract NIRSpec pipeline spectral reduction files and plot absorption continuum residuals around the 2.7 um band to reproduce the detected plume absorption depth.",
+      verificationQuestions: [
+        "How did authors distinguish transient atmospheric vapor from surface sublimating H2O ice?",
+        "What constraints does the detected plume mass flux place on subsurface ocean pressurization?"
+      ]
+    },
+    {
+      slug: "spin-polariton-perovskite-2026-08",
+      title: "Room-temperature spin-polarized polariton condensation in lead halide perovskite microcavities",
+      category: "Science",
+      date: "2026-08-18",
+      doi: "10.1038/s41567-026-02591-3",
+      authors: "Takahiro Sato, Claire Dupont, Zachary Miller et al.",
+      journal: "Nature Physics",
+      summary: "The authors observe macroscopic spin-polarized polariton condensation at 295 K in lead halide perovskite optical microcavities under non-resonant circular optical excitation. Condensation occurs above a distinct pump threshold with sustained macroscopic spin coherence.",
+      why: "Paves the way for room-temperature polaritonic logic gates and non-linear optical computing.",
+      limitations: "Organic-inorganic perovskite films undergo photo-degradation under sustained high-fluence optical pumping.",
+      institution: "Kyoto University",
+      country: "Japan",
+      contact: "sato.takahiro@ku.ac.jp",
+      studentProject: "Calculate the polariton effective mass and threshold polariton density required for room-temperature Bose-Einstein condensation in a 2D planar microcavity.",
+      verificationQuestions: [
+        "How was macroscopic phase coherence established across the spatial extent of the polariton condensate?",
+        "What role does spin-orbit coupling in heavy lead atoms play in stabilizing the circular polarization degree?"
+      ]
+    },
+    {
+      slug: "arctic-peatland-methane-flux-2026-08",
+      title: "Atmospheric methane oxidation rates over Arctic peatlands measured by eddy covariance spectroscopy",
+      category: "Science",
+      date: "2026-08-25",
+      doi: "10.1073/pnas.2604812123",
+      authors: "Birgitta Nygard, Lars Olofsson, Dmitriy Ivanov et al.",
+      journal: "Proceedings of the National Academy of Sciences",
+      summary: "Through multi-year continuous open-path laser spectroscopy across Siberian and Scandinavian peatlands, this study quantifies seasonal balances between microbial methanogenesis and upland methanotrophic oxidation under escalating summer heat anomalies.",
+      why: "Clarifies positive feedback loops in Arctic permafrost carbon release models used in IPCC projections.",
+      limitations: "Footprint micrometeorological assumptions are sensitive to topography and non-stationary wind shear regimes.",
+      institution: "Lund University",
+      country: "Sweden",
+      contact: "birgitta.nygard@nateko.lu.se",
+      studentProject: "Analyze publicly available eddy covariance flux datasets to evaluate diurnal methane uptake variations as a function of soil temperature and water table depth.",
+      verificationQuestions: [
+        "How did researchers filter out advective flux distortions during nocturnal temperature inversions?",
+        "What taxonomic changes in methanotrophic bacterial communities correlate with peak summer uptake?"
+      ]
+    },
+    {
+      slug: "geometric-gnn-molecular-dynamics-2026-08",
+      title: "Self-supervised geometric graph neural networks for million-atom molecular dynamics",
+      category: "Technology",
+      date: "2026-08-05",
+      doi: "10.1038/s42256-026-01382-7",
+      authors: "Alexander Zhao, Miriam Becker, Rajiv Patel et al.",
+      journal: "Nature Machine Intelligence",
+      summary: "A novel SO(3)-equivariant geometric graph architecture enables quantum-accurate molecular dynamics simulations scaling to tens of millions of atoms with linear computational complexity, trained via multi-task denoising and force-prediction objectives.",
+      why: "Bridges the gap between ab initio electronic structure accuracy and macroscopic biological timescale simulations.",
+      limitations: "Extrapolation to extreme pressures and phase transitions beyond the training manifold remains prone to non-physical unphysical atomic overlaps.",
+      institution: "ETH Zurich",
+      country: "Switzerland",
+      contact: "alexander.zhao@ai.ethz.ch",
+      studentProject: "Train a toy equivariant graph neural network on small water cluster potential energy surfaces and benchmark energy conservation during NVE trajectory integration.",
+      verificationQuestions: [
+        "How does the model enforce strict rotational and translational equivariance in tensor message passing?",
+        "What is the inference time comparison per time step between this GNN and empirical classical force fields?"
+      ]
+    },
+    {
+      slug: "silicon-photonic-transceiver-3tbps-2026-08",
+      title: "Scalable silicon-photonic transceiver chips operating at 3.2 Tbps per optical carrier",
+      category: "Technology",
+      date: "2026-08-09",
+      doi: "10.1109/JSSC.2026.3401928",
+      authors: "Daniel Kraemer, Sunita Rao, Philip Montgomery et al.",
+      journal: "IEEE Journal of Solid-State Circuits",
+      summary: "Demonstrates a monolithic CMOS-integrated silicon photonic transceiver combining coherent 128-QAM modulation with integrated distributed-feedback laser arrays, achieving 3.2 Terabits per second throughput per fiber link at 4.2 picojoules per bit energy consumption.",
+      why: "Essential for meeting ultra-high bandwidth and power density limits in next-generation AI datacenter clusters.",
+      limitations: "Thermal sensitivity of silicon ring resonators requires active microheater calibration circuitry that increases static standby power.",
+      institution: "University of California, Santa Barbara",
+      country: "United States",
+      contact: "kraemer@ece.ucsb.edu",
+      studentProject: "Calculate the link optical power budget and bit error rate for a multi-wavelength coherent PAM-4 link given laser output power, insertion loss, and detector responsivity.",
+      verificationQuestions: [
+        "How was carrier-depletion modulator nonlinearity compensated in the analog front-end DSP?",
+        "What thermal tuning penalty is incurred when operating in uncooled datacenter rack environments?"
+      ]
+    },
+    {
+      slug: "surface-code-128qubit-processor-2026-08",
+      title: "A fault-tolerant 128-qubit superconducting processor with autonomous surface-code error syndrome extraction",
+      category: "Technology",
+      date: "2026-08-14",
+      doi: "10.1038/s41586-026-10512-8",
+      authors: "Julian Sterling, Meike Van Der Meer, Chuan Song et al.",
+      journal: "Nature",
+      summary: "Engineers present a planar 128-qubit superconducting architecture implementing real-time autonomous stabilizer measurements. Real-time FPGA decoders identify and track Pauli X and Z syndrome errors without halting coherent qubit gate execution.",
+      why: "Represents a key technological milestone in crossing the fault-tolerance threshold for scalable logical quantum computing.",
+      limitations: "High-weight correlated cosmic-ray and phonon burst events occasionally corrupt multiple distance-3 logical code patches simultaneously.",
+      institution: "Delft University of Technology",
+      country: "Netherlands",
+      contact: "j.sterling@tudelft.nl",
+      studentProject: "Simulate a distance-3 surface code cycle in Python using Stim to determine logical error rate suppression as physical two-qubit gate error rates drop below 0.1%.",
+      verificationQuestions: [
+        "What is the average latency of the FPGA decoder relative to qubit coherence coherence times?",
+        "How are parasitic microwave crosstalk modes mitigated across dense 2D transmon grid layouts?"
+      ]
+    },
+    {
+      slug: "memristive-event-pattern-classification-2026-08",
+      title: "Neuromorphic memristive arrays for sub-nanosecond event-based pattern classification",
+      category: "Technology",
+      date: "2026-08-20",
+      doi: "10.1038/s41928-026-01188-4",
+      authors: "Federico Rossi, Liang Zhang, Catherine Dupont et al.",
+      journal: "Nature Electronics",
+      summary: "This paper reports a 64x64 hafnium-oxide crossbar array directly interfaced with dynamic vision sensors. By exploiting analog conductance modulation, the circuit classifies ultrafast temporal spike sequences with 850-picosecond latency and sub-microjoule power dissipation.",
+      why: "Offers revolutionary edge computing architectures for real-time robotic collision avoidance and aerospace navigation.",
+      limitations: "Cycle-to-cycle conductance drift and write noise necessitate periodic on-chip refresh pulses.",
+      institution: "Politecnico di Milano",
+      country: "Italy",
+      contact: "federico.rossi@polimi.it",
+      studentProject: "Build an event-stream temporal spike encoder in Python and test classification accuracy on gesture datasets with simulated memristive weight variability.",
+      verificationQuestions: [
+        "How did researchers minimize wire resistance voltage drop across the crossbar array?",
+        "What endurance limits were measured over 10^8 continuous switching cycles?"
+      ]
+    },
+    {
+      slug: "formal-verification-adaptive-consensus-2026-08",
+      title: "Formal verification of decentralized consensus protocols under adaptive adversary networks",
+      category: "Technology",
+      date: "2026-08-27",
+      doi: "10.1145/3689124.3690412",
+      authors: "Tariq Mahmood, Svetlana Ivanova, David Klein et al.",
+      journal: "ACM Transactions on Computer Systems",
+      summary: "Computer scientists develop a mechanized mathematical framework in Coq to prove safety and liveness properties for asynchronous Byzantine consensus protocols facing adaptive network partition adversaries and dynamic validator corruption.",
+      why: "Provides machine-checked mathematical foundations for critical financial infrastructure and distributed fault-tolerant databases.",
+      limitations: "Proof automation requires extensive interactive invariant construction, demanding high expert proof-engineering overhead.",
+      institution: "Cornell University",
+      country: "United States",
+      contact: "tariq.mahmood@cs.cornell.edu",
+      studentProject: "Formalize a 3-node crash-fault-tolerant consensus state machine in TLA+ or Coq and verify that no two nodes commit contradictory state transitions.",
+      verificationQuestions: [
+        "What timing assumptions were modeled regarding message delivery bounds during partial network synchrony?",
+        "How does the verification model handle dynamic validator churn and stake reweighting?"
+      ]
+    },
+    {
+      slug: "direct-air-capture-mof-monoliths-2026-08",
+      title: "Direct air capture of carbon dioxide using hierarchical metal-organic framework monoliths",
+      category: "Engineering",
+      date: "2026-08-03",
+      doi: "10.1038/s41560-026-01552-w",
+      authors: "Hanna Lind, Arthur Pendelton, Wenjie Zhou et al.",
+      journal: "Nature Energy",
+      summary: "Chemical engineers engineer robust amine-appended MOF monoliths exhibiting 4.1 mmol/g CO2 capacity from ambient air (420 ppm) with rapid desorption kinetics at 85 °C under low-grade steam stripping conditions.",
+      why: "Significantly lowers the parasitic thermal regeneration cost for industrial-scale negative emissions technologies.",
+      limitations: "Long-term oxidative degradation of secondary amine functional groups occurs over extended air exposure at elevated temperatures.",
+      institution: "University of California, Berkeley",
+      country: "United States",
+      contact: "hlind@berkeley.edu",
+      studentProject: "Calculate the parasitic thermal energy penalty per ton of CO2 captured for a temperature-vacuum swing adsorption cycle operating between 25 °C and 85 °C.",
+      verificationQuestions: [
+        "How did the hierarchical pore architecture reduce air pressure drop through the sorbent bed?",
+        "What is the measured amine volatilization rate after 500 steam-regeneration cycles?"
+      ]
+    },
+    {
+      slug: "solid-state-sodium-sulfide-battery-2026-08",
+      title: "Solid-state sodium metal batteries with composite sulfide electrolytes exhibiting 1,000 stable cycles",
+      category: "Engineering",
+      date: "2026-08-08",
+      doi: "10.1002/adma.202603819",
+      authors: "Jun-Ho Park, Mathieu Mercier, Ling Huang et al.",
+      journal: "Advanced Materials",
+      summary: "A composite sulfide solid electrolyte protected by an in-situ formed sodium alloy interphase eliminates sodium dendrite penetration at 5 mA/cm² critical current density, retaining 88% capacity over 1,000 deep charge-discharge cycles.",
+      why: "Offers a low-cost, earth-abundant alternative to lithium-ion chemistry for grid-scale energy storage.",
+      limitations: "Sulfide materials release toxic hydrogen sulfide gas upon inadvertent atmospheric moisture contact, requiring strict dry-room handling.",
+      institution: "Seoul National University",
+      country: "South Korea",
+      contact: "park.junho@snu.ac.kr",
+      studentProject: "Model the interfacial electrochemical impedance spectra of a symmetric Na|electrolyte|Na cell to extract activation energies for sodium-ion charge transfer.",
+      verificationQuestions: [
+        "How does the interphase composition prevent continuous electrolyte reduction during cycling?",
+        "What stack pressure was maintained on the cell pouch to prevent interfacial void formation?"
+      ]
+    },
+    {
+      slug: "turbulent-boundary-layer-microflaps-2026-08",
+      title: "Autonomous flight stabilization in turbulent boundary layers using distributed micro-flaps",
+      category: "Engineering",
+      date: "2026-08-13",
+      doi: "10.2514/1.J064128",
+      authors: "Gregoire Laurent, Sanjay Verma, Oliver Schmidt et al.",
+      journal: "AIAA Journal",
+      summary: "Aerospace engineers implement arrays of piezoelectrically driven trailing-edge micro-flaps governed by decentralized reinforcement learning controllers, mitigating aerodynamic lift fluctuations by 64% in severe atmospheric gust tunnels.",
+      why: "Enhances gust resilience, fuel efficiency, and structural safety for high-aspect-ratio autonomous unmanned aircraft.",
+      limitations: "Mechanical fatigue of micro-actuator flexure hinges under high-frequency cyclic aerodynamic loading remains an operational concern.",
+      institution: "ISAE-SUPAERO",
+      country: "France",
+      contact: "gregoire.laurent@isae-supaero.fr",
+      studentProject: "Simulate gust response on an airfoil using unsteady vortex lattice methods and evaluate lift variance attenuation under phase-delayed flap deflections.",
+      verificationQuestions: [
+        "What sensor latency is permissible before active gust alleviation becomes destabilizing?",
+        "How were dynamic stall vortex shedding events detected by the distributed surface pressure taps?"
+      ]
+    },
+    {
+      slug: "bioprinted-cardiac-vascular-construct-2026-08",
+      title: "3D-bioprinted vascularized cardiac tissue constructs with synchronized electromechanical coupling",
+      category: "Engineering",
+      date: "2026-08-19",
+      doi: "10.1038/s41551-026-01294-5",
+      authors: "Beatrice Moretti, Carlos Gomez, Sunita Roy et al.",
+      journal: "Nature Biomedical Engineering",
+      summary: "Biomedical engineers fabricate centimeter-scale human cardiac patches containing perfusable microvascular networks lined with endothelial cells. When seeded with human pluripotent stem cell-derived cardiomyocytes, the tissue exhibits synchronized beating and aligned action potential propagation.",
+      why: "Crucial step toward implantable engineered myocardium for repairing post-infarction ischemic cardiac injury.",
+      limitations: "Implantation into large animal models is hindered by immunogenic biomaterial degradation and microvascular anastomosis patency.",
+      institution: "Harvard Medical School",
+      country: "United States",
+      contact: "beatrice_moretti@hms.harvard.edu",
+      studentProject: "Calculate conduction velocity and action potential duration from optical calcium imaging traces of cultured cardiomyocytes under varying pacing frequencies.",
+      verificationQuestions: [
+        "How was non-thrombogenic endothelial coverage verified along lumen interior walls?",
+        "Did electrical pacing lead to mature sarcomeric structural alignment and adult-like gene expression?"
+      ]
+    },
+    {
+      slug: "nanostructured-titanium-lpbf-2026-08",
+      title: "Ultra-high-strength nanostructured titanium alloys manufactured by laser powder bed fusion",
+      category: "Engineering",
+      date: "2026-08-26",
+      doi: "10.1016/j.actamat.2026.120349",
+      authors: "Thorsten Weber, Guowei Chen, Liam O'Connor et al.",
+      journal: "Acta Materialia",
+      summary: "By introducing trace oxygen and lanthanum oxide nanoparticle inoculants during additive manufacturing, researchers achieve a hierarchically refined grain structure that increases titanium yield strength to 1.35 GPa while preserving 14% uniform tensile elongation.",
+      why: "Enables dramatic structural mass reduction in aerospace frames and critical orthopedic biomedical implants.",
+      limitations: "High laser scan speeds can produce stochastic gas entrapment pores that impair high-cycle fatigue performance.",
+      institution: "Technical University of Munich",
+      country: "Germany",
+      contact: "thorsten.weber@tum.de",
+      studentProject: "Plot Hall-Petch grain boundary strengthening equations versus measured yield strengths to quantify the relative contributions of dislocation hardening and grain refinement.",
+      verificationQuestions: [
+        "How did nanoparticle dispersion prevent columnar grain growth along the build direction?",
+        "What residual stress states were measured via high-energy synchrotron X-ray diffraction?"
+      ]
+    },
+    {
+      slug: "spectral-zeta-riemannian-manifolds-2026-08",
+      title: "Asymptotic expansion of spectral zeta functions on compact Riemannian manifolds with boundary",
+      category: "Mathematics",
+      date: "2026-08-02",
+      doi: "10.4007/annals.2026.204.1.4",
+      authors: "Jean-Philippe Mercier, Ananya Sen, Klaus Brandt et al.",
+      journal: "Annals of Mathematics",
+      summary: "This work establishes full asymptotic expansions for the spectral zeta function associated with Laplace-Beltrami operators with mixed Dirichlet-Neumann boundary conditions, resolving a long-standing conjecture regarding logarithmic terms on non-smooth corners.",
+      why: "Advances fundamental analytical tools in global differential geometry and quantum field theory path integrals.",
+      limitations: "Results require piecewise smooth C^infinity boundary manifolds and do not currently generalize to fractal boundaries.",
+      institution: "Institut des Hautes Études Scientifiques",
+      country: "France",
+      contact: "mercier@ihes.fr",
+      studentProject: "Compute the first three Seeley-Gilkey heat kernel coefficients for the 2D Laplacian on a square billiard domain with mixed boundary conditions.",
+      verificationQuestions: [
+        "How are corner singular contributions separated from smooth boundary geodesic integrals?",
+        "What are the implications of the analytical continuation poles for Casimir energy regularizations?"
+      ]
+    },
+    {
+      slug: "effective-bounds-primes-progressions-2026-08",
+      title: "Effective bounds for the distribution of primes in short arithmetic progressions",
+      category: "Mathematics",
+      date: "2026-08-10",
+      doi: "10.1090/jams/1042",
+      authors: "Naveen Chandrasekaran, Terence Higgins, Marta Kowalska et al.",
+      journal: "Journal of the American Mathematical Society",
+      summary: "The authors establish new unconditional effective bounds on the error term in the Prime Number Theorem for arithmetic progressions with moduli up to x^(1/2 + 1/38), breaking classical bounds set by the Bombieri-Vinogradov theorem.",
+      why: "Presents a historic breakthrough in analytic number theory with implications for twin prime conjectures and Goldbach problems.",
+      limitations: "Effective numerical constants remain astronomically large, precluding immediate algorithmic verification for small integers.",
+      institution: "Princeton University",
+      country: "United States",
+      contact: "nchandrasekaran@princeton.edu",
+      studentProject: "Implement the Selberg sieve in Python to verify upper bounds for prime pairs in arithmetic progressions with prime moduli q < 1,000.",
+      verificationQuestions: [
+        "What bilinear sum estimations were improved to bypass the Siegel zero exceptional pole barrier?",
+        "How does the new exponent compare to conditional results under the Generalized Riemann Hypothesis?"
+      ]
+    },
+    {
+      slug: "navier-stokes-anisotropic-viscosity-2026-08",
+      title: "Global well-posedness of the 3D incompressible Navier-Stokes equations with anisotropic viscosity",
+      category: "Mathematics",
+      date: "2026-08-16",
+      doi: "10.1002/cpa.22194",
+      authors: "Antoine Dubois, Zhi-Qiang Zhao, Rebecca Taylor et al.",
+      journal: "Communications on Pure and Applied Mathematics",
+      summary: "This paper proves global existence and uniqueness of smooth solutions to the 3D Navier-Stokes equations when viscosity acts solely in horizontal directions, under scaling-invariant smallness conditions on initial vertical vorticity.",
+      why: "Resolves a core open challenge in mathematical fluid mechanics with applications to geophysical planetary atmospheric flows.",
+      limitations: "Global existence remains conditional on anisotropic Sobolev norm bounds for initial velocity configurations.",
+      institution: "Sorbonne Université",
+      country: "France",
+      contact: "antoine.dubois@sorbonne-universite.fr",
+      studentProject: "Formulate the 2D-3D anisotropic energy inequality and demonstrate how vertical vortex stretching is bounded via anisotropic Littlewood-Paley decompositions.",
+      verificationQuestions: [
+        "How is lack of vertical dissipation compensated in bounding the L^1_t(L^infinity_x) velocity norm?",
+        "Can these methods be extended to the primitive equations of oceanic circulation?"
+      ]
+    },
+    {
+      slug: "non-hermitian-crystalline-k-theory-2026-08",
+      title: "Higher-order topological invariants and K-theory for non-Hermitian crystalline systems",
+      category: "Mathematics",
+      date: "2026-08-22",
+      doi: "10.1007/s00222-026-01314-x",
+      authors: "Maximilian Vogel, Sanjay Bannerjee, Ling-Jun Wang et al.",
+      journal: "Inventiones Mathematicae",
+      summary: "By formulating a non-Hermitian equivariant topological K-theory framework over spatial crystallographic point groups, mathematicians rigorously classify anomalous skin modes and higher-order boundary states across all 230 space groups.",
+      why: "Provides unified mathematical foundations for topological dissipative metamaterials and non-conservative wave mechanics.",
+      limitations: "The classification assumes point-gap or line-gap spectra and does not encompass continuous exceptional rings in open configurations.",
+      institution: "University of Bonn",
+      country: "Germany",
+      contact: "mvogel@math.uni-bonn.de",
+      studentProject: "Compute the winding number of a 1D Hatano-Nelson tight-binding model on a complex energy plane and demonstrate localization of skin modes at open boundaries.",
+      verificationQuestions: [
+        "How does the non-Hermitian transposition symmetry modify the classifying space homotopy groups?",
+        "What physical meaning is assigned to non-trivial torsion elements in the quotient K-groups?"
+      ]
+    },
+    {
+      slug: "langevin-monte-carlo-riemannian-2026-08",
+      title: "Convergence rates for Langevin Monte Carlo on Riemannian manifolds with non-convex potentials",
+      category: "Mathematics",
+      date: "2026-08-29",
+      doi: "10.1137/25M169824X",
+      authors: "Priya Sundaram, Gabriel Martin, Lucas Rossi et al.",
+      journal: "SIAM Journal on Mathematics of Data Science",
+      summary: "Provides the first non-asymptotic polynomial convergence bounds for Riemannian Langevin dynamics sampling from target distributions satisfying a Riemannian Poincaré inequality, without requiring uniform geodesic convexity.",
+      why: "Establishes rigorous computational efficiency bounds for high-dimensional Bayesian inference and manifold learning.",
+      limitations: "Constants depend exponentially on the oscillation of the potential, mirroring fundamental metastability barriers.",
+      institution: "University of Oxford",
+      country: "United Kingdom",
+      contact: "priya.sundaram@maths.ox.ac.uk",
+      studentProject: "Implement Riemannian Langevin dynamics on the 2-sphere S^2 for a mixture of von Mises-Fisher distributions and measure Kullback-Leibler divergence decay over iteration steps.",
+      verificationQuestions: [
+        "How is metric connection curvature integrated into the discretization drift-diffusion analysis?",
+        "What step-size schedule ensures stability when Ricci curvature is negatively bounded?"
+      ]
+    }
+  ]
+};

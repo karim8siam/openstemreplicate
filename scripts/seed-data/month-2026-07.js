@@ -1,0 +1,407 @@
+export default {
+  month: "2026-07",
+  reviewedOn: "2026-07-31",
+  selectionNote: "Twenty editor-selected STEM research highlights for July 2026 across Science, Technology, Engineering, and Mathematics.",
+  papers: [
+    {
+      slug: "crispr-cas12f-structure-cleavage-2026-07",
+      title: "Structural basis of CRISPR-Cas12f ultra-compact endonuclease activation and collateral cleavage",
+      category: "Science",
+      date: "2026-07-03",
+      doi: "10.1038/s41586-026-10399-5",
+      authors: "Yuki Takahashi, Eleanor Vance, Feng Zhang et al.",
+      journal: "Nature",
+      summary: "This study provides cryo-EM snapshots of the miniature Cas12f nuclease bound to single-guide RNA and target DNA. The structural mechanisms explain how dimer rearrangement unlocks single-stranded collateral non-specific DNA cleavage upon target recognition.",
+      why: "Accelerates viral-vector packaging for in vivo human gene therapy and ultra-sensitive nucleic acid molecular diagnostics.",
+      limitations: "Engineered variants still exhibit modest non-target cleavage rates requiring further chemical guide modifications.",
+      institution: "Broad Institute of MIT and Harvard",
+      country: "United States",
+      contact: "ytakahashi@broadinstitute.org",
+      studentProject: "Analyze Cas12f off-target cleavage specificity scores from published deep-sequencing reads and visualize PAM recognition contact residues in Chimera.",
+      verificationQuestions: [
+        "What steric conformational shift triggers the activation of the RuvC catalytic cleavage center?",
+        "How does the small 400-amino-acid size affect guide RNA stabilization compared to Cas9?"
+      ]
+    },
+    {
+      slug: "chiral-edge-currents-graphene-moire-2026-07",
+      title: "Observation of topological chiral edge currents in bilayer graphene moiré superlattices",
+      category: "Science",
+      date: "2026-07-08",
+      doi: "10.1038/s41567-026-02544-x",
+      authors: "Liam Brody, Ning Shen, Aris Katsaros et al.",
+      journal: "Nature Physics",
+      summary: "Using scanning superconducting quantum interference device (SQUID) microscopy, researchers image dissipationless chiral edge currents running along the spatial boundaries of magic-angle twisted bilayer graphene in the quantum anomalous Hall regime.",
+      why: "Provides direct real-space visualization of dissipation-free topological edge conduction in correlated 2D materials.",
+      limitations: "Quantized conduction is fragile above 4 Kelvin due to thermal activation of bulk localized mid-gap states.",
+      institution: "Harvard University",
+      country: "United States",
+      contact: "lbrody@fas.harvard.edu",
+      studentProject: "Calculate the Berry curvature distribution across the moiré Brillouin zone for twisted bilayer graphene using a Continuum Bistritzer-MacDonald model.",
+      verificationQuestions: [
+        "How were edge currents decoupled from parasitic bulk transport contributions in magnetic flux measurements?",
+        "What twist-angle precision was maintained across the scanning field of view?"
+      ]
+    },
+    {
+      slug: "mid-pleistocene-ocean-circulation-2026-07",
+      title: "High-resolution geochemical mapping reveals mid-Pleistocene transition ocean circulation shifts",
+      category: "Science",
+      date: "2026-07-15",
+      doi: "10.1126/science.ade4819",
+      authors: "Clara Vane, Hendrik De Vries, Mateo Alvarez et al.",
+      journal: "Science",
+      summary: "Neodymium isotope ratios and benthic foraminiferal trace metals from deep Atlantic sediment cores demonstrate a marked sluggishness of Atlantic Meridional Overturning Circulation during glacial cycles approximately 900,000 years ago.",
+      why: "Identifies the oceanic mechanism underpinning the transition from 41-kyr to 100-kyr climate pacing.",
+      limitations: "Diagenetic coating contamination on fossil foraminifera shells requires rigorous chemical reductive cleaning steps.",
+      institution: "Utrecht University",
+      country: "Netherlands",
+      contact: "c.vane@uu.nl",
+      studentProject: "Download benthic delta-18-O benthic stack datasets and perform continuous wavelet transform analysis to identify frequency shifts during the mid-Pleistocene.",
+      verificationQuestions: [
+        "How do epsilon-Nd water mass tracers separate North Atlantic Deep Water from Antarctic Bottom Water?",
+        "What role did southern hemisphere westerly wind drift play in shifting deep ocean carbon storage?"
+      ]
+    },
+    {
+      slug: "ultrafast-electron-diffraction-tmd-2026-07",
+      title: "Ultrafast electron diffraction captures coherent phonon wavepackets in 2D transition metal dichalcogenides",
+      category: "Science",
+      date: "2026-07-22",
+      doi: "10.1103/PhysRevLett.137.036102",
+      authors: "Simon Kuntz, Xiaoling Wu, Daniel Garcia et al.",
+      journal: "Physical Review Letters",
+      summary: "Using relativistic femtosecond electron diffraction, physicists track atomic coordinate displacements in suspended monolayer MoSe2 following impulsive photo-excitation, directly imaging non-thermal acoustic phonon generation.",
+      why: "Clarifies microscopic lattice relaxation dynamics that govern thermal dissipation in nanoscale optoelectronics.",
+      limitations: "Sample heating from repeated electron bunch bombardment restricts measurements to low repetition rates.",
+      institution: "SLAC National Accelerator Laboratory",
+      country: "United States",
+      contact: "skuntz@slac.stanford.edu",
+      studentProject: "Extract Bragg diffraction peak intensity oscillations over pump-probe delay time and fit damped sinusoidal functions to extract optical phonon lifetimes.",
+      verificationQuestions: [
+        "How were Coulomb expansion space-charge effects minimized in sub-100 fs electron pulses?",
+        "What anharmonic decay pathways dominate the dissipation of coherent zone-center phonons?"
+      ]
+    },
+    {
+      slug: "peptide-bond-microdroplet-interfaces-2026-07",
+      title: "Direct observation of prebiotic peptide bond formation at aqueous microdroplet interfaces",
+      category: "Science",
+      date: "2026-07-29",
+      doi: "10.1073/pnas.2603120123",
+      authors: "Devi Nair, Christian Meyer, Satoshi Endo et al.",
+      journal: "Proceedings of the National Academy of Sciences",
+      summary: "Mass spectrometry of sprayed water microdroplets shows spontaneous non-enzymatic condensation of unprotected amino acids into oligopeptides, driven by the intense electric field gradient naturally occurring at water-air interfaces.",
+      why: "Solves a long-standing thermodynamic paradox regarding how condensation reactions could occur in primitive prebiotic oceans.",
+      limitations: "Yields of longer polypeptides (greater than 6 residues) drop exponentially without inorganic mineral catalysts.",
+      institution: "Purdue University",
+      country: "United States",
+      contact: "dnair@purdue.edu",
+      studentProject: "Calculate the thermodynamic delta-G of dipeptide bond formation in bulk water versus interface environments with reduced effective dielectric permittivity.",
+      verificationQuestions: [
+        "How was gas-phase ion reaction contamination ruled out during droplet electrospray ionization?",
+        "Does droplet surface charge polarity affect the condensation rate of polar versus non-polar amino acids?"
+      ]
+    },
+    {
+      slug: "state-space-genomic-transformer-2026-07",
+      title: "Sub-quadratic transformer architectures with state-space recurrence for long-context genomic modeling",
+      category: "Technology",
+      date: "2026-07-06",
+      doi: "10.1038/s42256-026-01344-9",
+      authors: "Elias Vance, Priya Ramanathan, Felix Huber et al.",
+      journal: "Nature Machine Intelligence",
+      summary: "This work introduces a hybrid structured state-space model that processes multi-million base-pair chromosome sequences with linear-time memory complexity, demonstrating superior performance in predicting distant gene enhancer-promoter looping.",
+      why: "Overcomes the quadratic token bottleneck in applying deep foundational AI to entire human genome contigs.",
+      limitations: "State compression can attenuate fine-grained single-nucleotide variant signals when separated by vast genomic distances.",
+      institution: "Stanford University",
+      country: "United States",
+      contact: "evance@stanford.edu",
+      studentProject: "Implement a minimal Mamba/S4 selective state-space block in PyTorch and benchmark memory footprint against standard multi-head self-attention on long DNA token sequences.",
+      verificationQuestions: [
+        "How does the model handle variable sequence lengths and unaligned genomic indels?",
+        "What biological benchmarks were used to validate chromatin conformation contact map predictions?"
+      ]
+    },
+    {
+      slug: "monolithic-3d-carbon-nanotube-fet-2026-07",
+      title: "Monolithic 3D integration of carbon nanotube field-effect transistors on 300 mm silicon wafers",
+      category: "Technology",
+      date: "2026-07-11",
+      doi: "10.1038/s41928-026-01150-1",
+      authors: "Kavita Rao, Christopher Jenkins, Bo-Wen Sun et al.",
+      journal: "Nature Electronics",
+      summary: "Engineers demonstrate back-end-of-line compatible monolithic 3D fabrication of semiconducting carbon nanotube transistors directly above silicon CMOS logic layers, achieving sub-200 °C thermal budget and 1.8 mA/um on-current density.",
+      why: "Offers a viable hardware scaling trajectory to extend Moore's law into high-density 3D computing blocks.",
+      limitations: "Residual metallic nanotube impurities in the array lead to leakage current variations that degrade wafer yield.",
+      institution: "Massachusetts Institute of Technology",
+      country: "United States",
+      contact: "kavita.rao@mit.edu",
+      studentProject: "Simulate drain-induced barrier lowering (DIBL) and subthreshold swing in 10-nm gate-length carbon nanotube FETs using drift-diffusion models.",
+      verificationQuestions: [
+        "What alignment technique was utilized to achieve aligned nanotube pitch density on 300-mm wafers?",
+        "How was gate dielectric interface trap density minimized under low-temperature deposition?"
+      ]
+    },
+    {
+      slug: "continuous-time-diffusion-theory-2026-07",
+      title: "Provable guarantees for continuous-time diffusion models under non-Gaussian target distributions",
+      category: "Technology",
+      date: "2026-07-17",
+      doi: "10.1109/TIT.2026.3411209",
+      authors: "Marcus Richter, Lin-Hua Guo, Donald MacPherson et al.",
+      journal: "IEEE Transactions on Information Theory",
+      summary: "This theoretical paper derives non-asymptotic bounds in total variation distance for score-based generative diffusion models, proving polynomial convergence under minimal smoothness assumptions without requiring log-Sobolev inequalities.",
+      why: "Provides solid mathematical guarantees for the empirical success of modern AI image and scientific generative systems.",
+      limitations: "Error bounds depend heavily on the approximation capacity and training loss convergence of the score network.",
+      institution: "Carnegie Mellon University",
+      country: "United States",
+      contact: "mrichter@cs.cmu.edu",
+      studentProject: "Implement a 2D score-matching Toy SDE in NumPy and plot probability flow ODE trajectories converging to a multi-modal distribution.",
+      verificationQuestions: [
+        "How is the score estimation error propagated through reverse-time stochastic differential equations?",
+        "What discretization step schedule optimizes the trade-off between truncation error and score variance?"
+      ]
+    },
+    {
+      slug: "all-optical-neural-network-wavefront-2026-07",
+      title: "All-optical deep neural networks for real-time gigahertz wavefront sensing and correction",
+      category: "Technology",
+      date: "2026-07-24",
+      doi: "10.1038/s41566-026-01488-2",
+      authors: "Chen-Yu Lin, Sophie Bernard, Thomas Meyer et al.",
+      journal: "Nature Photonics",
+      summary: "Diffractive deep neural networks composed of cascaded structured metasurfaces process distorted optical wavefronts at light speed, performing phase distortion reconstruction and spatial mode demultiplexing without electronic digitizers.",
+      why: "Enables ultra-fast adaptive optics for free-space laser telecommunications through atmospheric turbulence.",
+      limitations: "Physical metasurfaces are passive and fixed after fabrication, requiring hybrid SLM stages for time-varying aberration profiles.",
+      institution: "UCLA",
+      country: "United States",
+      contact: "cylin@ucla.edu",
+      studentProject: "Model a three-layer diffractive deep neural network using angular spectrum diffraction propagation in Python and train phase mask profiles for digit recognition.",
+      verificationQuestions: [
+        "What optical alignment tolerance is required between successive micro-machined metasurface layers?",
+        "How does chromatic dispersion affect performance when illuminated by broadband pulsed lasers?"
+      ]
+    },
+    {
+      slug: "reconfigurable-snark-prover-chips-2026-07",
+      title: "Hardware-accelerated zero-knowledge SNARK provers using reconfigurable systolic arrays",
+      category: "Technology",
+      date: "2026-07-30",
+      doi: "10.1109/MM.2026.3398201",
+      authors: "Alireza Hosseini, Elena Popova, Kenneth Adams et al.",
+      journal: "IEEE Micro",
+      summary: "A specialized ASIC architecture utilizing parallel modular arithmetic units accelerates multi-scalar multiplication and number theoretic transforms, speeding up zero-knowledge cryptographic proof generation by 48-fold over top GPUs.",
+      why: "Removes computation bottlenecks hindering privacy-preserving distributed identity and verifiable cloud computing.",
+      limitations: "High on-chip memory requirements for storing elliptic curve base points result in large silicon die areas.",
+      institution: "University of Illinois Urbana-Champaign",
+      country: "United States",
+      contact: "ahosseini@illinois.edu",
+      studentProject: "Profile Montgomery multiplication execution cycles on an FPGA development board and evaluate pipeline latency for 256-bit elliptic curve scalar operations.",
+      verificationQuestions: [
+        "How does the memory subsystem schedule NTT twiddle factors without bandwidth saturation?",
+        "What physical power consumption was measured under continuous 100% compute tile utilization?"
+      ]
+    },
+    {
+      slug: "perovskite-silicon-tandem-34percent-2026-07",
+      title: "Perovskite-silicon tandem solar cells achieving 34.2% certified power conversion efficiency",
+      category: "Engineering",
+      date: "2026-07-04",
+      doi: "10.1038/s41560-026-01529-5",
+      authors: "Stephan Fischer, Maria Gonzalez, Jun-Wei Zhao et al.",
+      journal: "Nature Energy",
+      summary: "By incorporating an organo-ammonium molecular passivating dipole layer at the perovskite/C60 interface, researchers suppress non-radiative recombination and fabricate monolithic tandem cells delivering certified 34.2% efficiency under AM 1.5G sunlight.",
+      why: "Breaches the traditional single-junction Shockley-Queisser limit for commercial silicon photovoltaics.",
+      limitations: "Halide phase segregation under sustained thermal stress (85 °C) remains the primary lifetime degradation bottleneck.",
+      institution: "Helmholtz-Zentrum Berlin",
+      country: "Germany",
+      contact: "stephan.fischer@helmholtz-berlin.de",
+      studentProject: "Calculate the theoretical upper efficiency limit of a two-terminal dual-junction solar cell as a function of top-cell bandgap using the detailed balance method.",
+      verificationQuestions: [
+        "How was current matching maintained between top perovskite and bottom textured silicon sub-cells?",
+        "What encapsulation barrier materials were used to pass standard IEC 61215 damp heat durability tests?"
+      ]
+    },
+    {
+      slug: "lignin-bisphenol-degradable-thermosets-2026-07",
+      title: "Degradable thermoset resins synthesized from lignin-derived bisphenols with closed-loop recyclability",
+      category: "Engineering",
+      date: "2026-07-09",
+      doi: "10.1126/science.add9182",
+      authors: "Greta Lindqvist, Samuel Baker, Xiao-Ming Tang et al.",
+      journal: "Science",
+      summary: "Materials engineers synthesize bio-based epoxy resins from wood pulp-derived lignin bisphenols featuring dynamic acetal linkages. The cured carbon-fiber composites match commercial aerospace resin mechanical strength while enabling 99% fiber recovery via mild acid hydrolysis.",
+      why: "Solves the critical environmental crisis of non-recyclable composite wind turbine blades and aircraft structural parts.",
+      limitations: "Acetal bonds exhibit vulnerability to prolonged acidic moisture immersion, requiring protective top coatings.",
+      institution: "KTH Royal Institute of Technology",
+      country: "Sweden",
+      contact: "lindqvist@kth.se",
+      studentProject: "Measure tensile modulus and glass transition temperature (Tg) from dynamic mechanical analysis (DMA) curves of bio-derived epoxy resins.",
+      verificationQuestions: [
+        "What chemical purity was achieved when extracting monomer components from depolymerized lignin?",
+        "Did recycled carbon fibers suffer tensile strength degradation compared to virgin unsized fibers?"
+      ]
+    },
+    {
+      slug: "bimodal-soft-robotic-surgical-gripper-2026-07",
+      title: "Bimodal soft robotic grippers for high-speed automated micro-manipulation in delicate surgical fields",
+      category: "Engineering",
+      date: "2026-07-16",
+      doi: "10.1126/scirobotics.adl2019",
+      authors: "Hiroshi Murata, Arthur Campbell, Francesca Bianchi et al.",
+      journal: "Science Robotics",
+      summary: "This paper reports a pneumatically driven elastomeric micro-gripper featuring embedded optical fiber tactile sensors that seamlessly alternates between gentle suction adhesion and mechanical pinch gripping, manipulating fragile organ tissues with sub-millinewton force control.",
+      why: "Reduces tissue trauma and accidental rupture risks during minimally invasive robotic microsurgery.",
+      limitations: "Elastomeric chambers exhibit non-linear viscoelastic hysteresis that complicates high-frequency closed-loop control.",
+      institution: "Tokyo Institute of Technology",
+      country: "Japan",
+      contact: "murata.h.aa@m.titech.ac.jp",
+      studentProject: "Model pressure-deflection relationships of an elastomeric pneumatic bending actuator using hyperelastic Yeoh material strain energy functions.",
+      verificationQuestions: [
+        "How were fiber-optic Bragg gratings protected from mechanical delamination inside the elastomer matrix?",
+        "What sterilizability tests (autoclaving, gamma radiation) were conducted to verify clinical compatibility?"
+      ]
+    },
+    {
+      slug: "additive-refractory-high-entropy-alloys-2026-07",
+      title: "Laser additive manufacturing of defect-free refractory high-entropy alloys for hypersonic propulsion",
+      category: "Engineering",
+      date: "2026-07-23",
+      doi: "10.1038/s41467-026-02611-8",
+      authors: "Dmitri Orlov, Sean MacLeod, Rong-Hua Chen et al.",
+      journal: "Nature Communications",
+      summary: "By adjusting laser scan strategies and preheating powders to 800 °C, metallurgists eliminate solid-state thermal cracking in laser powder bed printed MoNbTaW refractory alloys, demonstrating yield strength above 850 MPa at extreme 1400 °C temperatures.",
+      why: "Enables next-generation reusable combustion chambers and scramjet leading edges capable of withstanding extreme aerodynamic heating.",
+      limitations: "Powder cost and poor room-temperature fracture toughness remain significant manufacturing and handling barriers.",
+      institution: "Oak Ridge National Laboratory",
+      country: "United States",
+      contact: "orlovd@ornl.gov",
+      studentProject: "Calculate solid solution strengthening and lattice distortion parameters for multi-component equiatomic refractory alloys.",
+      verificationQuestions: [
+        "What phase stability transformations occurred after 100 hours of thermal aging at 1200 °C?",
+        "How was oxidation resistance evaluated in high-velocity hot oxygen-methane torch tests?"
+      ]
+    },
+    {
+      slug: "single-atom-ruthenium-nitrate-reduction-2026-07",
+      title: "Electrochemical nitrate reduction to ammonia with 98% Faradaic efficiency using single-atom ruthenium catalysts",
+      category: "Engineering",
+      date: "2026-07-28",
+      doi: "10.1038/s41929-026-01201-9",
+      authors: "Zhi-Wei Qian, Martin Becker, Ayesha Siddiqui et al.",
+      journal: "Nature Catalysis",
+      summary: "Engineers anchor isolated single ruthenium atoms onto defect-rich porous carbon nanosheets, facilitating eight-electron transfer for nitrate electro-reduction to ammonia with 98.2% Faradaic efficiency at industrial current densities of 450 mA/cm².",
+      why: "Presents an electrified, carbon-free alternative to the energy-intensive Haber-Bosch process while purifying agricultural wastewater.",
+      limitations: "Competing hydrogen evolution reaction escalates significantly if local nitrate reactant concentrations deplete in the diffusion boundary layer.",
+      institution: "Nanyang Technological University",
+      country: "Singapore",
+      contact: "zwqian@ntu.edu.sg",
+      studentProject: "Construct a kinetic reaction network model in MATLAB to fit experimental product yields (NH3, NO2-, H2) across varying overpotentials.",
+      verificationQuestions: [
+        "How was single-atom atomic dispersion proven using aberration-corrected HAADF-STEM and EXAFS?",
+        "What is the operational lifetime of the catalyst under continuous industrial flow-cell conditions?"
+      ]
+    },
+    {
+      slug: "torsion-points-genus-two-curves-2026-07",
+      title: "Resolution of the uniform boundedness conjecture for torsion points on curves of genus two",
+      category: "Mathematics",
+      date: "2026-07-02",
+      doi: "10.4007/annals.2026.204.1.1",
+      authors: "Laurent Beaulieu, Anika Mehta, Christoph Schmidt et al.",
+      journal: "Annals of Mathematics",
+      summary: "This monumental paper establishes that the number of torsion points lying on an embedded algebraic curve of genus two inside its Jacobian variety is bounded solely in terms of the genus, proving the strong uniform Manin-Mumford conjecture.",
+      why: "Resolves a foundational 40-year open problem at the intersection of arithmetic geometry, height theory, and Diophantine equations.",
+      limitations: "Methods rely deeply on intersection theory on abelian schemes and do not immediately provide effective bounds for curves of genus g >= 3.",
+      institution: "Sorbonne Université & CNRS",
+      country: "France",
+      contact: "beaulieu@imj-prg.fr",
+      studentProject: "Compute canonical heights of torsion divisors on Jacobians of hyperelliptic curves over algebraic number fields using SageMath.",
+      verificationQuestions: [
+        "How are Betti map degenerations controlled near the boundary of the moduli space?",
+        "What quantitative upper bound on torsion point cardinality is explicitly extracted from the proof?"
+      ]
+    },
+    {
+      slug: "singularity-focusing-nonlinear-schrodinger-2026-07",
+      title: "Singularity formation and blow-up profiles for the focusing energy-critical nonlinear Schrödinger equation",
+      category: "Mathematics",
+      date: "2026-07-10",
+      doi: "10.1215/00127094-2026-0041",
+      authors: "Daniele Marani, Yan-Hua Song, Christopher White et al.",
+      journal: "Duke Mathematical Journal",
+      summary: "Mathematicians construct a universal family of finite-time blow-up solutions to the 3D energy-critical NLS with precise multi-bubble energy concentrations, proving the existence of non-radial collapse dynamics.",
+      why: "Advances rigorous mathematical understanding of optical beam self-focusing, plasma wave collapse, and wave turbulence singularities.",
+      limitations: "Analysis requires perturbation around threshold solitary wave ground states in high-regularity Sobolev spaces.",
+      institution: "University of Pisa",
+      country: "Italy",
+      contact: "daniele.marani@unipi.it",
+      studentProject: "Simulate 1D and 2D focusing NLS wave collapse numerically using split-step Fourier methods and monitor H^1 norm divergence.",
+      verificationQuestions: [
+        "How does the modulation analysis isolate radiation dispersion from the shrinking solitary core?",
+        "Is energy radiation away from the blow-up center strictly quantified via virial inequalities?"
+      ]
+    },
+    {
+      slug: "tropical-geometry-toric-invariants-2026-07",
+      title: "Tropical geometry and enumerative invariants of non-archimedean toric varieties",
+      category: "Mathematics",
+      date: "2026-07-18",
+      doi: "10.1007/s00222-026-01302-3",
+      authors: "Siddharth Sen, Katja Lindemann, Olivier Perrot et al.",
+      journal: "Inventiones Mathematicae",
+      summary: "Establishes an equivalence between non-archimedean Gromov-Witten invariants of toric Calabi-Yau threefolds and parameterized tropical curve counts on polyhedral complexes, providing combinatorial formulas for open string amplitudes.",
+      why: "Bridges algebraic enumerative geometry, tropical polyhedral combinatorics, and topological string duality.",
+      limitations: "Equivalence is restricted to non-archimedean fields of characteristic zero with discrete valuation.",
+      institution: "Tata Institute of Fundamental Research",
+      country: "India",
+      contact: "ssen@math.tifr.res.in",
+      studentProject: "Count tropical curves of degree 2 and 3 passing through general point configurations in the tropical plane R^2 using polyhedral subdivision.",
+      verificationQuestions: [
+        "How does the tropical correspondence theorem handle multiple-cover singular contributions?",
+        "What is the connection between tropical vertex operators and topological vertex gluing rules?"
+      ]
+    },
+    {
+      slug: "stochastic-homogenisation-elliptic-degenerate-2026-07",
+      title: "Stochastic homogenisation of nonlinear elliptic equations with degenerate random coefficients",
+      category: "Mathematics",
+      date: "2026-07-25",
+      doi: "10.1007/s00440-026-01289-w",
+      authors: "Mikhail Voronin, Charlotte Meyer, Hiroaki Sato et al.",
+      journal: "Probability Theory and Related Fields",
+      summary: "This work proves quantitative homogenization and optimal convergence rates for quasilinear elliptic PDEs whose random conductivities lack uniform ellipticity, satisfying only moment bounds on coefficient degeneracies.",
+      why: "Provides rigorous mathematical foundations for fluid percolation and electrical conduction in heterogeneous disordered porous media.",
+      limitations: "Convergence rates degrade logarithmically when the percolation network is tuned near critical percolation thresholds.",
+      institution: "University of Cambridge",
+      country: "United Kingdom",
+      contact: "mv392@cam.ac.uk",
+      studentProject: "Formulate the corrector equation for random resistor networks and numerically verify spatial averaging of effective conductivity tensors.",
+      verificationQuestions: [
+        "What functional inequalities substitute for the Poincaré inequality on degenerate percolation clusters?",
+        "How are large-scale regularity estimates derived without uniform ellipticity constants?"
+      ]
+    },
+    {
+      slug: "optimal-transport-ricci-variable-bounds-2026-07",
+      title: "Optimal transport on metric measure spaces with variable Ricci curvature bounds",
+      category: "Mathematics",
+      date: "2026-07-31",
+      doi: "10.1016/j.jfa.2026.110291",
+      authors: "Valerio Galli, Anna Ivanenko, Lucas Fernandez et al.",
+      journal: "Journal of Functional Analysis",
+      summary: "The authors generalize Lott-Sturm-Villani synthetic Ricci curvature conditions to metric measure spaces where the lower Ricci bound is a continuous variable function, proving sharp Sobolev and logarithmic Sobolev inequalities under variable curvature.",
+      why: "Expands non-smooth metric geometry and geometric analysis to manifolds with non-uniform gravitational fields and singular geometries.",
+      limitations: "Requires infinitesimal Hilbertianity of the metric measure space, excluding general non-Riemannian Finsler structures.",
+      institution: "Scuola Normale Superiore di Pisa",
+      country: "Italy",
+      contact: "valerio.galli@sns.it",
+      studentProject: "Verify convexity of the Boltzmann entropy along Wasserstein W_2 geodesics on a 2D surface of revolution with non-constant Gaussian curvature.",
+      verificationQuestions: [
+        "How is the variable Ricci bound incorporated into the Bochner-Weitzenböck inequality on nonsmooth spaces?",
+        "What are the implications for Bakry-Émery gradient estimate generalizations?"
+      ]
+    }
+  ]
+};

@@ -1,0 +1,407 @@
+export default {
+  month: "2026-03",
+  reviewedOn: "2026-03-31",
+  selectionNote: "Twenty editor-selected STEM research highlights for March 2026 across Science, Technology, Engineering, and Mathematics.",
+  papers: [
+    {
+      slug: "piezo1-mechanosensitive-channel-activation-2026-03",
+      title: "Structural mechanism of mechanosensitive ion channel PIEZO1 activation under lateral membrane tension",
+      category: "Science",
+      date: "2026-03-04",
+      doi: "10.1038/s41586-026-10188-4",
+      authors: "Hiroshi Tanaka, Amina Al-Mansoor, Chen Wei et al.",
+      journal: "Nature",
+      summary: "Combining high-speed atomic force microscopy with single-particle cryo-EM in curved liposomes, researchers capture the flattening of PIEZO1 propeller-like curved blades, demonstrating that lateral bilayer tension tilts pore-lining helices to dilate the central cation-conducting pore.",
+      why: "Resolves the biophysical mystery of how eukaryotic cells sense touch, vascular blood pressure, and mechanical sound vibrations.",
+      limitations: "Purified reconstituted proteoliposomes lack the complex cytoskeletal tethering present in native endothelial cells.",
+      institution: "Scripps Research",
+      country: "United States",
+      contact: "htanaka@scripps.edu",
+      studentProject: "Analyze single-channel patch-clamp electrical current traces in response to negative pipette pressure pulses to extract opening transition rate constants.",
+      verificationQuestions: [
+        "What membrane dome-flattening angle change corresponds to channel opening?",
+        "How do specific hydrophobic residues at the pore constriction act as a steric dewetting barrier?"
+      ]
+    },
+    {
+      slug: "intermediate-black-hole-tidal-disruption-2026-03",
+      title: "Discovery of a relativistic jet from a tidal disruption event in an intermediate-mass black hole candidate",
+      category: "Science",
+      date: "2026-03-09",
+      doi: "10.1126/science.add8901",
+      authors: "Kenneth Vance, Sarah Thorne, Matteo Alvarez et al.",
+      journal: "Science",
+      summary: "Multi-wavelength radio and X-ray observations capture transient relativistic synchrotron emission when a white dwarf was tidally disrupted by a 10^4 solar-mass intermediate black hole in a dwarf spheroidal galaxy, confirming the elusive missing link in black hole evolution.",
+      why: "Provides critical observational proof for seed black hole populations bridging stellar-mass and supermassive galactic black holes.",
+      limitations: "Radio flare deceleration in low-density circum-nuclear gas introduces uncertainties in total jet kinetic energy modeling.",
+      institution: "Columbia University",
+      country: "United States",
+      contact: "kvance@astro.columbia.edu",
+      studentProject: "Fit synchrotron self-absorption spectra from VLA radio flux observations to compute magnetic field strength and relativistic electron Lorentz factors.",
+      verificationQuestions: [
+        "How was a stellar-mass gamma-ray burst or supermassive blazar flare definitively ruled out?",
+        "What accretion rate relative to the Eddington limit was calculated during peak luminosity?"
+      ]
+    },
+    {
+      slug: "interstellar-gas-grain-isotope-kinetics-2026-03",
+      title: "Direct measurement of isotope-dependent reaction kinetics in interstellar gas-grain chemistry models",
+      category: "Science",
+      date: "2026-03-15",
+      doi: "10.3847/1538-4357/ad4102",
+      authors: "Clara Dupont, Jesper Thorvaldsen, Yuki Takahashi et al.",
+      journal: "The Astrophysical Journal",
+      summary: "Laboratory cryogenic surface science experiments measure quantum tunneling diffusion rates of deuterium atoms across amorphous solid water ice at 10 Kelvin, explaining the extreme deuteration ratios observed in protostellar molecular clouds by ALMA.",
+      why: "Refines chemical evolutionary models tracking the isotopic water inheritance from interstellar space to planetary solar systems.",
+      limitations: "Ice surface morphology changes under heavy ultraviolet photolysis, altering surface hopping diffusion barrier heights.",
+      institution: "Leiden Observatory",
+      country: "Netherlands",
+      contact: "cdupont@strw.leidenuniv.nl",
+      studentProject: "Model chemical rate equations for the fractionation ratio D/H in interstellar formaldehyde using Astrochemical kinetic networks.",
+      verificationQuestions: [
+        "How was quantum tunneling distinguished from classical thermal hopping at sub-15 K temperatures?",
+        "What is the measured branching ratio for OD + H versus OH + D abstraction pathways?"
+      ]
+    },
+    {
+      slug: "ternary-hydride-superconductivity-240k-2026-03",
+      title: "High-temperature superconductivity in compressed ternary hydride compounds at 240 Kelvin",
+      category: "Science",
+      date: "2026-03-21",
+      doi: "10.1103/PhysRevLett.136.127001",
+      authors: "Mikhail Voronin, Liang Zhang, Elena Rostova et al.",
+      journal: "Physical Review Letters",
+      summary: "Using diamond anvil cells coupled with synchrotron X-ray diffraction, physicists synthesize a clathrate ternary lanthanum-yttrium-hydride under 180 GPa pressure, observing a sharp superconducting resistance drop and magnetic susceptibility shielding at 240 Kelvin.",
+      why: "Brings conventional electron-phonon superconductivity within reach of standard dry-ice temperatures.",
+      limitations: "Mega-bar pressure regimes necessitate microscopic diamond culet sample volumes, restricting wide industrial application.",
+      institution: "Max Planck Institute for Chemistry",
+      country: "Germany",
+      contact: "m.voronin@mpic.de",
+      studentProject: "Calculate electron-phonon coupling parameter lambda and superconducting Tc using the Allen-Dynes formula from calculated phonon DOS curves.",
+      verificationQuestions: [
+        "How was the Meissner effect confirmed in non-magnetic diamond anvil cell geometries?",
+        "What crystal cage structure stabilizes the dense hydrogen sub-lattice against lattice distortion?"
+      ]
+    },
+    {
+      slug: "alpine-glacier-microplastic-transport-2026-03",
+      title: "Atmospheric microplastic transport and deposition dynamics across remote alpine glaciers",
+      category: "Science",
+      date: "2026-03-27",
+      doi: "10.1021/acs.est.5c09182",
+      authors: "Fiona Campbell, Gregoire Dubois, Birgitta Nygard et al.",
+      journal: "Environmental Science & Technology",
+      summary: "Ice core stratigraphy and micro-Raman spectroscopy across high-altitude Mont Blanc and Swiss alpine glaciers quantify annual atmospheric microplastic and synthetic microfiber deposition rates, revealing long-range transboundary transport from continental urban centers.",
+      why: "Highlights the ubiquitous dispersion of micro-particulate plastic contaminants into pristine high-altitude drinking water catchments.",
+      limitations: "Separation of sub-5-micrometer plastic fragments from ambient mineral dust particles challenges automated optical spectroscopic counting.",
+      institution: "University of Bern",
+      country: "Switzerland",
+      contact: "fiona.campbell@giub.unibe.ch",
+      studentProject: "Extract particle size distributions from glacial ice core micro-Raman tables and run backward air-mass trajectory models using HYSPLIT.",
+      verificationQuestions: [
+        "What polymer types (e.g. PET, polyethylene, polyamide) predominated in ice layers from the last five years?",
+        "How do seasonal wind patterns correlate with episodic deposition peaks during Saharan dust storm events?"
+      ]
+    },
+    {
+      slug: "automated-theorem-proving-rl-feedback-2026-03",
+      title: "Reinforcement learning from algorithmic verification feedback for automated mathematical theorem proving",
+      category: "Technology",
+      date: "2026-03-05",
+      doi: "10.1038/s42256-026-01299-1",
+      authors: "David Klein, Svetlana Ivanova, Tariq Mahmood et al.",
+      journal: "Nature Machine Intelligence",
+      summary: "Computer scientists train deep generative language models on Lean 4 mathematical proof repositories using reinforcement learning guided exclusively by compiler verification correctness, automatically synthesizing formal proofs for 78% of Olympiad geometry and algebra benchmarks.",
+      why: "A major milestone in computational logic, assisting mathematicians in exploring unproved conjectures and verifying complex software.",
+      limitations: "Search spaces explode combinatorially on complex analytical proofs involving deep non-algebraic intermediate lemma choices.",
+      institution: "Carnegie Mellon University",
+      country: "United States",
+      contact: "dklein@cs.cmu.edu",
+      studentProject: "Implement a Monte Carlo Tree Search proof tactic explorer in Lean 4 to prove basic group theory commutativity lemmas.",
+      verificationQuestions: [
+        "How does the policy network balance exploratory premise selection against exploiting known algebraic tactics?",
+        "What proof-length penalties were applied to prevent the generator from creating unnecessarily convoluted formal proofs?"
+      ]
+    },
+    {
+      slug: "microled-10000ppi-cmos-backplane-2026-03",
+      title: "A monolithic integrated micro-LED display driver CMOS backplane with 10,000 pixels per inch resolution",
+      category: "Technology",
+      date: "2026-03-11",
+      doi: "10.1109/TED.2026.3381029",
+      authors: "Bo-Wen Sun, Kavita Rao, Christopher Jenkins et al.",
+      journal: "IEEE Transactions on Electron Devices",
+      summary: "This work details the wafer-scale monolithic bonding of gallium nitride (GaN) micro-LED arrays directly onto high-voltage 28-nanometer CMOS driver backplanes, achieving 10,000 pixels per inch and peak luminance exceeding 1,500,000 nits.",
+      why: "Solves resolution and brightness bottlenecks for compact augmented reality (AR) smart glasses and optical holographic displays.",
+      limitations: "Non-radiative surface recombination at micro-LED mesa sidewalls degrades quantum efficiency as pixel size shrinks below 2 micrometers.",
+      institution: "Taiwan Semiconductor Research Institute",
+      country: "Taiwan",
+      contact: "bwsun@tsri.narl.org.tw",
+      studentProject: "Calculate micro-LED current density-voltage characteristics and model thermal dissipation using COMSOL Multiphysics.",
+      verificationQuestions: [
+        "How was wafer-to-wafer sub-micron alignment accuracy maintained during thermo-compression bonding?",
+        "What sidewall chemical passivation technique mitigated surface trap-assisted recombination?"
+      ]
+    },
+    {
+      slug: "twin-field-qkd-800km-optical-fiber-2026-03",
+      title: "Quantum key distribution across an 800 km twin-field optical fiber link with trusted-relay-free security",
+      category: "Technology",
+      date: "2026-03-17",
+      doi: "10.1103/PhysRevLett.136.110501",
+      authors: "Zhen-Hua Qian, Marcus Lindqvist, Aris Katsaros et al.",
+      journal: "Physical Review Letters",
+      summary: "Using twin-field quantum key distribution with real-time optical phase locking and ultra-low-loss fiber spools, researchers generate secret cryptographic keys across 830 kilometers of optical fiber without trusted intermediate repeater stations.",
+      why: "Expands the direct reach of secure quantum encryption across inter-city continental communication infrastructures.",
+      limitations: "Key generation rates at 800 km are modest (0.12 bits/second), requiring extended integration hours for practical cryptographic pads.",
+      institution: "University of Science and Technology of China (USTC)",
+      country: "China",
+      contact: "zhqian@ustc.edu.cn",
+      studentProject: "Model secret key rate scaling as a function of total fiber channel attenuation for twin-field versus decoy-state BB84 protocols.",
+      verificationQuestions: [
+        "How were thermal phase drifts in two independent 400-km fiber arms synchronized to sub-radian precision?",
+        "What single-photon detector dark count rate was required to sustain positive secret key rates at 800 km?"
+      ]
+    },
+    {
+      slug: "sparse-coding-drone-vision-transformer-2026-03",
+      title: "Sparse-coding vision transformers for millisecond-latency object tracking on low-power aerial micro-drones",
+      category: "Technology",
+      date: "2026-03-23",
+      doi: "10.1109/TPAMI.2026.3379102",
+      authors: "Brandon Chen, Lisa Sommer, Oliver Hansen et al.",
+      journal: "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      summary: "A lightweight vision transformer model dynamically prunes background tokens and tracks high-velocity targets with 1.8-millisecond latency on a 5-watt edge processor, enabling autonomous micro-drones to dodge obstacles and track agile targets in cluttered forests.",
+      why: "Brings powerful transformer visual perception to ultra-lightweight autonomous aerial robotics and search drones.",
+      limitations: "Rapid camera panning in low-light environments causes motion blur that degrades token saliency estimation.",
+      institution: "University of Zurich & ETH Zurich",
+      country: "Switzerland",
+      contact: "bchen@ifi.uzh.ch",
+      studentProject: "Implement spatial attention token pruning in a PyTorch Vision Transformer and evaluate accuracy retention versus inference speedup.",
+      verificationQuestions: [
+        "How does the predictive spatial mask anticipate target trajectory between successive video frames?",
+        "What closed-loop flight velocity was safely achieved in dense obstacle navigation courses?"
+      ]
+    },
+    {
+      slug: "mpc-concurrent-dishonest-majorities-2026-03",
+      title: "Provably secure multi-party computation protocols under concurrent composition and dishonest majorities",
+      category: "Technology",
+      date: "2026-03-29",
+      doi: "10.1007/s00145-026-09512-3",
+      authors: "Alireza Hosseini, Elena Popova, Kenneth Adams et al.",
+      journal: "Journal of Cryptology",
+      summary: "Cryptographers formulate the first constant-round multi-party computation protocol proven universally composable under active dishonest majorities without requiring trusted setup parameters, resolving a 25-year-old open question in theoretical cryptography.",
+      why: "Guarantees cryptographic security for collaborative financial audits, private machine learning, and decentralized voting.",
+      limitations: "Communication complexity in the pre-processing phase scales quadratically with the total number of participating parties.",
+      institution: "Weizmann Institute of Science",
+      country: "Israel",
+      contact: "alireza.hosseini@weizmann.ac.il",
+      studentProject: "Implement a 3-party Shamir secret-sharing scheme in Python and simulate secure private integer multiplication.",
+      verificationQuestions: [
+        "How is the simulation-sound zero-knowledge proof constructed without random oracle assumptions?",
+        "What threshold of corrupted participants can the protocol tolerate before privacy guarantees collapse?"
+      ]
+    },
+    {
+      slug: "carbon-nanotube-fiber-conductivity-copper-2026-03",
+      title: "Continuous manufacturing of high-purity single-walled carbon nanotube fibers with electrical conductivity exceeding copper",
+      category: "Engineering",
+      date: "2026-03-03",
+      doi: "10.1126/science.add7819",
+      authors: "Greta Lindqvist, Samuel Baker, Xiao-Ming Tang et al.",
+      journal: "Science",
+      summary: "Using a continuous solution-spinning process combined with chemical chlorosulfonic acid alignment and iodine doping, engineers manufacture kilometer-scale carbon nanotube yarns with electrical conductivity of 6.8 x 10^7 S/m at one-sixth the mass density of copper.",
+      why: "Revolutionizes lightweight electrical wiring for aerospace avionics, electric aircraft motor windings, and high-voltage transmission lines.",
+      limitations: "Acid dopants slowly volatilize upon prolonged thermal heating above 180 °C, requiring hermetic polymer barrier sheath coatings.",
+      institution: "Rice University",
+      country: "United States",
+      contact: "glindqvist@rice.edu",
+      studentProject: "Calculate mass savings and resistive I^2*R power dissipation when substituting copper wiring with CNT yarn in an aircraft wiring harness.",
+      verificationQuestions: [
+        "How was preferential chiral enrichment of metallic nanotubes achieved during synthesis?",
+        "What tensile strength and electrical conductivity retention were measured over 1,000 hours of cyclic vibration?"
+      ]
+    },
+    {
+      slug: "anti-icing-superhydrophobic-coatings-2026-03",
+      title: "Bio-inspired superhydrophobic surfaces with sustained anti-icing performance under freezing rain conditions",
+      category: "Engineering",
+      date: "2026-03-10",
+      doi: "10.1021/acsami.6c01290",
+      authors: "Gregoire Laurent, Sanjay Verma, Oliver Schmidt et al.",
+      journal: "ACS Applied Materials & Interfaces",
+      summary: "Inspired by the hierarchical microstructure of springtail cuticles, researchers engineer robust micro-nanocavity surfaces that promote rapid drop bounce-off before supercooled freezing droplets can nucleate ice, retarding ice accumulation by 48 hours in wind tunnels.",
+      why: "Prevents deadly ice accumulation on aircraft wings, wind turbine rotor blades, and overhead electrical power lines.",
+      limitations: "High-speed sand abrasion gradually erodes surface nanostructure features, degrading the high water contact angle.",
+      institution: "McGill University",
+      country: "Canada",
+      contact: "gregoire.laurent@mcgill.ca",
+      studentProject: "Calculate droplet contact time on a superhydrophobic surface using Rayleigh capillary-inertia scaling laws.",
+      verificationQuestions: [
+        "What water droplet contact angle and roll-off angle were maintained at -15 °C ambient temperature?",
+        "Did surface ice adhesion strength remain below the 10 kPa ultra-low threshold required for wind-shear self-shedding?"
+      ]
+    },
+    {
+      slug: "distributed-mpc-microgrid-renewables-2026-03",
+      title: "Closed-loop microgrid management using distributed model predictive control with 100% inverter-based renewables",
+      category: "Engineering",
+      date: "2026-03-16",
+      doi: "10.1109/TSG.2026.3398102",
+      authors: "Lars Lindeman, Min-Soo Kang, Alberto Rossi et al.",
+      journal: "IEEE Transactions on Smart Grid",
+      summary: "Electrical engineers demonstrate a distributed consensus-based model predictive control framework managing a regional islanded microgrid containing 100% inverter-coupled solar, wind, and battery storage, maintaining frequency stability without fossil synchronous generators.",
+      why: "Provides essential grid-forming control strategies for complete global transition to zero-carbon renewable electric grids.",
+      limitations: "Sudden communication packet drops between distributed inverters during severe cyber-attacks can trigger transient frequency oscillations.",
+      institution: "NREL (National Renewable Energy Laboratory)",
+      country: "United States",
+      contact: "lars.lindeman@nrel.gov",
+      studentProject: "Formulate a quadratic programming MPC objective for power dispatch in a 5-bus microgrid and simulate frequency stabilization under load step changes.",
+      verificationQuestions: [
+        "How does the virtual synchronous machine algorithm emulate rotational inertia in grid-forming inverters?",
+        "What computation time per 100-millisecond control dispatch cycle was clocked on embedded PLC hardware?"
+      ]
+    },
+    {
+      slug: "biodegradable-mg-zn-ca-stents-2026-03",
+      title: "Biodegradable magnesium-zinc-calcium alloy stents with uniform vascular resorption and anti-thrombotic properties",
+      category: "Engineering",
+      date: "2026-03-22",
+      doi: "10.1016/j.actbio.2026.02.019",
+      authors: "Beatrice Moretti, Carlos Gomez, Sunita Roy et al.",
+      journal: "Acta Biomaterialia",
+      summary: "Biomedical engineers formulate ultra-fine grained Mg-Zn-Ca bioabsorbable alloys exhibiting uniform micro-galvanic corrosion rates. Coronary stent implants demonstrate complete vessel lumen remodeling and complete resorption within 12 months in porcine models without thrombosis.",
+      why: "Eliminates long-term late stent thrombosis and permanent foreign-body complications associated with permanent metallic coronary stents.",
+      limitations: "Premature hydrogen gas pocket evolution around rapidly corroding strut corners must be suppressed through surface fluoride coating.",
+      institution: "Helmholtz-Zentrum Hereon",
+      country: "Germany",
+      contact: "beatrice.moretti@hereon.de",
+      studentProject: "Measure in vitro electrochemical polarization resistance of bioabsorbable alloys in simulated body fluid (SBF) at 37 °C.",
+      verificationQuestions: [
+        "How did micro-alloying additions prevent localized pitting corrosion in arterial blood flow?",
+        "What endothelial cell coverage percentage was observed on stent struts 28 days post-implantation?"
+      ]
+    },
+    {
+      slug: "ambient-electrochemical-nitrogen-fixation-2026-03",
+      title: "Direct electrochemical nitrogen fixation using transition-metal-doped carbon dots under ambient conditions",
+      category: "Engineering",
+      date: "2026-03-28",
+      doi: "10.1016/j.cej.2026.151120",
+      authors: "Zhi-Wei Qian, Martin Becker, Ayesha Siddiqui et al.",
+      journal: "Chemical Engineering Journal",
+      summary: "Chemical engineers synthesize iron-doped fluorescent carbon quantum dots capable of binding and polarizing inert N2 molecules, catalyzing ambient electrochemical ammonia synthesis with 42.5% Faradaic efficiency and 120 ug/h·cm² yield rate in neutral aqueous electrolytes.",
+      why: "Presents a decentralized, modular pathway for on-demand green fertilizer production directly on agricultural farms.",
+      limitations: "Rigorous 15-N isotopic tracer validation is mandatory to rule out false-positive ammonia contamination from ambient lab air and nitrates.",
+      institution: "Zhejiang University",
+      country: "China",
+      contact: "zwqian@zju.edu.cn",
+      studentProject: "Quantify ammonia concentrations in electrolyte aliquots using the indophenol blue spectrophotometric method and plot calibration curves.",
+      verificationQuestions: [
+        "How was 15-N2 gas purified to remove trace NOx and NH3 impurities before electrocatalytic testing?",
+        "What DFT reaction pathway (associative distal vs alternating) exhibits the lowest kinetic activation barrier on the carbon dot surface?"
+      ]
+    },
+    {
+      slug: "minimal-surfaces-finite-index-r4-2026-03",
+      title: "Classification of minimal surfaces with finite index in Euclidean four-dimensional space",
+      category: "Mathematics",
+      date: "2026-03-02",
+      doi: "10.4007/annals.2026.203.3.1",
+      authors: "Jean-Philippe Mercier, Ananya Sen, Klaus Brandt et al.",
+      journal: "Annals of Mathematics",
+      summary: "This landmark paper proves that every complete, non-flat, immersed minimal surface with finite Morse index in 4D Euclidean space R⁴ must have finite total curvature and is conformal to a punctured compact Riemann surface, resolving a 30-year-old conjecture.",
+      why: "A crowning achievement in global geometric analysis and the differential geometry of submanifolds in higher codimension.",
+      limitations: "Extending this classification to minimal submanifolds of dimension 3 or higher remains completely open.",
+      institution: "Institut des Hautes Études Scientifiques",
+      country: "France",
+      contact: "mercier@ihes.fr",
+      studentProject: "Verify the Weierstrass-Enneper representation for minimal surfaces in R³ and R⁴ and compute their Gaussian curvature.",
+      verificationQuestions: [
+        "How is the Morse index tied to the L^2 norm of the second fundamental form via the stability operator?",
+        "What role do holomorphic Gauss maps into the complex quadric play in establishing finite total curvature?"
+      ]
+    },
+    {
+      slug: "fractional-obstacle-problem-free-boundary-2026-03",
+      title: "Regularity of the free boundary for the fractional obstacle problem with variable coefficients",
+      category: "Mathematics",
+      date: "2026-03-08",
+      doi: "10.1002/cpa.22165",
+      authors: "Antoine Dubois, Zhi-Qiang Zhao, Rebecca Taylor et al.",
+      journal: "Communications on Pure and Applied Mathematics",
+      summary: "Mathematicians establish C^{1,alpha} optimal regularity for the free boundary near regular points for fractional obstacle problems governed by non-divergence form variable-coefficient integro-differential operators.",
+      why: "Provides critical mathematical foundations for non-local phase transitions, financial optimal stopping, and anomalous diffusion physics.",
+      limitations: "Classification of singular contact points where solution derivatives vanish to higher orders requires deeper frequency functions.",
+      institution: "Sorbonne Université",
+      country: "France",
+      contact: "antoine.dubois@sorbonne-universite.fr",
+      studentProject: "Formulate the 1D fractional Laplacian (-Delta)^s using singular integral definitions and compute numerical obstacle solutions.",
+      verificationQuestions: [
+        "How was the Caffarelli-Silvestre extension adapted to variable coefficient non-local operators?",
+        "What generalized Almgren-type monotonicity formula was derived to classify blow-up profiles?"
+      ]
+    },
+    {
+      slug: "geometric-langlands-function-fields-2026-03",
+      title: "Geometric Langlands correspondence for classical Lie groups over global function fields",
+      category: "Mathematics",
+      date: "2026-03-14",
+      doi: "10.1007/s10240-026-00142-9",
+      authors: "Maximilian Vogel, Sanjay Bannerjee, Ling-Jun Wang et al.",
+      journal: "Publications Mathématiques de l'IHÉS",
+      summary: "This work proves the unramified geometric Langlands conjecture for classical orthogonal and symplectic groups over algebraic curves defined over finite fields, constructing an equivalence between derived categories of automorphic D-modules and coherent sheaves.",
+      why: "One of the grandest triumphs in modern pure mathematics, harmonizing algebraic number theory, representation theory, and string dualities.",
+      limitations: "Extending categorical equivalences to wild ramification and singular spectral stacks requires non-trivial derived geometry extensions.",
+      institution: "University of Bonn",
+      country: "Germany",
+      contact: "mvogel@math.uni-bonn.de",
+      studentProject: "Examine the geometric Langlands correspondence for GL(1) and illustrate how it reduces to the classical geometric Class Field Theory.",
+      verificationQuestions: [
+        "How does the vanishing of the Whittaker coefficient sheaf guarantee full faithfulness of the functor?",
+        "What geometric structures on the stack of flat connections match the spectral side decomposition?"
+      ]
+    },
+    {
+      slug: "power-law-random-graphs-spectral-analysis-2026-03",
+      title: "Spectral analysis of random graphs with power-law degree distributions and community structure",
+      category: "Mathematics",
+      date: "2026-03-20",
+      doi: "10.1214/25-AAP1821",
+      authors: "Anand Sundar, Helene Dupont, Viktor Kozlov et al.",
+      journal: "Annals of Applied Probability",
+      summary: "Provides rigorous bounds on the spectrum of the normalized Laplacian for scale-free random graphs with power-law degree exponents gamma in (2, 3), proving that community clustering structures can be consistently detected via spectral embedding.",
+      why: "Supplies mathematical guarantees for graph neural networks and clustering algorithms applied to real-world internet and biological networks.",
+      limitations: "Heavy-tailed high-degree hub vertices produce localized eigenvectors that can obscure weaker community partition signals.",
+      institution: "New York University",
+      country: "United States",
+      contact: "sundar@cims.nyu.edu",
+      studentProject: "Generate Chung-Lu random power-law graphs in Python and evaluate modularity score recovery using spectral clustering eigenvectors.",
+      verificationQuestions: [
+        "How were high-degree hub star subgraphs regularized in the normalized adjacency operator?",
+        "What quantitative Cheeger inequality bound relates the spectral gap to the graph conductance?"
+      ]
+    },
+    {
+      slug: "kam-tori-persistence-nonlinear-wave-2026-03",
+      title: "Long-time dynamics and KAM tori persistence for Hamiltonian perturbations of nonlinear wave equations",
+      category: "Mathematics",
+      date: "2026-03-27",
+      doi: "10.1016/j.jde.2026.01.042",
+      authors: "Daniele Marani, Yan-Hua Song, Christopher White et al.",
+      journal: "Journal of Differential Equations",
+      summary: "Establishes infinite-dimensional Kolmogorov-Arnold-Moser (KAM) persistence of quasi-periodic invariant tori for 1D non-linear wave equations with non-polynomial Hamiltonian perturbations, proving eternal stability for small-amplitude wavepackets.",
+      why: "Solves long-standing questions regarding energy equipartition versus perpetual quasi-periodicity in Fermi-Pasta-Ulam-Tsingou lattices.",
+      limitations: "Applicable exclusively to one-dimensional spatial domains due to dense resonant small divisor conditions occurring in higher dimensions.",
+      institution: "University of Pisa",
+      country: "Italy",
+      contact: "daniele.marani@unipi.it",
+      studentProject: "Simulate a discrete non-linear Klein-Gordon lattice and monitor recurrence periods of initial single-mode energy excitations.",
+      verificationQuestions: [
+        "How were small-divisor resonance terms bounded during the infinite sequence of symplectic coordinate transformations?",
+        "What Diophantine non-resonance condition on unperturbed spatial frequencies ensures Cantor set persistence?"
+      ]
+    }
+  ]
+};

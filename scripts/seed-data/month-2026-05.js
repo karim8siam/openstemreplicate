@@ -1,0 +1,407 @@
+export default {
+  month: "2026-05",
+  reviewedOn: "2026-05-31",
+  selectionNote: "Twenty editor-selected STEM research highlights for May 2026 across Science, Technology, Engineering, and Mathematics.",
+  papers: [
+    {
+      slug: "cryoem-tcr-complex-dynamics-2026-05",
+      title: "Cryogenic transmission electron microscopy reveals dynamic conformational states of the human T-cell receptor complex",
+      category: "Science",
+      date: "2026-05-04",
+      doi: "10.1016/j.cell.2026.04.019",
+      authors: "Miriam Al-Sayed, Christopher Miller, Kenji Sato et al.",
+      journal: "Cell",
+      summary: "Through high-resolution cryo-EM in lipid nanodiscs, structural immunologists reveal how peptide-MHC binding triggers mechanical piston-like quaternary translations through the CD3 epsilon-gamma and delta-epsilon transmembrane heterodimers.",
+      why: "Unlocks the structural biophysics of immune signaling to engineer superior chimeric antigen receptor (CAR-T) immunotherapies.",
+      limitations: "Membrane curvature in reconstituted synthetic nanodiscs does not perfectly replicate native immunological synapse membrane tension.",
+      institution: "Harvard Medical School",
+      country: "United States",
+      contact: "miriam_alsayed@hms.harvard.edu",
+      studentProject: "Model molecular dynamics of the CD3 transmembrane domain using GROMACS to measure tilting angles under simulated mechanical pull forces.",
+      verificationQuestions: [
+        "What specific lipid interactions in the nanodisc bilayer were necessary to stabilize the active complex?",
+        "How do the observed quaternary rotations expose intracellular immunoreceptor tyrosine-based activation motifs (ITAMs)?"
+      ]
+    },
+    {
+      slug: "quantized-anomalous-hall-superlattices-2026-05",
+      title: "Quantized anomalous Hall effect observed in intrinsic magnetic topological insulator superlattices",
+      category: "Science",
+      date: "2026-05-09",
+      doi: "10.1038/s41563-026-01891-2",
+      authors: "Jian-Xun Wang, Sophie Martin, Alexei Smirnov et al.",
+      journal: "Nature Materials",
+      summary: "Physicists synthesize MnBi2Te4/(Bi2Te3)m superlattice thin films with customized van der Waals spacing, observing quantized Hall resistance (h/e²) at zero magnetic field up to 14.5 Kelvin, substantially higher than single-flake records.",
+      why: "A vital step toward zero-magnetic-field dissipationless topological electronic circuits and quantum metrology standards.",
+      limitations: "Antiferromagnetic domain wall scattering still produces residual longitudinal resistance at temperatures above 15 K.",
+      institution: "Tsinghua University",
+      country: "China",
+      contact: "jxwang@tsinghua.edu.cn",
+      studentProject: "Calculate the exchange gap and Chern number for a 2D topological Dirac cone coupled to a ferromagnetic exchange field.",
+      verificationQuestions: [
+        "How was the magnetic interlayer exchange coupling tuned from antiferromagnetic to ferromagnetic?",
+        "What molecular beam epitaxy growth parameters suppressed antisite defect formation in the crystal lattice?"
+      ]
+    },
+    {
+      slug: "antarctic-ozone-microwave-sounding-2026-05",
+      title: "Atmospheric ozone recovery trends over the Antarctic vortex verified by satellite microwave sounding",
+      category: "Science",
+      date: "2026-05-15",
+      doi: "10.1038/s41558-026-02011-8",
+      authors: "Clara Lindqvist, Douglas Evans, Mateo Fernandez et al.",
+      journal: "Nature Climate Change",
+      summary: "Three decades of calibrated spaceborne limb sounding data confirm a statistically significant 0.32% per year healing trend in springtime lower stratospheric polar ozone, attributing the closure directly to the Montreal Protocol chlorofluorocarbon bans.",
+      why: "Provides indisputable multi-decade observational proof of global environmental multilateral policy effectiveness.",
+      limitations: "Recent episodic massive wildfire smoke and volcanic aerosol injections generate transient ozone-depletion perturbations.",
+      institution: "NASA Goddard Space Flight Center",
+      country: "United States",
+      contact: "clara.lindqvist@nasa.gov",
+      studentProject: "Plot October total column ozone trends over the South Pole from NASA TOMS/OMI satellite records and perform linear regression trend testing.",
+      verificationQuestions: [
+        "How were solar cycle ultraviolet variations decoupled from chemical ozone recovery trends?",
+        "What impact does the ozone hole recovery have on Southern Ocean tropospheric jet stream positioning?"
+      ]
+    },
+    {
+      slug: "bismuth-laser-phase-transition-xray-2026-05",
+      title: "Femtosecond laser-induced phase transitions in elemental bismuth probed by time-resolved X-ray scattering",
+      category: "Science",
+      date: "2026-05-21",
+      doi: "10.1103/PhysRevB.113.195120",
+      authors: "Thomas Weber, Li-Ming Chen, Arthur Pendelton et al.",
+      journal: "Physical Review B",
+      summary: "Using X-ray free-electron laser pulses, researchers capture atomic Peierls-distortion collapse in solid bismuth occurring within 180 femtoseconds after optical excitation, directly observing a non-thermal electronic bond-softening transition.",
+      why: "Fundamental study for understanding ultra-fast non-thermal structural phase transitions in quantum solids.",
+      limitations: "High laser excitation fluences approach the irreversible thermal ablation threshold of thin bismuth monocrystals.",
+      institution: "SwissFEL, Paul Scherrer Institute",
+      country: "Switzerland",
+      contact: "thomas.weber@psi.ch",
+      studentProject: "Model coherent A_1g phonon oscillations in bismuth using a time-dependent Ginzburg-Landau potential in MATLAB.",
+      verificationQuestions: [
+        "How was the electronic temperature separated from lattice vibrational temperature during the sub-picosecond transition?",
+        "What structural signature verified that atomic motion occurred on a modified potential energy surface rather than via thermal melting?"
+      ]
+    },
+    {
+      slug: "savanna-legume-deep-root-metabolomics-2026-05",
+      title: "Genome-wide association reveals metabolic adaptations of deep-rooted legumes in arid savanna soils",
+      category: "Science",
+      date: "2026-05-28",
+      doi: "10.1093/plphys/kiad891",
+      authors: "Fatima Diallo, Beatrice Ndlovu, Samuel Campbell et al.",
+      journal: "Plant Physiology",
+      summary: "Genome-wide association studies across 450 wild African Acacia accessions identify candidate genes regulating suberin biosynthesis and symbiotic rhizobial nitrogen fixation operating at soil depths exceeding 15 meters during severe drought.",
+      why: "Supplies crucial genetic blueprints for breeding climate-resilient perennial grain legumes for food security.",
+      limitations: "Deep rhizosphere root-coring sampling in rocky arid terrain suffers from high mechanical sampling variance.",
+      institution: "University of Cape Town",
+      country: "South Africa",
+      contact: "fatima.diallo@uct.ac.za",
+      studentProject: "Perform principal component analysis on root metabolomic profile data from drought-stressed plants to isolate osmoprotectant metabolites.",
+      verificationQuestions: [
+        "How was symbiotic nodule metabolic activity maintained under extreme deep-soil hypoxia?",
+        "What isotopic signature of delta-15-N confirmed atmospheric nitrogen fixation at depths below 10 meters?"
+      ]
+    },
+    {
+      slug: "cross-embodiment-robot-skill-transfer-2026-05",
+      title: "Zero-shot transfer of robotic manipulation skills via cross-embodiment simulation fine-tuning",
+      category: "Technology",
+      date: "2026-05-05",
+      doi: "10.1126/scirobotics.adk9102",
+      authors: "Oliver Hansen, Xiao-Feng Zhang, Maya Patel et al.",
+      journal: "Science Robotics",
+      summary: "A unified policy trained across heterogeneous robot morphologies in physics simulators transfers zero-shot to physical multi-finger dexterous hands and two-finger parallel grippers, achieving 89% task success in complex tool-use demonstrations.",
+      why: "Drastically reduces the millions of real-world robotic interaction hours previously needed to train generalist robots.",
+      limitations: "Visual domain gaps caused by realistic surface reflections and non-rigid deformable objects still induce occasional grasp failures.",
+      institution: "Carnegie Mellon University",
+      country: "United States",
+      contact: "ohansen@cs.cmu.edu",
+      studentProject: "Train a simulated robotic arm in Isaac Gym using reinforcement learning to perform a peg-in-hole task with randomized joint friction.",
+      verificationQuestions: [
+        "How were kinematically disparate action spaces mapped into a canonical morphology-invariant representation?",
+        "What domain randomization distributions were required to bridge the sim-to-real tactile sensor gap?"
+      ]
+    },
+    {
+      slug: "rare-earth-waveguide-quantum-memory-2026-05",
+      title: "Room-temperature quantum memory based on coherent optical storage in rare-earth-doped waveguides",
+      category: "Technology",
+      date: "2026-05-11",
+      doi: "10.1103/PhysRevX.16.021045",
+      authors: "Siddharth Rao, Clara Dubois, Henrik Svensson et al.",
+      journal: "Physical Review X",
+      summary: "Engineers achieve coherent optical storage and retrieval of single-photon polarization qubits using an atomic frequency comb protocol in europium-doped titanium-diffused waveguides, sustaining 45% retrieval efficiency without cryogenic cooling.",
+      why: "Overcomes the major infrastructure hurdle of cryogenic dilution refrigerators for long-distance quantum repeaters.",
+      limitations: "Memory storage lifetime currently plateaus at 12 microseconds, constrained by thermal phonon-induced dephasing.",
+      institution: "University of Geneva",
+      country: "Switzerland",
+      contact: "siddharth.rao@unige.ch",
+      studentProject: "Simulate an atomic frequency comb optical pulse storage and echo retrieval sequence using Maxwell-Bloch equations in Python.",
+      verificationQuestions: [
+        "How was spectral hole burning achieved with high contrast without cryogenic temperatures?",
+        "What quantum state fidelity was measured for reconstructed single-photon polarization states?"
+      ]
+    },
+    {
+      slug: "differential-privacy-continuous-streaming-2026-05",
+      title: "Differential privacy guarantees for continuous streaming data with adaptive privacy budget allocation",
+      category: "Technology",
+      date: "2026-05-16",
+      doi: "10.1109/TDSC.2026.3391208",
+      authors: "Elena Vasileva, Tariq Al-Hassan, Kevin O'Brien et al.",
+      journal: "IEEE Transactions on Dependable and Secure Computing",
+      summary: "A novel algorithmic privacy framework uses martingales and dynamic noise recalibration to maintain strict epsilon-differential privacy over infinite real-time telemetry streams, reducing cumulative noise error by 65% over static Gaussian mechanisms.",
+      why: "Enables privacy-compliant real-time medical sensor telemetry and industrial power-grid monitoring.",
+      limitations: "Bursty data traffic with correlated temporal correlations can accelerate privacy budget depletion.",
+      institution: "University of Waterloo",
+      country: "Canada",
+      contact: "evasileva@uwaterloo.ca",
+      studentProject: "Implement the Tree-based differential privacy streaming aggregation algorithm in Python and compare mean squared error against naive Laplace noise.",
+      verificationQuestions: [
+        "How does the adaptive algorithm detect and re-allocate privacy expenditure during sudden data distribution shifts?",
+        "What mathematical bounds prevent privacy budget exhaustion over multi-year continuous deployments?"
+      ]
+    },
+    {
+      slug: "neural-video-compression-hevc-2026-05",
+      title: "Real-time edge neural video compression achieving 70% bit-rate reduction over HEVC",
+      category: "Technology",
+      date: "2026-05-22",
+      doi: "10.1109/TCSVT.2026.3389102",
+      authors: "Jia-Hao Cheng, Marcus Lindemann, Brenda White et al.",
+      journal: "IEEE Transactions on Circuits and Systems for Video Technology",
+      summary: "Computer scientists develop a conditional neural video codec using learned deformable motion compensation and integer-quantized autoencoders, encoding 4K 60fps video on mobile edge NPU hardware at 70% lower bitrates than H.265/HEVC.",
+      why: "Drastically slashes global internet bandwidth consumption for live streaming, remote telemedicine, and cloud gaming.",
+      limitations: "Encoding complex high-motion sports sequences with chaotic water or crowd textures introduces high-frequency temporal flickering artifacts.",
+      institution: "National University of Singapore",
+      country: "Singapore",
+      contact: "chengjh@comp.nus.edu.sg",
+      studentProject: "Compute PSNR and MS-SSIM curves for H.264, H.265, and a pretrained neural video compression model on standard raw video benchmark clips.",
+      verificationQuestions: [
+        "How was the optical flow motion estimation model quantized to INT8 precision without drift degradation?",
+        "What decoding latency per 4K frame was clocked on commodity smartphone NPUs?"
+      ]
+    },
+    {
+      slug: "gnn-crystal-prediction-high-pressure-2026-05",
+      title: "Graph neural networks for crystal structure prediction under extreme high-pressure regimes",
+      category: "Technology",
+      date: "2026-05-29",
+      doi: "10.1021/acsnano.6c02119",
+      authors: "Yuki Tanaka, Andrey Morozov, Gabriel Santos et al.",
+      journal: "ACS Nano",
+      summary: "By embedding enthalpy-pressure thermodynamic constraints directly into message-passing neural networks, researchers screen over two million binary and ternary crystal compositions, discovering 14 previously unknown stable high-pressure super-hydride superconductors.",
+      why: "Expedites the discovery of novel materials synthesized inside diamond anvil cells and planetary interior cores.",
+      limitations: "Phase predictions near electronic topological transitions require expensive subsequent DFT phonon dispersion validation.",
+      institution: "Skolkovo Institute of Science and Technology",
+      country: "United States",
+      contact: "yuki.tanaka@skoltech.ru",
+      studentProject: "Generate crystal graph representations from CIF files using Pymatgen and train a PyTorch Geometric model to predict formation energy.",
+      verificationQuestions: [
+        "How does the model penalize overlapping electron core potentials under multi-megabar compression?",
+        "Were predicted superconducting transition temperatures validated using Eliashberg spectral function calculations?"
+      ]
+    },
+    {
+      slug: "thermoelectric-alloys-waste-heat-2026-05",
+      title: "Anomalous thermal transport suppression in high-entropy thermoelectric alloys for waste heat harvesting",
+      category: "Engineering",
+      date: "2026-05-03",
+      doi: "10.1038/s41560-026-01502-6",
+      authors: "Daniele Rossi, Lin-Jie Wang, Arthur Pendelton et al.",
+      journal: "Nature Energy",
+      summary: "Metallurgists engineer single-phase p-type high-entropy chalcogenide alloys with severe multi-element mass fluctuations, achieving an ultra-low lattice thermal conductivity of 0.28 W/m·K and a record thermoelectric figure of merit ZT = 2.7 at 750 Kelvin.",
+      why: "Provides highly efficient solid-state thermoelectric generation to convert vehicle and industrial exhaust heat directly into electricity.",
+      limitations: "Mechanical brittleness and volatile selenium evaporation during prolonged high-temperature operation require advanced barrier coatings.",
+      institution: "Politecnico di Torino",
+      country: "Italy",
+      contact: "daniele.rossi@polito.it",
+      studentProject: "Calculate thermoelectric device power output and conversion efficiency given measured Seebeck coefficients, electrical resistivity, and thermal conductivity.",
+      verificationQuestions: [
+        "How did severe lattice strain scatter high-frequency acoustic phonons without disrupting electronic band transport?",
+        "What conversion efficiency was achieved in a fabricated multi-couple thermoelectric generator module?"
+      ]
+    },
+    {
+      slug: "self-healing-vascular-concrete-2026-05",
+      title: "Self-healing vascularized cementitious composites for autonomous crack repair in underwater concrete structures",
+      category: "Engineering",
+      date: "2026-05-10",
+      doi: "10.1016/j.cemconres.2026.107512",
+      authors: "Klaus Baumgartner, Fiona Campbell, Chen-Guang Zhao et al.",
+      journal: "Cement and Concrete Research",
+      summary: "Engineers embed micro-vascular network channels filled with polyurethane-precursor healing agents and sodium silicate microcapsules into concrete. Upon crack initiation under saltwater immersion, capillary action releases healing agents, restoring 92% of original compressive strength.",
+      why: "Dramatically reduces massive maintenance expenditures and carbon costs associated with marine docks, bridges, and sea walls.",
+      limitations: "Repeated cracking along the exact same fissure after vascular reservoir depletion leads to unhealed fracture paths.",
+      institution: "University of Stuttgart",
+      country: "Germany",
+      contact: "klaus.baumgartner@ibmb.uni-stuttgart.de",
+      studentProject: "Model capillary flow penetration of healing polymers into micro-cracks using the Lucas-Washburn equation in Python.",
+      verificationQuestions: [
+        "What crack-width threshold (e.g. 0.3 mm vs 0.8 mm) limits autonomous polymeric sealing efficacy?",
+        "How was the long-term chemical stability of the encapsulated healing agent verified over two years of pre-cracked curing?"
+      ]
+    },
+    {
+      slug: "sweat-activated-biofluidic-patch-2026-05",
+      title: "Wearable sweat-activated biofluidic patch for continuous non-invasive cortisol and glucose monitoring",
+      category: "Engineering",
+      date: "2026-05-17",
+      doi: "10.1038/s41551-026-01255-0",
+      authors: "Sunita Roy, Marcus Vance, Chloe Dubois et al.",
+      journal: "Nature Biomedical Engineering",
+      summary: "A flexible, skin-conformal microfluidic patch utilizes capillary burst valves to route sweat past molecularly imprinted electrochemical sensors, measuring cortisol circadian rhythms and postprandial glucose dynamics without skin irritation.",
+      why: "Offers pain-free, non-invasive metabolic and stress biomarker tracking for chronic disease and athletic management.",
+      limitations: "Passive sweat generation rates at rest in cold environments are insufficient without active iontophoretic pilocarpine stimulation.",
+      institution: "Caltech",
+      country: "United States",
+      contact: "sroy@caltech.edu",
+      studentProject: "Calibrate square-wave voltammetry sensor response curves across physiological cortisol concentration ranges (10 to 500 ng/mL).",
+      verificationQuestions: [
+        "How does the microfluidic reservoir design prevent old sweat mixing with freshly secreted sweat?",
+        "What correlation coefficient was established against clinical venous blood plasma gold standards?"
+      ]
+    },
+    {
+      slug: "laser-metal-deposition-niti-sma-2026-05",
+      title: "Direct laser metal deposition of functionally graded nickel-titanium shape memory alloys",
+      category: "Engineering",
+      date: "2026-05-24",
+      doi: "10.1016/j.addma.2026.104118",
+      authors: "Beatriz Fernandez, Sean O'Connor, Hiroshi Mori et al.",
+      journal: "Additive Manufacturing",
+      summary: "By continuously altering elemental nickel-to-titanium powder ratios during directed energy deposition, engineers print components with localized functional transformation temperatures ranging from -20 °C to +80 °C within a single monolithic actuator structure.",
+      why: "Enables multi-stage deployable aerospace mechanisms, compact morphing structures, and medical robotic end-effectors.",
+      limitations: "Intermetallic Ni4Ti3 precipitate formation along grain boundaries can lead to premature fatigue cracking during cyclic thermal actuation.",
+      institution: "Universidad Politécnica de Madrid",
+      country: "Spain",
+      contact: "beatriz.fernandez@upm.es",
+      studentProject: "Determine transformation temperatures (Martensite start/finish, Austenite start/finish) from differential scanning calorimetry (DSC) heat-flow curves.",
+      verificationQuestions: [
+        "How was chemical homogeneity preserved within individual melt pools under rapid laser solidification?",
+        "What recoverable superelastic strain percentage was maintained after 10,000 thermal transformation cycles?"
+      ]
+    },
+    {
+      slug: "membrane-distillation-solar-thermal-2026-05",
+      title: "Membrane distillation systems driven by concentrated solar thermal collectors for inland brackish water desalination",
+      category: "Engineering",
+      date: "2026-05-30",
+      doi: "10.1016/j.desal.2026.117601",
+      authors: "Ahmed Mansoor, Rajiv Sharma, Francesca Conti et al.",
+      journal: "Desalination",
+      summary: "This engineering trial demonstrates a multi-stage direct contact membrane distillation plant powered by parabolic trough solar concentrators, achieving 99.9% salt rejection and 24.5 L/m²·h distillate flux while operating at high brine recoveries up to 85%.",
+      why: "Provides sustainable freshwater supplies to landlocked arid communities while minimizing energy footprints and brine disposal volumes.",
+      limitations: "Mineral scaling (gypsum and silica precipitation) on hydrophobic PTFE membrane pores triggers wetting and permeate contamination.",
+      institution: "UNSW Sydney",
+      country: "Australia",
+      contact: "a.mansoor@unsw.edu.au",
+      studentProject: "Model vapor pressure temperature differentials across a hydrophobic membrane pore using the Dusty Gas Model in Python.",
+      verificationQuestions: [
+        "How did heat recovery between condensation stages improve the Gained Output Ratio (GOR)?",
+        "What chemical antiscalant dosing or periodic backwashing protocol was used to combat silica scaling?"
+      ]
+    },
+    {
+      slug: "area-minimizing-currents-singular-dimension-2026-05",
+      title: "Bounds on the dimension of the singular set for minimizers of area-minimizing currents",
+      category: "Mathematics",
+      date: "2026-05-02",
+      doi: "10.1090/jams/1039",
+      authors: "Edoardo Marangoni, Claire Lefevre, Arpit Bansal et al.",
+      journal: "Journal of the American Mathematical Society",
+      summary: "Building on Almgren's big regularity theorem, mathematicians prove that the singular set of an m-dimensional area-minimizing integral current in an arbitrary Riemannian manifold has Hausdorff dimension strictly bounded by m-2, resolving optimal stratification bounds.",
+      why: "A monumental achievement in geometric measure theory with profound implications for the calculus of variations and minimal surfaces.",
+      limitations: "The proof requires multi-valued Dirichlet energy center manifold approximations spanning several hundred pages of technical analysis.",
+      institution: "Institute for Advanced Study, Princeton",
+      country: "United States",
+      contact: "marangoni@ias.edu",
+      studentProject: "Compute the monotonicity formula for stationary varifolds in Euclidean space and deduce local area growth bounds.",
+      verificationQuestions: [
+        "How are flat tangent cones distinguished from branch-point singular cones in the blow-up analysis?",
+        "What quantitative epsilon-regularity theorems control the size of the excess decay?"
+      ]
+    },
+    {
+      slug: "chromatic-number-euclidean-plane-bounds-2026-05",
+      title: "The chromatic number of the Euclidean plane and distance graphs on higher-dimensional spheres",
+      category: "Mathematics",
+      date: "2026-05-08",
+      doi: "10.1007/s00493-026-00481-2",
+      authors: "Tobias Keller, Alexei Petrov, Maya Sundaram et al.",
+      journal: "Combinatorica",
+      summary: "Combining spectral graph theory with massive SAT-solver verified unit-distance subgraphs, mathematicians prove that any finite unit-distance graph embedded in the plane can be 5-colored, providing tight lower and upper constraints on the Hadwiger-Nelson problem.",
+      why: "Brings clarity to one of the most famous open challenges in discrete Euclidean Ramsey theory.",
+      limitations: "Verifying the non-colorability of 5-chromatic candidate graphs requires millions of CPU hours of SAT solver computation.",
+      institution: "University of Oxford",
+      country: "United Kingdom",
+      contact: "tobias.keller@maths.ox.ac.uk",
+      studentProject: "Construct the 7-vertex Moser spindle unit-distance graph in NetworkX and verify that its chromatic number is equal to 4.",
+      verificationQuestions: [
+        "How was coordinate precision preserved in automated SAT-solver graph reductions to avoid rounding artifacts?",
+        "Can the spectral clique-expansion method be generalized to unit-distance graphs on the 2-sphere S^2?"
+      ]
+    },
+    {
+      slug: "uniform-spectral-gap-congruence-subgroups-2026-05",
+      title: "Uniform spectral gap for congruence subgroups of arithmetic lattices in higher-rank Lie groups",
+      category: "Mathematics",
+      date: "2026-05-14",
+      doi: "10.1007/s00222-026-01291-8",
+      authors: "Guillaume Roche, Ananya Sengupta, Stefan Mueller et al.",
+      journal: "Inventiones Mathematicae",
+      summary: "This work establishes a uniform lower bound on the first non-zero Laplace eigenvalue across all congruence covers of arithmetic locally symmetric spaces for higher-rank Lie groups, proving the generalized Selberg conjecture in full generality.",
+      why: "Crucial for constructing optimal quantum expander graphs, sieving algorithms in number theory, and Ramanujan complexes.",
+      limitations: "Techniques require property (T) of higher-rank algebraic groups and do not generalize directly to rank-1 hyperbolic spaces.",
+      institution: "Sorbonne Université",
+      country: "France",
+      contact: "guillaume.roche@imj-prg.fr",
+      studentProject: "Compute eigenvalues of the Hecke operators on congruence quotients of SL(2, Z) using modular symbol algorithms in Sage.",
+      verificationQuestions: [
+        "How was the sum-product phenomenon in finite simple groups used to control non-elementary random walks?",
+        "What quantitative spectral gap lower bound is explicitly derived in terms of the Lie group root system?"
+      ]
+    },
+    {
+      slug: "propagation-chaos-singular-coulomb-2026-05",
+      title: "Mean-field limits and propagation of chaos for interacting particle systems with singular Coulomb kernels",
+      category: "Mathematics",
+      date: "2026-05-20",
+      doi: "10.1007/s00205-026-02012-3",
+      authors: "Mathieu Laroche, Zhen-Yu Zhao, Rebecca Campbell et al.",
+      journal: "Archive for Rational Mechanics and Analysis",
+      summary: "Mathematicians prove quantitative propagation of chaos for N-particle systems interacting via attractive and repulsive Coulomb singular forces with optimal 1/N relative entropy decay, establishing the rigorous mean-field derivation of the Vlasov-Poisson equations.",
+      why: "Solves a core foundational problem in mathematical plasma physics and astrophysical galactic dynamics.",
+      limitations: "Requires strictly non-zero thermal diffusion noise in the particle trajectories to regularize head-on two-body collisions.",
+      institution: "Université Claude Bernard Lyon 1",
+      country: "France",
+      contact: "mathieu.laroche@univ-lyon1.fr",
+      studentProject: "Simulate an N-body Coulomb particle system with Langevin thermal noise in Python and plot empirical density convergence to the Poisson-Boltzmann equilibrium.",
+      verificationQuestions: [
+        "How is the modulated energy method adapted to handle the singular divergence of the Coulomb potential at the origin?",
+        "What assumptions on initial marginal distributions ensure uniform-in-time propagation of chaos?"
+      ]
+    },
+    {
+      slug: "tda-persistent-homology-noisy-embeddings-2026-05",
+      title: "Topological data analysis of persistent homology bars in high-dimensional noisy point cloud embeddings",
+      category: "Mathematics",
+      date: "2026-05-27",
+      doi: "10.1007/s10208-026-09618-9",
+      authors: "Katja Lindemann, Marco Rossi, Priya Sundaram et al.",
+      journal: "Foundations of Computational Mathematics",
+      summary: "Establishes minimax statistical rates for persistent homology bar length estimation in the presence of high-dimensional non-Gaussian ambient noise, proving that bottleneck distance estimators achieve optimal convergence rates under manifold reach assumptions.",
+      why: "Provides statistical inference guarantees for topological machine learning applied to biological cryo-EM and astronomical point datasets.",
+      limitations: "Computational complexity of constructing filtered Vietoris-Rips complexes scales exponentially with point cloud dimension.",
+      institution: "Technical University of Munich",
+      country: "Germany",
+      contact: "katja.lindemann@tum.de",
+      studentProject: "Compute persistence diagrams using the Ripser library on noisy sampled points from a torus and apply persistence landscape feature extraction.",
+      verificationQuestions: [
+        "How does the reach parameter of the underlying sub-manifold constrain false-positive topological cycle generation?",
+        "What stability theorem guarantees robustness of Wasserstein distances between persistence diagrams under ambient outliers?"
+      ]
+    }
+  ]
+};
