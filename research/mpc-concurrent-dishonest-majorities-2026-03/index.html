@@ -31,8 +31,55 @@
 <meta name="theme-color" content="#09383c">
 <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
-<link rel="stylesheet" href="/assets/css/site.css?v=2.4">
+<link rel="stylesheet" href="/assets/css/site.css?v=3.0.0">
 <style>
+.page-intro h1{margin:16px 0 18px;font-size:clamp(38px,4.7vw,67px);line-height:1.18;padding:4px 0}
+.editions-section{margin:68px 0 45px}
+.editions-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;margin-top:26px}
+.edition-card{background:#ffffff;border:1px solid #dbe8e4;border-radius:20px;padding:26px 24px;display:flex;flex-direction:column;transition:transform .22s cubic-bezier(0.16,1,0.3,1),box-shadow .22s ease,border-color .22s ease;text-decoration:none;color:var(--ink);box-shadow:0 4px 18px rgba(16,48,50,.035);position:relative;overflow:hidden}
+.edition-card:hover{transform:translateY(-4px);box-shadow:0 20px 42px rgba(7,55,59,.095);border-color:#067f80}
+.edition-card-top{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:14px}
+.edition-num{font-size:10.5px;font-weight:800;letter-spacing:0.06em;color:#076d6e;background:#e6f4ef;border:1px solid #c8e7df;padding:4px 10px;border-radius:100px;text-transform:uppercase}
+.edition-status{font-size:11px;color:#6a8288;font-weight:700;display:inline-flex;align-items:center;gap:4px}
+.edition-status.is-latest{color:#0d8a6e;background:#e2f6ee;border:1px solid #c2eddb;padding:3px 9px;border-radius:100px;font-weight:800}
+.edition-card h3{font-size:21px;font-weight:850;letter-spacing:-0.03em;margin:0 0 10px;color:var(--ink);display:flex;align-items:center;justify-content:space-between}
+.edition-arrow{color:#8fa7ab;font-size:16px;transition:transform .2s ease,color .2s ease}
+.edition-card:hover .edition-arrow{transform:translate(3px,-3px);color:var(--accent)}
+.edition-desc{font-size:13px;line-height:1.68;color:#556e75;margin:0 0 18px;flex:1}
+.edition-cats{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:18px}
+.edition-mini-tag{font-size:10px;font-weight:750;padding:4px 9px;border-radius:8px;letter-spacing:0.01em;display:inline-flex;align-items:center}
+.edition-mini-tag.cat-sci{background:#e3f4e9;color:#13795f}
+.edition-mini-tag.cat-tech{background:#e6eefb;color:#285da0}
+.edition-mini-tag.cat-eng{background:#fff0e0;color:#945e1d}
+.edition-mini-tag.cat-math{background:#f3e9fc;color:#7f3d99}
+.edition-action{font-size:12.5px;font-weight:800;color:var(--accent);display:flex;align-items:center;justify-content:space-between;border-top:1px solid #edf4f2;padding-top:14px;margin-top:auto}
+.edition-action .action-icon{font-size:14px;transition:transform .18s ease}
+.edition-card:hover .edition-action .action-icon{transform:translateX(4px)}
+.paper-month-badge{font-size:10px;font-weight:750;letter-spacing:0.02em;background:#edf5f3;color:#0b7173;padding:4px 9px;border-radius:7px;border:1px solid #d5e8e3}
+.filter-panel{background:#ffffff;border:1px solid #dbe8e4;border-radius:20px;padding:24px 26px;margin-bottom:30px;box-shadow:0 4px 20px rgba(16,48,50,.035)}
+.filter-row{display:flex;flex-direction:column;gap:18px;width:100%}
+.search-input{display:flex;align-items:center;gap:12px;background:#ffffff;border:1.5px solid #d0e2de;border-radius:14px;padding:12px 18px;transition:border-color .18s ease,box-shadow .18s ease}
+.search-input:focus-within{border-color:#067f80;box-shadow:0 0 0 3px rgba(6,127,128,.14)}
+.search-icon{color:#65858b;flex-shrink:0}
+.search-input input{width:100%;border:0;outline:none;font-size:13.5px;color:var(--ink);background:transparent}
+.search-input input::placeholder{color:#8da4a8}
+.filter-group{display:flex;flex-direction:column;gap:9px}
+.filter-group-header{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.filter-label{font-size:11px;font-weight:850;letter-spacing:0.08em;text-transform:uppercase;color:#728d93}
+.filter-hint{font-size:11px;color:#92a8ac;font-weight:600}
+.month-tabs,.filter-tabs{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.month-pill,.filter-pill{appearance:none;-webkit-appearance:none;border:1.5px solid #d6e5e2;background:#f8fbfa;border-radius:100px;color:#49686e;padding:8px 16px;font-size:12px;font-weight:750;cursor:pointer;transition:all .16s ease;display:inline-flex;align-items:center;gap:7px;line-height:1}
+.month-pill:hover,.filter-pill:hover{border-color:#067f80;background:#eef7f4;color:#07373b;transform:translateY(-1px)}
+.month-pill.selected{background:#07373b;border-color:#07373b;color:#ffffff;box-shadow:0 4px 14px rgba(7,55,59,.22)}
+.filter-pill.selected{background:#067f80;border-color:#067f80;color:#ffffff;box-shadow:0 4px 14px rgba(6,127,128,.24)}
+.pill-badge{font-size:10.5px;font-weight:750;padding:2px 7px;border-radius:100px;background:rgba(0,0,0,.06);color:inherit;line-height:1.2}
+.month-pill.selected .pill-badge,.filter-pill.selected .pill-badge{background:rgba(255,255,255,.22);color:#ffffff}
+.results-bar{display:flex;align-items:center;justify-content:space-between;border-top:1px solid #edf4f2;padding-top:14px;margin-top:4px}
+.results-count{font-size:12px;font-weight:700;color:#657e84}
+.edition-nav-strip{display:flex;align-items:center;justify-content:space-between;gap:14px;background:#ffffff;border:1px solid var(--line);border-radius:16px;padding:16px 22px;margin-bottom:30px;box-shadow:0 4px 18px rgba(16,48,50,.03)}
+.edition-nav-link{display:inline-flex;align-items:center;gap:7px;font-size:12.5px;font-weight:800;color:#067f80;transition:color .15s ease,transform .15s ease}
+.edition-nav-link:hover{color:#07373b;transform:translateY(-1px)}
+.edition-nav-center{font-size:12px;color:#728c92;font-weight:700}
 .ecosystem-section{margin:70px 0 40px;background:transparent}
 .ecosystem-header{margin-bottom:28px}
 .ecosystem-header h2{font-size:clamp(26px,3.2vw,40px);margin:10px 0 12px;letter-spacing:-0.04em;color:var(--ink);font-weight:800}
@@ -61,8 +108,8 @@
 .eco-community-content p{font-size:13px;line-height:1.65;color:#556e75;margin:0 0 12px}
 .eco-action-btn{font-size:12px;font-weight:800;color:var(--accent);display:inline-flex;align-items:center;gap:5px}
 .eco-action-btn.email-text{color:#076d6e}
-@media(max-width:1200px){.ecosystem-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media(max-width:768px){.ecosystem-grid{grid-template-columns:1fr}.eco-community-grid{grid-template-columns:1fr}.eco-community-card{flex-direction:column;align-items:flex-start;padding:22px}}
+@media(max-width:1200px){.ecosystem-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.editions-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:768px){.ecosystem-grid{grid-template-columns:1fr}.eco-community-grid{grid-template-columns:1fr}.eco-community-card{flex-direction:column;align-items:flex-start;padding:22px}.editions-grid{grid-template-columns:1fr}.edition-nav-strip{flex-direction:column;align-items:flex-start;gap:10px}.filter-panel{padding:18px 16px}.month-tabs,.filter-tabs{flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;padding-bottom:6px;scrollbar-width:none}.month-tabs::-webkit-scrollbar,.filter-tabs::-webkit-scrollbar{display:none}.month-pill,.filter-pill{white-space:nowrap;flex-shrink:0}}
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@context":"https://schema.org","@type":"Article","headline":"Provably secure multi-party computation protocols under concurrent composition and dishonest majorities","name":"Provably secure multi-party computation protocols under concurrent composition and dishonest majorities","description":"Cryptographers formulate the first constant-round multi-party computation protocol proven universally composable under active dishonest majorities without requiring trusted setup parameters, resolving a 25-year-old open question in theoretical cryptography.","datePublished":"2026-03-29","dateModified":"2026-03-31","author":{"@type":"Organization","name":"OpenSTEM Editorial Review"},"publisher":{"@type":"Organization","name":"OpenSTEM Replicate","url":"https://openstemreplicate.org/","logo":{"@type":"ImageObject","url":"https://openstemreplicate.org/assets/img/favicon.svg"}},"mainEntityOfPage":"https://openstemreplicate.org/research/mpc-concurrent-dishonest-majorities-2026-03/","citation":"https://doi.org/10.1007/s00145-026-09512-3","about":"Technology","isAccessibleForFree":true,"image":"https://openstemreplicate.org/assets/img/og-preview.png"},{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://openstemreplicate.org/"},{"@type":"ListItem","position":2,"name":"Research Highlights","item":"https://openstemreplicate.org/research/"},{"@type":"ListItem","position":3,"name":"March 2026","item":"https://openstemreplicate.org/archive/2026-03/"},{"@type":"ListItem","position":4,"name":"Provably secure multi-party computation protocols under concurrent composition and dishonest majorities","item":"https://openstemreplicate.org/research/mpc-concurrent-dishonest-majorities-2026-03/"}]}]}</script>
 </head>

@@ -99,26 +99,58 @@ test('research directory /research/ contains all 180 publications and filter ele
   assert.ok(researchHtml.includes('research-search'));
 });
 
-test('SEO sitemap and robots.txt configured properly with GSC readiness', async () => {
+test('SEO sitemap index, separate monthly sitemaps, and robots.txt configured for GSC', async () => {
   const root = await readdir(ROOT);
-  assert.ok(root.includes('sitemap.xml'));
-  assert.ok(root.includes('robots.txt'));
-  const sitemap = await txt('sitemap.xml');
-  assert.match(sitemap, /<\?xml version="1\.0" encoding="UTF-8"\?>/);
-  assert.match(sitemap, /<urlset xmlns="http:\/\/www\.sitemaps\.org\/schemas\/sitemap\/0\.9"/);
-  assert.match(sitemap, /<loc>https:\/\/openstemreplicate\.org\/<\/loc>/);
-  assert.match(sitemap, /<loc>https:\/\/openstemreplicate\.org\/research\/<\/loc>/);
-  assert.match(sitemap, /<loc>https:\/\/openstemreplicate\.org\/archive\/<\/loc>/);
-  assert.match(sitemap, /<loc>https:\/\/openstemreplicate\.org\/archive\/2026-09\/<\/loc>/);
-  assert.match(sitemap, /<loc>https:\/\/openstemreplicate\.org\/archive\/2026-01\/<\/loc>/);
+  assert.ok(root.includes('sitemap.xml'), 'sitemap.xml must exist');
+  assert.ok(root.includes('sitemap-main.xml'), 'sitemap-main.xml must exist');
+  assert.ok(root.includes('sitemap-archives.xml'), 'sitemap-archives.xml must exist');
+  assert.ok(root.includes('sitemap-all.xml'), 'sitemap-all.xml must exist');
+  assert.ok(root.includes('robots.txt'), 'robots.txt must exist');
 
-  const urlCount = (sitemap.match(/<loc>/g) || []).length;
-  assert.ok(urlCount >= 195, `Expected at least 195 URLs in sitemap, got ${urlCount}`);
+  // Verify master sitemap index
+  const sitemapIndex = await txt('sitemap.xml');
+  assert.match(sitemapIndex, /<\?xml version="1\.0" encoding="UTF-8"\?>/);
+  assert.match(sitemapIndex, /<sitemapindex xmlns="http:\/\/www\.sitemaps\.org\/schemas\/sitemap\/0\.9"/);
+  assert.match(sitemapIndex, /<loc>https:\/\/openstemreplicate\.org\/sitemap-main\.xml<\/loc>/);
+  assert.match(sitemapIndex, /<loc>https:\/\/openstemreplicate\.org\/sitemap-archives\.xml<\/loc>/);
+  assert.match(sitemapIndex, /<loc>https:\/\/openstemreplicate\.org\/sitemap-2026-09\.xml<\/loc>/);
+  assert.match(sitemapIndex, /<loc>https:\/\/openstemreplicate\.org\/sitemap-2026-01\.xml<\/loc>/);
 
+  // Verify separate sub-sitemaps exist for all 9 months
+  for (let m = 1; m <= 9; m++) {
+    const mm = String(m).padStart(2, '0');
+    assert.ok(root.includes(`sitemap-2026-${mm}.xml`), `sitemap-2026-${mm}.xml must exist`);
+    const mXml = await txt(`sitemap-2026-${mm}.xml`);
+    assert.match(mXml, /<urlset xmlns="http:\/\/www\.sitemaps\.org\/schemas\/sitemap\/0\.9"/);
+    const paperUrlCount = (mXml.match(/<loc>/g) || []).length;
+    assert.equal(paperUrlCount, 20, `Month 2026-${mm} sitemap must contain exactly 20 paper URLs`);
+  }
+
+  // Verify main and archives sub-sitemaps
+  const mainXml = await txt('sitemap-main.xml');
+  assert.match(mainXml, /<loc>https:\/\/openstemreplicate\.org\/<\/loc>/);
+  assert.match(mainXml, /<loc>https:\/\/openstemreplicate\.org\/research\/<\/loc>/);
+  assert.match(mainXml, /<loc>https:\/\/openstemreplicate\.org\/archive\/<\/loc>/);
+
+  const archXml = await txt('sitemap-archives.xml');
+  assert.match(archXml, /<loc>https:\/\/openstemreplicate\.org\/archive\/2026-09\/<\/loc>/);
+  assert.match(archXml, /<loc>https:\/\/openstemreplicate\.org\/archive\/2026-01\/<\/loc>/);
+
+  // Verify consolidated sitemap has all 198 URLs
+  const allXml = await txt('sitemap-all.xml');
+  const allUrlCount = (allXml.match(/<loc>/g) || []).length;
+  assert.equal(allUrlCount, 198, `Expected exactly 198 URLs in sitemap-all.xml, got ${allUrlCount}`);
+
+  // Verify robots.txt
   const r = await txt('robots.txt');
   assert.match(r, /User-agent: \*/);
   assert.match(r, /Allow: \//);
   assert.match(r, /Sitemap: https:\/\/openstemreplicate\.org\/sitemap\.xml/);
+  assert.match(r, /Sitemap: https:\/\/openstemreplicate\.org\/sitemap-main\.xml/);
+  assert.match(r, /Sitemap: https:\/\/openstemreplicate\.org\/sitemap-archives\.xml/);
+  assert.match(r, /Sitemap: https:\/\/openstemreplicate\.org\/sitemap-2026-09\.xml/);
+  assert.match(r, /Sitemap: https:\/\/openstemreplicate\.org\/sitemap-2026-01\.xml/);
+  assert.match(r, /Sitemap: https:\/\/openstemreplicate\.org\/sitemap-all\.xml/);
 });
 
 test('submissions configured to exact requested inbox and allow PDF', async () => {

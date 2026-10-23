@@ -6,3 +6,15 @@ Disallow: /discover/
 Disallow: /observatory/
 
 Sitemap: https://openstemreplicate.org/sitemap.xml
+Sitemap: https://openstemreplicate.org/sitemap-main.xml
+Sitemap: https://openstemreplicate.org/sitemap-archives.xml
+Sitemap: https://openstemreplicate.org/sitemap-2026-09.xml
+Sitemap: https://openstemreplicate.org/sitemap-2026-08.xml
+Sitemap: https://openstemreplicate.org/sitemap-2026-07.xml
+Sitemap: https://openstemreplicate.org/sitemap-2026-06.xml
+Sitemap: https://openstemreplicate.org/sitemap-2026-05.xml
+Sitemap: https://openstemreplicate.org/sitemap-2026-04.xml
+Sitemap: https://openstemreplicate.org/sitemap-2026-03.xml
+Sitemap: https://openstemreplicate.org/sitemap-2026-02.xml
+Sitemap: https://openstemreplicate.org/sitemap-2026-01.xml
+Sitemap: https://openstemreplicate.org/sitemap-all.xml
