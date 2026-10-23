@@ -27,8 +27,12 @@ jobs:
         run: |
           npm run build
           test -f sitemap.xml || (echo "Missing sitemap.xml" && exit 1)
+          test -f sitemap-all.xml || (echo "Missing sitemap-all.xml" && exit 1)
+          test -f sitemap-main.xml || (echo "Missing sitemap-main.xml" && exit 1)
+          test -f sitemap-archives.xml || (echo "Missing sitemap-archives.xml" && exit 1)
           test -f robots.txt || (echo "Missing robots.txt" && exit 1)
-          grep -q "<urlset" sitemap.xml || (echo "Invalid sitemap.xml" && exit 1)
+          grep -q -E "<(sitemapindex|urlset)" sitemap.xml || (echo "Invalid sitemap.xml" && exit 1)
+          grep -q "<urlset" sitemap-all.xml || (echo "Invalid sitemap-all.xml" && exit 1)
           grep -q "Sitemap:" robots.txt || (echo "robots.txt missing Sitemap directive" && exit 1)
           grep -q 'rel="canonical"' index.html || (echo "Missing canonical tag" && exit 1)
           grep -q 'application/ld+json' index.html || (echo "Missing Schema JSON-LD" && exit 1)
