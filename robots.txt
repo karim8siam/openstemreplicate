@@ -4,6 +4,8 @@ Disallow: /404/
 Disallow: /404.html
 Disallow: /discover/
 Disallow: /observatory/
+Disallow: /cdn-cgi/
+Disallow: /*?*
 
 Sitemap: https://openstemreplicate.org/sitemap.xml
 Sitemap: https://openstemreplicate.org/sitemap-main.xml
