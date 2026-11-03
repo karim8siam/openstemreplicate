@@ -43,7 +43,7 @@ $$('[data-month]').forEach(b=>b.addEventListener('click',()=>{
 // Research Paper Submission: Connected with Google Sheets ("Open stem form collecting") and Siam's email
 const submit = $('#submission-form');
 const formContainer = $('#form-card-container');
-const WEBHOOK_URL = 'https://script.google.com/macros/s/AKfycbyn3TgoeM66iN_H2iN9uAGdCYQArV8OaWycf0HzXOUBCBexsywq59ZzD_r1T6KrNrSr/exec';
+const WEBHOOK_URL = 'https://script.google.com/macros/s/AKfycbz3S1F9bXQfySjkfVg61lmnH8D4LLtw4AchXVbfoUkqgAX_tIt_Y9C2EEzjdPH1K4io/exec';
 
 submit?.addEventListener('submit', async (event) => {
   event.preventDefault();
