@@ -166,12 +166,17 @@ test('community discord and email visible, ecosystem links complete', async () =
   let s = await txt('mates/index.html');
   assert.match(s, /https:\/\/discord\.com\/invite\/tBBKtvFJzW/);
   assert.match(s, /shahriyarkarimsiam@gmail\.com/);
+  assert.match(s, /openstembridge\.space/);
   let a = await txt('about/index.html');
   assert.match(a, /tBBKtvFJzW/);
   assert.match(a, /openstemfield\.org/);
   assert.match(a, /openstemtool\.org/);
+  assert.match(a, /openstembridge\.space/);
+  assert.match(a, /openstemrecruitment\.com/);
   let idx = await txt('index.html');
   assert.match(idx, /https:\/\/openstemtool\.org\//);
+  assert.match(idx, /https:\/\/www\.openstembridge\.space\//);
+  assert.match(idx, /https:\/\/openstemrecruitment\.com\//);
   assert.match(idx, /Connected OpenSTEM Ecosystem/);
 });
 
