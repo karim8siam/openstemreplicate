@@ -60,23 +60,6 @@ function doPost(e) {
       sheet.setFrozenRows(1);
     }
 
-    var timestamp = new Date();
-    var row = [
-      timestamp,
-      data.name || "",
-      data.email || "",
-      data.institution || "",
-      data.country || "",
-      data.paper_title || "",
-      data.source_url || "",
-      data.discipline || "",
-      data.reason || "",
-      data.attachment_name || "None",
-      data.permission_confirmed ? "Yes" : "No",
-      "New Submission"
-    ];
-    sheet.appendRow(row);
-
     // Send styled notification email to Siam
     var subject = "📄 [OpenSTEM Replicate] New Research Submission: " + (data.paper_title || "Untitled Paper") + " (" + (data.discipline || "STEM") + ")";
     var htmlBody = `
@@ -144,16 +127,71 @@ function doPost(e) {
       } catch (attErr) {}
     }
 
+    var emailStatus = "Delivered to " + NOTIFICATION_EMAIL;
+    var emailErrorDetails = null;
     try {
       MailApp.sendEmail(mailOptions);
-    } catch (mailErr) {}
+    } catch (e1) {
+      try {
+        GmailApp.sendEmail(NOTIFICATION_EMAIL, subject, "", {
+          htmlBody: htmlBody,
+          replyTo: data.email || NOTIFICATION_EMAIL
+        });
+      } catch (e2) {
+        emailStatus = "Auth Required (" + (e1.message || e1.toString()) + ")";
+        emailErrorDetails = e1.toString() + " | " + e2.toString();
+      }
+    }
+
+    var timestamp = new Date();
+    var row = [
+      timestamp,
+      data.name || "",
+      data.email || "",
+      data.institution || "",
+      data.country || "",
+      data.paper_title || "",
+      data.source_url || "",
+      data.discipline || "",
+      data.reason || "",
+      data.attachment_name || "None",
+      data.permission_confirmed ? "Yes" : "No",
+      emailStatus
+    ];
+    sheet.appendRow(row);
 
     return ContentService.createTextOutput(JSON.stringify({
       status: "ok",
-      message: "Research submission logged to Google Sheet and emailed to " + NOTIFICATION_EMAIL,
+      emailStatus: emailStatus,
+      emailRecipient: NOTIFICATION_EMAIL,
+      errorDetails: emailErrorDetails,
+      message: "Research submission logged to Google Sheet and processed for " + NOTIFICATION_EMAIL,
       spreadsheetId: SPREADSHEET_ID,
       sheet: "Research Submissions"
     })).setMimeType(ContentService.MimeType.JSON);
+
+  } catch (err) {
+    return ContentService.createTextOutput(JSON.stringify({
+      status: "error",
+      error: err.toString()
+    })).setMimeType(ContentService.MimeType.JSON);
+  }
+}
+
+function testSendEmail() {
+  var email = NOTIFICATION_EMAIL;
+  var subject = "🧪 [OpenSTEM Replicate] Email Connection Test";
+  var body = "Hello Siam,\n\nThis is a direct verification test from OpenSTEM Replicate Apps Script.\n\nYour email (" + email + ") is successfully connected with the research submission form!\n\nSubmissions from openstemreplicate.org/submit/ will land directly in this inbox.\n\nTime: " + new Date().toISOString();
+
+  try {
+    MailApp.sendEmail(email, subject, body);
+    Logger.log("✓ Success: Test email sent via MailApp to " + email);
+  } catch (err) {
+    Logger.log("MailApp notice, trying GmailApp: " + err.toString());
+    GmailApp.sendEmail(email, subject, body);
+    Logger.log("✓ Success: Test email sent via GmailApp to " + email);
+  }
+}
 
   } catch (err) {
     return ContentService.createTextOutput(JSON.stringify({

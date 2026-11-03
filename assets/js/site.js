@@ -64,6 +64,21 @@ submit?.addEventListener('submit', async (event) => {
   }
 
   const fd = new FormData(submit);
+  let fileBase64 = null;
+  if (f && f.size < 6_000_000) {
+    try {
+      fileBase64 = await new Promise((res) => {
+        const reader = new FileReader();
+        reader.onload = () => {
+          const val = String(reader.result || '');
+          res(val.includes(',') ? val.split(',')[1] : val);
+        };
+        reader.onerror = () => res(null);
+        reader.readAsDataURL(f);
+      });
+    } catch (e) {}
+  }
+
   const payload = {
     action: 'researchSubmission',
     spreadsheetId: '12lgsA1gCiG0yZJ6sEkoZwEqPMtc37OoVJVEzz_vDz0A',
@@ -76,28 +91,33 @@ submit?.addEventListener('submit', async (event) => {
     discipline: fd.get('discipline') || '',
     reason: fd.get('reason') || '',
     attachment_name: f ? f.name : 'None',
+    fileBase64: fileBase64,
+    fileName: f ? f.name : null,
+    fileType: f ? (f.type || 'application/pdf') : null,
     permission_confirmed: fd.get('permission_confirmed') === 'yes',
     date: new Date().toISOString()
   };
 
-  // 1. Dispatch to Google Apps Script Webhook (appends to Google Sheet & sends email)
-  try {
-    fetch(WEBHOOK_URL, {
-      method: 'POST',
-      mode: 'no-cors',
-      headers: { 'Content-Type': 'text/plain' },
-      body: JSON.stringify(payload)
-    }).catch(() => {});
-  } catch (e) {}
+  // 1. Dispatch to Google Apps Script Webhook (appends to Google Sheet & sends email notification)
+  const webhookPromise = fetch(WEBHOOK_URL, {
+    method: 'POST',
+    mode: 'no-cors',
+    headers: { 'Content-Type': 'text/plain' },
+    body: JSON.stringify(payload)
+  }).catch(() => {});
 
-  // 2. Dispatch to FormSubmit AJAX endpoint (delivers copy and attachment to Siam's Gmail)
-  try {
-    fetch('https://formsubmit.co/ajax/shahriyarkarimsiam@gmail.com', {
-      method: 'POST',
-      body: fd,
-      headers: { 'Accept': 'application/json' }
-    }).catch(() => {});
-  } catch (e) {}
+  // 2. Dispatch to FormSubmit AJAX endpoint (backup email pipeline + multi-part attachment)
+  const formSubmitPromise = fetch('https://formsubmit.co/ajax/shahriyarkarimsiam@gmail.com', {
+    method: 'POST',
+    body: fd,
+    headers: { 'Accept': 'application/json' }
+  }).catch(() => {});
+
+  // Wait up to 1.2s for requests to flush before rendering receipt
+  await Promise.race([
+    Promise.allSettled([webhookPromise, formSubmitPromise]),
+    new Promise(r => setTimeout(r, 1200))
+  ]);
 
   // 3. Render clean interactive confirmation receipt
   if (formContainer) {
