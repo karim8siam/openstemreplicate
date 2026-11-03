@@ -66,7 +66,7 @@ submit?.addEventListener('submit', async (event) => {
   const fd = new FormData(submit);
   const payload = {
     action: 'researchSubmission',
-    spreadsheetId: '175S6D2hqI4q6mDwgoa1blreIATafYzQKq523A_VfBT8',
+    spreadsheetId: '12lgsA1gCiG0yZJ6sEkoZwEqPMtc37OoVJVEzz_vDz0A',
     name: fd.get('name') || '',
     email: fd.get('email') || '',
     institution: fd.get('institution') || '',
@@ -108,7 +108,7 @@ submit?.addEventListener('submit', async (event) => {
           <span style="background:#eef7f4;color:#07474a;font-weight:700;font-size:12px;padding:5px 12px;border-radius:100px;">DISPATCHED TO SIAM</span>
         </div>
         <h2 style="font-size:26px;color:#07373b;margin:0 0 12px;font-weight:800;letter-spacing:-0.03em;">Research Submission Received!</h2>
-        <p style="color:#556e75;font-size:14.5px;line-height:1.7;margin:0 0 22px;">Thank you, <strong>${String(payload.name).replace(/[&<>"']/g, '')}</strong>. Your research paper proposal has been recorded in our official Google Sheet (<strong>Open stem form collecting</strong> &rarr; tab: <strong>Research Submissions</strong>) and dispatched directly to Siam at <strong>shahriyarkarimsiam@gmail.com</strong> for editorial review.</p>
+        <p style="color:#556e75;font-size:14.5px;line-height:1.7;margin:0 0 22px;">Thank you, <strong>${String(payload.name).replace(/[&<>"']/g, '')}</strong>. Your research paper proposal has been recorded in our official Google Sheet (<strong>OpenSTEM Replicate — Research Submissions</strong> &rarr; tab: <strong>Research Submissions</strong>) and dispatched directly to Siam at <strong>shahriyarkarimsiam@gmail.com</strong> for editorial review.</p>
         <div style="background:#f8fbfa;border:1px solid #dbe8e4;border-radius:14px;padding:18px 20px;margin-bottom:24px;font-size:13.5px;line-height:1.75;">
           <div style="margin-bottom:6px;"><strong>Paper Title:</strong> ${String(payload.paper_title).replace(/[&<>"']/g, '')}</div>
           <div style="margin-bottom:6px;"><strong>Discipline:</strong> <span style="background:#e6f3ee;color:#086b6a;font-weight:700;padding:2px 8px;border-radius:6px;font-size:12px;">${payload.discipline}</span></div>
